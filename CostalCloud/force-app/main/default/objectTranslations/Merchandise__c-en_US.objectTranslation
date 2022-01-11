@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Merchandise</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Merchandise</value>
+    </caseValues>
+    <fields>
+        <label><!-- API Type Name --></label>
+        <name>API_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Caption: Uninstallable Product --></label>
+        <name>Caption_Uninstallable_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Amount --></label>
+        <name>Cost_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Item Number --></label>
+        <name>Custom_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Arrival Date --></label>
+        <name>Expected_Arrival_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Cost --></label>
+        <name>Extended_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Key (Product Required) --></label>
+        <name>Integration_Key_Product_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merchandise ID (18) --></label>
+        <name>Merchandise_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optional Item Number --></label>
+        <name>Optional_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Date --></label>
+        <name>Order_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo: Uninstallable Product --></label>
+        <name>Photo_Uninstallable_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+        <relationshipLabel><!-- Merchandise --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Onsite and Installable --></label>
+        <name>Product_Onsite_and_Installable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Number --></label>
+        <name>Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Amount --></label>
+        <name>Retail_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- SKU Description --></label>
+        <name>SKU_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- SKU Number --></label>
+        <name>SKU_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>Short_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short SKU Description --></label>
+        <name>Short_SKU_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store No --></label>
+        <name>Store_No__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field only used during go-live data migration --></help>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Cost --></label>
+        <name>Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>Unit_of_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO:Integration Client Type --></label>
+        <name>WO_Integration_Client_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>Work_Order__c</name>
+        <relationshipLabel><!-- Merchandise --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- deliveryLocationIndicator --></label>
+        <name>deliveryLocationIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- duoiCode --></label>
+        <name>duoiCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- followUpAction --></label>
+        <name>followUpAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- isActionableForSP --></label>
+        <name>isActionableForSP__c</name>
+    </fields>
+    <fields>
+        <label><!-- mVendorName --></label>
+        <name>mVendorName__c</name>
+    </fields>
+    <fields>
+        <label><!-- merchandiseDeliveryIndicator --></label>
+        <name>merchandiseDeliveryIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- mvendorNumber --></label>
+        <name>mvendorNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- mvendorPartNumber --></label>
+        <name>mvendorPartNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- quoteLeadTime --></label>
+        <name>quoteLeadTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- specialOrderLineNumber --></label>
+        <name>specialOrderLineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- svcTypeCode --></label>
+        <name>svcTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- willCallTypeIndicator --></label>
+        <name>willCallTypeIndicator__c</name>
+    </fields>
+    <layouts>
+        <layout>Merchandise Layout (HD)</layout>
+        <sections>
+            <label><!-- Amounts --></label>
+            <section>Amounts</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Check-In --></label>
+            <section>Product Check-In</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- HD Merchandise --></label>
+        <name>HD_Merchandise</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

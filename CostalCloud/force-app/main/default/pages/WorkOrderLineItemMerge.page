@@ -1,0 +1,7 @@
+<apex:page standardController="WorkOrderLineItem" docType="html-5.0"  title="Webmerge Certificate: {!WorkOrderLineItem.Amount_Each__c}">
+    <webm:WebmergeWizard record="{!WorkOrderLineItem}" mappingId="a1d8G000000Gwr3QAC" nameField="Amount_Each__c" />
+   
+    
+    
+    
+</apex:page>

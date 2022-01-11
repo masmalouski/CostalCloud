@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Work Order Status Tracking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Work Order Status Tracking</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date Time of Change --></label>
+        <name>Date_Time_of_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration In Minutes --></label>
+        <name>Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration (days) --></label>
+        <name>Duration_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration (minutes) --></label>
+        <name>Duration_minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next History Change --></label>
+        <name>Next_History_Change__c</name>
+        <relationshipLabel><!-- Work Order Status Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status Changed to --></label>
+        <name>Status_Changed_to__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Status Changed To --></label>
+        <name>Sub_Status_Changed_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>Work_Order__c</name>
+        <relationshipLabel><!-- Work Order Status Tracking --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

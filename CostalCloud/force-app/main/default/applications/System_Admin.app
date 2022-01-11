@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>*System Admin</label>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-ContentSearch</tabs>
+    <tabs>standard-Document</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Workspace</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-UserProfile</tabs>
+    <tabs>standard-Solution</tabs>
+    <tabs>standard-ContentSubscriptions</tabs>
+    <tabs>Licenses__c</tabs>
+    <tabs>FSL__Work_Rule__c</tabs>
+    <tabs>FSL__User_Territory__c</tabs>
+    <tabs>FSL__Service_Goal__c</tabs>
+    <tabs>FSL__Scheduling_Policy__c</tabs>
+    <tabs>FSL__Master_Settings</tabs>
+    <tabs>FSL__FieldService</tabs>
+    <tabs>standard-WorkType</tabs>
+    <tabs>standard-WorkOrder</tabs>
+    <tabs>standard-WorkTypeGroup</tabs>
+    <tabs>standard-ServiceTerritory</tabs>
+    <tabs>standard-ServiceResource</tabs>
+    <tabs>standard-ServiceCrewMember</tabs>
+    <tabs>standard-ProfileSkill</tabs>
+    <tabs>RFI_Reporting_Markets__c</tabs>
+    <tabs>Client_Market__c</tabs>
+    <tabs>Job_SKU__c</tabs>
+    <tabs>Installers_Available__c</tabs>
+    <tabs>Rules_Regs__c</tabs>
+    <tabs>Crew_Management</tabs>
+    <tabs>Attachment_Files__c</tabs>
+</CustomApplication>

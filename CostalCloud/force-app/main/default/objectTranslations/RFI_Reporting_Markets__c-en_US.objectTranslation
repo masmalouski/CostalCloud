@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RFI Reporting Market</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RFI Reporting Markets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Division Admin Kitchen --></label>
+        <name>Division_Admin_Kitchen__c</name>
+        <relationshipLabel><!-- RFI Reporting Markets (Division Admin Kitchen) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Division Admin --></label>
+        <name>Division_Admin__c</name>
+        <relationshipLabel><!-- RFI Reporting Markets (Division Admin) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Division Director Kitchen --></label>
+        <name>Division_Director_Kitchen__c</name>
+        <relationshipLabel><!-- RFI Reporting Markets (Division Director Kitchen) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Division Director --></label>
+        <name>Division_Director__c</name>
+        <relationshipLabel><!-- RFI Reporting Markets (Division Director) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation><!-- East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS</masterLabel>
+            <translation><!-- TCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Field Manager (Core) ID (18) --></label>
+        <name>Field_Manager_Core_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Manager (Kitchen) ID (18) --></label>
+        <name>Field_Manager_Kitchen_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Manager Kitchen --></label>
+        <name>Field_Manager_Kitchen__c</name>
+        <relationshipLabel><!-- RFI Reporting Markets (Field Manager Kitchen) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Field Manager User ID (formula) --></label>
+        <name>Field_Manager_User_ID_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Manager --></label>
+        <name>Field_Manager__c</name>
+        <relationshipLabel><!-- RFI Reporting Markets (Field Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IntacctIntegrationID --></label>
+        <name>IntacctIntegrationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Name Unique ID --></label>
+        <name>Market_Name_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <picklistValues>
+            <masterLabel>Core</masterLabel>
+            <translation><!-- Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kitchens</masterLabel>
+            <translation><!-- Kitchens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS</masterLabel>
+            <translation><!-- TCS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation><!-- Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desert Mountain</masterLabel>
+            <translation><!-- Desert Mountain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf Coast</masterLabel>
+            <translation><!-- Gulf Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Atlantic</masterLabel>
+            <translation><!-- Mid-Atlantic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NIS Midwest</masterLabel>
+            <translation><!-- NIS Midwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeast</masterLabel>
+            <translation><!-- Northeast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Plains</masterLabel>
+            <translation><!-- Northern Plains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Mountain</masterLabel>
+            <translation><!-- Pacific Mountain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Atlantic</masterLabel>
+            <translation><!-- South Atlantic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast</masterLabel>
+            <translation><!-- Southeast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern California</masterLabel>
+            <translation><!-- Southern California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest</masterLabel>
+            <translation><!-- Southwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS - Central</masterLabel>
+            <translation><!-- TCS - Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS - Northern California</masterLabel>
+            <translation><!-- TCS - Northern California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS - Pacific Northwest</masterLabel>
+            <translation><!-- TCS - Pacific Northwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS - Southern Desert</masterLabel>
+            <translation><!-- TCS - Southern Desert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS Corporate</masterLabel>
+            <translation><!-- TCS Corporate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Regional Admin --></label>
+        <name>Regional_Admin__c</name>
+        <relationshipLabel><!-- RFI Reporting Markets (Regional Admin) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regional Manager --></label>
+        <name>Regional_Manager__c</name>
+        <relationshipLabel><!-- RFI Reporting Markets (Regional Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reporting Market ID(18) --></label>
+        <name>Reporting_Market_ID_18__c</name>
+    </fields>
+    <layouts>
+        <layout>Reporting Market Layout</layout>
+        <sections>
+            <label><!-- Core Employees --></label>
+            <section>Core Employees</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Kitchen Employees --></label>
+            <section>Kitchen Employees</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Reporting Market Layout (TCS)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update RFI Reporting Market --></label>
+        <name>Update_RFI_Reporting_Market</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Primarily HD reporting markets for Core and Kitchens --></description>
+        <label><!-- Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TCS --></label>
+        <name>TCS</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

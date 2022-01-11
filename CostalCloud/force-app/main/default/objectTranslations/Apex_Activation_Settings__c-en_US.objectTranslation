@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Apex Activation Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Apex Activation Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Disable all triggers that have been coded to use this custom setting --></help>
+        <label><!-- Disable Account Triggers --></label>
+        <name>Disable_Account_Triggers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable all triggers that have been coded to use this custom setting --></help>
+        <label><!-- Disable All Registered Triggers --></label>
+        <name>Disable_All_Registered_Triggers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable all triggers that have been coded to use this custom setting --></help>
+        <label><!-- Disable Case Triggers --></label>
+        <name>Disable_Case_Triggers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable all triggers that have been coded to use this custom setting --></help>
+        <label><!-- Disable Contact Triggers --></label>
+        <name>Disable_Contact_Triggers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable all triggers that have been coded to use this custom setting --></help>
+        <label><!-- Disable Installers Available Triggers --></label>
+        <name>Disable_Installers_Available_Triggers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable all triggers that have been coded to use this custom setting - for Leads custom object --></help>
+        <label><!-- Disable Leads Triggers --></label>
+        <name>Disable_Leads_Triggers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable all triggers that have been coded to use this custom setting --></help>
+        <label><!-- Disable Opportunity Triggers --></label>
+        <name>Disable_Opportunity_Triggers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Svc Appointment Triggers --></label>
+        <name>Disable_SA_Triggers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable all triggers that have been coded to use this custom setting --></help>
+        <label><!-- Disable WorkOrder Triggers --></label>
+        <name>Disable_WorkOrder_Triggers__c</name>
+    </fields>
+    <fields>
+        <label><!-- SF Integration User Id --></label>
+        <name>SF_Integration_User_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

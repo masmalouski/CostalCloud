@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>TCS Divison Southern Desert FM</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>TCS Divison Southern Desert FM</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>TCS_Division_Southern_Desert_Region</parentRole>
+</Role>

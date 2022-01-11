@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Work Order Line Item (Change Order)</layout>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (DDR)</layout>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Install Admin)</layout>
+        <sections>
+            <label><!-- Post-Installation Info --></label>
+            <section>Post-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Installation Info --></label>
+            <section>Pre-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- RRP --></label>
+            <section>RRP</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Install Doors)</layout>
+        <sections>
+            <label><!-- Post-Installation Info --></label>
+            <section>Post-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Installation Info --></label>
+            <section>Pre-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- RRP field will be required in Mobile depending on RRP value on W/O --></label>
+            <section>RRP field will be required in Mobile depending on RRP value on W/O</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Install Kitchen)</layout>
+        <sections>
+            <label><!-- Post-Installation Info --></label>
+            <section>Post-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Installation Info --></label>
+            <section>Pre-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- RRP field will be required in Mobile depending on RRP value on W/O --></label>
+            <section>RRP field will be required in Mobile depending on RRP value on W/O</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Install Window Treatments)</layout>
+        <sections>
+            <label><!-- Post-Installation Info --></label>
+            <section>Post-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Installation Info --></label>
+            <section>Pre-Installation Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Install Windows)</layout>
+        <sections>
+            <label><!-- Post-Installation Info --></label>
+            <section>Post-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Installation Info --></label>
+            <section>Pre-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- RRP field will be required in Mobile depending on RRP value on W/O --></label>
+            <section>RRP field will be required in Mobile depending on RRP value on W/O</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Install)</layout>
+        <sections>
+            <label><!-- Post-Installation Info --></label>
+            <section>Post-Installation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Installation Info --></label>
+            <section>Pre-Installation Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Kitchen Site Verification/Bid)</layout>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Measure Doors)</layout>
+        <sections>
+            <label><!-- Measure Base Information --></label>
+            <section>Measure Base Information</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Information Section --></label>
+            <section>Measurement Information Section</section>
+        </sections>
+        <sections>
+            <label><!-- Photos --></label>
+            <section>Photos</section>
+        </sections>
+        <sections>
+            <label><!-- Transom Information --></label>
+            <section>Transom Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Measure Site Analysis Kitchens)</layout>
+        <sections>
+            <label><!-- Measure Base Information --></label>
+            <section>Measure Base Information</section>
+        </sections>
+        <sections>
+            <label><!-- Photos --></label>
+            <section>Photos</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Measure Window Treatments)</layout>
+        <sections>
+            <label><!-- Labor --></label>
+            <section>Labor</section>
+        </sections>
+        <sections>
+            <label><!-- Measure Base Information --></label>
+            <section>Measure Base Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Photos --></label>
+            <section>Photos</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Measure Windows)</layout>
+        <sections>
+            <label><!-- Measure Base Information --></label>
+            <section>Measure Base Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Photos --></label>
+            <section>Photos</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (TCS)</layout>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Window Treatment Labor)</layout>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Line Item (Windows Labor)</layout>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Products Suggested --></label>
+        <name>Add_Products_Suggested</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</CustomObjectTranslation>

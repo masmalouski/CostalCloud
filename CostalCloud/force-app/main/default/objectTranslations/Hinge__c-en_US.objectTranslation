@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hinge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Hinges</value>
+    </caseValues>
+    <fields>
+        <label><!-- Backset --></label>
+        <name>Backset__c</name>
+        <picklistValues>
+            <masterLabel>2-3/4”</masterLabel>
+            <translation><!-- 2-3/4” --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-3/8”</masterLabel>
+            <translation><!-- 2-3/8” --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- Hinges --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hinge Count --></label>
+        <name>Hinge_Count__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hinge Radius --></label>
+        <name>Hinge_Radius__c</name>
+        <picklistValues>
+            <masterLabel>1/2&quot;</masterLabel>
+            <translation><!-- 1/2&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1/4&quot;</masterLabel>
+            <translation><!-- 1/4&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5/8”</masterLabel>
+            <translation><!-- 5/8” --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Square</masterLabel>
+            <translation><!-- Square --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hinge Size --></label>
+        <name>Hinge_Size__c</name>
+        <picklistValues>
+            <masterLabel>3-1/2”</masterLabel>
+            <translation><!-- 3-1/2” --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3”</masterLabel>
+            <translation><!-- 3” --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4-1/2”</masterLabel>
+            <translation><!-- 4-1/2” --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4”</masterLabel>
+            <translation><!-- 4” --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order Line Item --></label>
+        <name>Work_Order_Line_Item__c</name>
+        <relationshipLabel><!-- Hinges --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

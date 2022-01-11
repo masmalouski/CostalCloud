@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Work Order Approval Process</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Work Order Approval Processes</value>
+    </caseValues>
+    <fields>
+        <help><!-- Field name of the checkbox in the work order that will be used to start the approval process --></help>
+        <label><!-- Field Name That Starts the Process --></label>
+        <name>Field_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

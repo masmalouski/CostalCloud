@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TCS WorkOrders No Store</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TCS WorkOrders No Stores</value>
+    </caseValues>
+    <fields>
+        <label><!-- Integration Key --></label>
+        <name>Integration_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SF Target Map Data --></label>
+        <name>SF_Target_Map_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store No --></label>
+        <name>Store_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- TCS Data --></label>
+        <name>TCS_Data__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

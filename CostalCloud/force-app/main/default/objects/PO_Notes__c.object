@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>PO_Notes_Lightning_Page_Standard</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>PO_Notes_Lightning_Page_Standard</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Client/Store</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>PO Notes</relationshipLabel>
+        <relationshipName>PO_Notes</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Acknowledged_Read_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Acknowledged Read Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Acknowledged_Read__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Acknowledged/Read</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Acknowledgement_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Acknowledgement Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Auto_Push__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Field determines when note is created if it should be auto pushed to client system through API</inlineHelpText>
+        <label>Auto Push</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Automated_Note_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Updated by flow based on status/sub-status changes</inlineHelpText>
+        <label>Automated Note Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer Not Ready, will call RFI when ready to scheduled</fullName>
+                    <default>false</default>
+                    <label>Customer Not Ready, will call RFI when ready to scheduled</label>
+                </value>
+                <value>
+                    <fullName>Left Message</fullName>
+                    <default>false</default>
+                    <label>Left Message</label>
+                </value>
+                <value>
+                    <fullName>Needing Customer Contact FollowUp</fullName>
+                    <default>false</default>
+                    <label>Needing Customer Contact FollowUp</label>
+                </value>
+                <value>
+                    <fullName>New PO created Manually</fullName>
+                    <default>false</default>
+                    <label>New PO created Manually</label>
+                </value>
+                <value>
+                    <fullName>New PO downloaded from Integration</fullName>
+                    <default>false</default>
+                    <label>New PO downloaded from Integration</label>
+                </value>
+                <value>
+                    <fullName>Pending Document Review</fullName>
+                    <default>false</default>
+                    <label>Pending Document Review</label>
+                </value>
+                <value>
+                    <fullName>PO Assigned to Wrong Installer</fullName>
+                    <default>false</default>
+                    <label>PO Assigned to Wrong Installer</label>
+                </value>
+                <value>
+                    <fullName>Product Damaged/Defective</fullName>
+                    <default>false</default>
+                    <label>Product Damaged/Defective</label>
+                </value>
+                <value>
+                    <fullName>Product Delayed</fullName>
+                    <default>false</default>
+                    <label>Product Delayed</label>
+                </value>
+                <value>
+                    <fullName>Product Incorrect</fullName>
+                    <default>false</default>
+                    <label>Product Incorrect</label>
+                </value>
+                <value>
+                    <fullName>Product Not Available</fullName>
+                    <default>false</default>
+                    <label>Product Not Available</label>
+                </value>
+                <value>
+                    <fullName>Product Received</fullName>
+                    <default>false</default>
+                    <label>Product Received</label>
+                </value>
+                <value>
+                    <fullName>Questions//concerns on PO</fullName>
+                    <default>false</default>
+                    <label>Questions//concerns on PO</label>
+                </value>
+                <value>
+                    <fullName>Schedule Date sent to Home Depot</fullName>
+                    <default>false</default>
+                    <label>Schedule Date sent to Home Depot</label>
+                </value>
+                <value>
+                    <fullName>Store assistance needed</fullName>
+                    <default>false</default>
+                    <label>Store assistance needed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Bin_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Bin Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Work_Order__r.Client_Store__r.Type)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Client Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copy_to_Mobile_App__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Copy to Mobile App?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Date_Closed__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Closed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Created__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Created</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Do_Not_Retry__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Do Not Retry</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FollowUp_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>FollowUp Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Integration_Key_PONotes__c</fullName>
+        <externalId>true</externalId>
+        <label>Integration Key (PONotes)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Note_Pushed_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date/time field is auto updated when note is sent to client via API</inlineHelpText>
+        <label>Note Pushed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PO_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Work_Order__r.PO_Number__c</formula>
+        <label>PO Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Private_Note__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked auto pushed cannot be send THD and visibility limited to RFI employees and Installer Company</inlineHelpText>
+        <label>Private Note?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Special_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Store_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>Work_Order__r.Store_No__c</formula>
+        <label>Store No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>THD_Send_Retry_Count__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>THD - Send Retry Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>THD_Send_Retry_Next_DateTime__c</fullName>
+        <externalId>false</externalId>
+        <label>THD - Send Retry Next DateTime</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>WO_Integration_Client_Type__c</fullName>
+        <description>Picks up the first three characters from the integration work order</description>
+        <externalId>false</externalId>
+        <formula>LEFT(Work_Order__r.Integration_Key_WorkOrder__c, 3)</formula>
+        <label>WO:Integration Client Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <referenceTo>WorkOrder</referenceTo>
+        <relationshipLabel>PO Notes</relationshipLabel>
+        <relationshipName>PO_Notes</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>closedByGroupType__c</fullName>
+        <externalId>false</externalId>
+        <label>closedByGroupType</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>closedBy__c</fullName>
+        <externalId>false</externalId>
+        <label>closedBy</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>createdByGroupType__c</fullName>
+        <externalId>false</externalId>
+        <label>createdByGroupType</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>createdBy__c</fullName>
+        <externalId>false</externalId>
+        <label>createdBy</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>noteFor__c</fullName>
+        <externalId>false</externalId>
+        <label>noteFor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>noteNumber__c</fullName>
+        <externalId>true</externalId>
+        <label>noteNumber</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>noteType__c</fullName>
+        <externalId>false</externalId>
+        <label>noteType</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>svcTypeCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>Work_Order__r.svcTypeCode__c</formula>
+        <label>svcTypeCode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PO Notes</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Account__c</columns>
+        <columns>Acknowledged_Read__c</columns>
+        <columns>Store_No__c</columns>
+        <columns>Work_Order__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>NAME</columns>
+        <columns>Date_Closed__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Subject</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>PO Notes</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Auto_Generated_Note</fullName>
+        <active>true</active>
+        <label>Auto Generated Note</label>
+        <picklistValues>
+            <picklist>Automated_Note_Type__c</picklist>
+            <values>
+                <fullName>Customer Not Ready%2C will call RFI when ready to scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needing Customer Contact FollowUp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO created Manually</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO downloaded from Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PO Assigned to Wrong Installer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Document Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Damaged%2FDefective</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Delayed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Incorrect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Not Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Questions%2F%2Fconcerns on PO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule Date sent to Home Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store assistance needed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Client_Note</fullName>
+        <active>true</active>
+        <label>Client Note</label>
+        <picklistValues>
+            <picklist>Automated_Note_Type__c</picklist>
+            <values>
+                <fullName>Customer Not Ready%2C will call RFI when ready to scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needing Customer Contact FollowUp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO created Manually</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO downloaded from Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PO Assigned to Wrong Installer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Document Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Damaged%2FDefective</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Delayed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Incorrect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Not Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Questions%2F%2Fconcerns on PO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule Date sent to Home Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store assistance needed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Installer_Manual_Note</fullName>
+        <active>true</active>
+        <label>Installer Manual Note</label>
+        <picklistValues>
+            <picklist>Automated_Note_Type__c</picklist>
+            <values>
+                <fullName>Customer Not Ready%2C will call RFI when ready to scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needing Customer Contact FollowUp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO created Manually</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO downloaded from Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PO Assigned to Wrong Installer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Document Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Damaged%2FDefective</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Delayed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Incorrect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Not Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Questions%2F%2Fconcerns on PO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule Date sent to Home Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store assistance needed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Private_Note</fullName>
+        <active>true</active>
+        <label>Private Note</label>
+        <picklistValues>
+            <picklist>Automated_Note_Type__c</picklist>
+            <values>
+                <fullName>Customer Not Ready%2C will call RFI when ready to scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needing Customer Contact FollowUp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO created Manually</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO downloaded from Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PO Assigned to Wrong Installer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Document Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Damaged%2FDefective</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Delayed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Incorrect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Not Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Questions%2F%2Fconcerns on PO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule Date sent to Home Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store assistance needed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RFI_Note</fullName>
+        <active>true</active>
+        <label>RFI Note</label>
+        <picklistValues>
+            <picklist>Automated_Note_Type__c</picklist>
+            <values>
+                <fullName>Customer Not Ready%2C will call RFI when ready to scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needing Customer Contact FollowUp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO created Manually</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New PO downloaded from Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PO Assigned to Wrong Installer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Document Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Damaged%2FDefective</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Delayed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Incorrect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Not Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Questions%2F%2Fconcerns on PO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule Date sent to Home Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store assistance needed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

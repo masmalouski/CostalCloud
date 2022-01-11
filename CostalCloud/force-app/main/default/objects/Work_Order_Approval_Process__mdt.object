@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Field_Name__c</fullName>
+        <description>Field name of the checkbox in the work order that will be used to start the approval process</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Field name of the checkbox in the work order that will be used to start the approval process</inlineHelpText>
+        <label>Field Name That Starts the Process</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Work Order Approval Process</label>
+    <pluralLabel>Work Order Approval Processes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

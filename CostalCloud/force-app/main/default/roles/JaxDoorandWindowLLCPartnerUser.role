@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>Jax Door and Window LLC Partner User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Jax Door and Window LLC Partner User</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>West_Division_Desert_Mountain_Phoenix_North</parentRole>
+</Role>

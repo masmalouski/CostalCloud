@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Replaces the corresponding Process Builder flow that caused the work order trigger to run repeatedly resulting in &quot;Too Many SOQL queries&quot; error</description>
+    <masterLabel>Work Order BEFORE Flow - On Create and Edit</masterLabel>
+</FlowDefinition>

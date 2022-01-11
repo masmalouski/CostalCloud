@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>TCS Division Pacific Northwest Region FM</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>TCS Division Pacific Northwest Region FM</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>TCS_Division_Pacific_Northwest_Region</parentRole>
+</Role>

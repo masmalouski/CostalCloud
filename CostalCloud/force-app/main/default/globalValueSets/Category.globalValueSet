@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>30-Day Tune-Up</fullName>
+        <default>false</default>
+        <label>30-Day Tune-Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Avera</fullName>
+        <default>false</default>
+        <label>Avera</label>
+    </customValue>
+    <customValue>
+        <fullName>B2B</fullName>
+        <default>false</default>
+        <label>B2B</label>
+    </customValue>
+    <customValue>
+        <fullName>Barn Door</fullName>
+        <default>false</default>
+        <label>Barn Door</label>
+    </customValue>
+    <customValue>
+        <fullName>BDC Temp - Do Not Export</fullName>
+        <default>false</default>
+        <label>BDC Temp - Do Not Export</label>
+    </customValue>
+    <customValue>
+        <fullName>BDC Window Treatment</fullName>
+        <default>false</default>
+        <label>BDC Window Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>Box Only</fullName>
+        <default>false</default>
+        <label>Box Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabinet Refacing</fullName>
+        <default>false</default>
+        <label>Cabinet Refacing</label>
+    </customValue>
+    <customValue>
+        <fullName>Closet</fullName>
+        <default>false</default>
+        <label>Closet</label>
+    </customValue>
+    <customValue>
+        <fullName>Concierge - Box Only</fullName>
+        <default>false</default>
+        <label>Concierge - Box Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Concierge - Full Project</fullName>
+        <default>false</default>
+        <label>Concierge - Full Project</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical</fullName>
+        <default>false</default>
+        <label>Electrical</label>
+    </customValue>
+    <customValue>
+        <fullName>Elfa</fullName>
+        <default>false</default>
+        <label>Elfa</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineer</fullName>
+        <default>false</default>
+        <label>Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>Exterior Door</fullName>
+        <default>false</default>
+        <label>Exterior Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Flooring</fullName>
+        <default>false</default>
+        <label>Flooring</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Project</fullName>
+        <default>false</default>
+        <label>Full Project</label>
+    </customValue>
+    <customValue>
+        <fullName>General Construction</fullName>
+        <default>false</default>
+        <label>General Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Interior Door</fullName>
+        <default>false</default>
+        <label>Interior Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Iron Door</fullName>
+        <default>false</default>
+        <label>Iron Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Laren</fullName>
+        <default>false</default>
+        <label>Laren</label>
+    </customValue>
+    <customValue>
+        <fullName>Moulding</fullName>
+        <default>false</default>
+        <label>Moulding</label>
+    </customValue>
+    <customValue>
+        <fullName>Online Barn Door</fullName>
+        <default>false</default>
+        <label>Online Barn Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Online Security Door</fullName>
+        <default>false</default>
+        <label>Online Security Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Paint/Wall Covering</fullName>
+        <default>false</default>
+        <label>Paint/Wall Covering</label>
+    </customValue>
+    <customValue>
+        <fullName>Patio Door</fullName>
+        <default>false</default>
+        <label>Patio Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Permit</fullName>
+        <default>false</default>
+        <label>Permit</label>
+    </customValue>
+    <customValue>
+        <fullName>Plumbing</fullName>
+        <default>false</default>
+        <label>Plumbing</label>
+    </customValue>
+    <customValue>
+        <fullName>Retractable &amp; Patio Screen</fullName>
+        <default>false</default>
+        <label>Retractable &amp; Patio Screen</label>
+    </customValue>
+    <customValue>
+        <fullName>Security Door</fullName>
+        <default>false</default>
+        <label>Security Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Shutters</fullName>
+        <default>false</default>
+        <label>Shutters</label>
+    </customValue>
+    <customValue>
+        <fullName>Storm Door</fullName>
+        <default>false</default>
+        <label>Storm Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Window</fullName>
+        <default>false</default>
+        <label>Window</label>
+    </customValue>
+    <customValue>
+        <fullName>Window Treatment</fullName>
+        <default>false</default>
+        <label>Window Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>Storm Doors</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Storm Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Windows</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Window Treatments</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Window Treatments</label>
+    </customValue>
+    <customValue>
+        <fullName>Accounting</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>AddlServices</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AddlServices</label>
+    </customValue>
+    <customValue>
+        <fullName>Chargeback</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Chargeback</label>
+    </customValue>
+    <customValue>
+        <fullName>Closets</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Closets</label>
+    </customValue>
+    <customValue>
+        <fullName>CustCare</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CustCare</label>
+    </customValue>
+    <customValue>
+        <fullName>CustCare/Legal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CustCare/Legal</label>
+    </customValue>
+    <customValue>
+        <fullName>Doors Direct - Exterior</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Doors Direct - Exterior</label>
+    </customValue>
+    <customValue>
+        <fullName>Exterior Doors</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Exterior Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Garage Door</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Garage Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Interior Doors</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Interior Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Iron Doors</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Iron Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Kitchens</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Kitchens</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Legal</label>
+    </customValue>
+    <customValue>
+        <fullName>Ops</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ops</label>
+    </customValue>
+    <customValue>
+        <fullName>Patio Doors</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Patio Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Retired</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RETIRED</label>
+    </customValue>
+    <customValue>
+        <fullName>Screen Doors</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Screen Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Blinds.com HOLD Job Type - Do Not Export</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Blinds.com HOLD Job Type - Do Not Export</label>
+    </customValue>
+    <customValue>
+        <fullName>Blinds.com Window Treatment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Blinds.com Window Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>Concierge - Full Install</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Concierge - Full Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Install</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Full Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Online Security Door Install</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Online Security Door Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Rack Closet Install (TCS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rack Closet Install (TCS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Rack Closet with Back Paneling (TCS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rack Closet with Back Paneling (TCS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Reimbursement for Storage Unit</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reimbursement for Storage Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>TCS Business to Business Order</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TCS Business to Business Order</label>
+    </customValue>
+    <customValue>
+        <fullName>TCS Missing Product Delivery Dee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TCS Missing Product Delivery Dee</label>
+    </customValue>
+    <customValue>
+        <fullName>TCS Service Order</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TCS Service Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Ultimate Custom Closet (TCS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ultimate Custom Closet (TCS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Screen Door</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Screen Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Rack Closet Install</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rack Closet Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Rack Closet with Back Paneling</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rack Closet with Back Paneling</label>
+    </customValue>
+    <customValue>
+        <fullName>Ultimate Custom Closet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ultimate Custom Closet</label>
+    </customValue>
+    <masterLabel>Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

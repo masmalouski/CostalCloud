@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Electrical</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Electrical</value>
+    </caseValues>
+    <fields>
+        <label><!-- Direction --></label>
+        <name>Direction__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Edge to LHS Fraction --></label>
+        <name>Edge_to_LHS_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edge to LHS --></label>
+        <name>Edge_to_LHS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electrical Measurement Image --></label>
+        <name>Electrical_Measurement_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electrical Notes --></label>
+        <name>Electrical_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electrical Photo --></label>
+        <name>Electrical_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electrical Type --></label>
+        <name>Electrical_Type__c</name>
+        <picklistValues>
+            <masterLabel>GFI</masterLabel>
+            <translation><!-- GFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outlet</masterLabel>
+            <translation><!-- Outlet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switch</masterLabel>
+            <translation><!-- Switch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- Electrical --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- H Off Floor Fraction --></label>
+        <name>H_Off_Floor_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- H Off Floor --></label>
+        <name>H_Off_Floor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Voltage --></label>
+        <name>Voltage__c</name>
+        <picklistValues>
+            <masterLabel>110V</masterLabel>
+            <translation><!-- 110V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>120V</masterLabel>
+            <translation><!-- 120V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>220V</masterLabel>
+            <translation><!-- 220V --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wall --></label>
+        <name>Wall__c</name>
+        <relationshipLabel><!-- Electrical --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Width of Box Fraction --></label>
+        <name>Width_of_Box_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width of Box --></label>
+        <name>Width_of_Box__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

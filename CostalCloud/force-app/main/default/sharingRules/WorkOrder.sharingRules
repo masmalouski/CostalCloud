@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>TCS_Share_with_TCS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>TCS Share with TCS</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>TCS_Division</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>TCS Work Order</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Work_order_owned_by_Data_Migration_share_with_all</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Work order owned by Data Migration share with all</label>
+        <sharedTo>
+            <allPartnerUsers></allPartnerUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>0054x000004QZoJ</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Eastern_Division_share_with_Eastern</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Eastern Division share with Eastern</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>East_Division</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>East_Division</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Executive_Access_to_All_Records</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Executive Access to All Records</label>
+        <sharedTo>
+            <role>Executive</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Executive</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Finance_share_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Finance share with Finance</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Finance</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Finance</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Global_access_to_all</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Global access to all</label>
+        <sharedTo>
+            <role>Global</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Global</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Western_Division_share_with_Western</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Western Division share with Western</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>West_Division</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>West_Division</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Work_Orders_Internal_share_with_Ops</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Work Orders Internal share with Ops</label>
+        <sharedTo>
+            <role>Operations_Data_Entry</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>All_Internal_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

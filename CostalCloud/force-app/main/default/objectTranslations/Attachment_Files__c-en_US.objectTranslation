@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Attachment/Files</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Attachment/Files</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attachment/File Number --></label>
+        <name>Attachment_File_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment/Files Name --></label>
+        <name>Attachment_Files_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDC - Response Message --></label>
+        <name>BDC_Response_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Updated by integration when sent --></help>
+        <label><!-- Date/Time sent to Client --></label>
+        <name>Date_Time_sent_to_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Retry --></label>
+        <name>Do_Not_Retry__c</name>
+    </fields>
+    <fields>
+        <label><!-- HS Code --></label>
+        <name>HS_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Trigger populates this field when file is uploaded to the record. --></help>
+        <label><!-- Has File --></label>
+        <name>Has_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- In Review By --></label>
+        <name>In_Review_By__c</name>
+        <relationshipLabel><!-- Attachment/Files --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Reason --></label>
+        <name>Rejection_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Admin Approval Required</masterLabel>
+            <translation><!-- Admin Approval Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blank Form</masterLabel>
+            <translation><!-- Blank Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete RRP Document</masterLabel>
+            <translation><!-- Incomplete RRP Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Appliance Specs</masterLabel>
+            <translation><!-- Missing Appliance Specs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Elevations</masterLabel>
+            <translation><!-- Missing Elevations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Floor Plan Overview</masterLabel>
+            <translation><!-- Missing Floor Plan Overview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Hardware/Door Type Information</masterLabel>
+            <translation><!-- Missing Hardware/Door Type Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Item List</masterLabel>
+            <translation><!-- Missing Item List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Molding Details</masterLabel>
+            <translation><!-- Missing Molding Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Sold Labor Details</masterLabel>
+            <translation><!-- Missing Sold Labor Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Year-Built Date</masterLabel>
+            <translation><!-- Missing Year-Built Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Illegible Customer Signature/Date</masterLabel>
+            <translation><!-- Missing/Illegible Customer Signature/Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Incorrect Cover Page Data</masterLabel>
+            <translation><!-- Missing/Incorrect Cover Page Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Invalid RRP Photos</masterLabel>
+            <translation><!-- Missing/Invalid RRP Photos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Invalid RRP Proof</masterLabel>
+            <translation><!-- Missing/Invalid RRP Proof --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Invalid explanation for pamphlet delivery</masterLabel>
+            <translation><!-- Missing/Invalid explanation for pamphlet delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Not Scheduled</masterLabel>
+            <translation><!-- PO Not Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Completion of Child Work Order</masterLabel>
+            <translation><!-- Pending Completion of Child Work Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Reduced/Change PO</masterLabel>
+            <translation><!-- Pending Reduced/Change PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Approval Required</masterLabel>
+            <translation><!-- RM Approval Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year Home Built Discrepancies</masterLabel>
+            <translation><!-- Year Home Built Discrepancies --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Checkbox auto updated by flow when WO is ready to send --></help>
+        <label><!-- Send to THD --></label>
+        <name>Send_to_THD__c</name>
+    </fields>
+    <fields>
+        <label><!-- THD - Send Retry Count --></label>
+        <name>THD_Send_Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- THD - Send Retry Next DateTime --></label>
+        <name>THD_Send_Retry_Next_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Change Order</masterLabel>
+            <translation><!-- Change Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changed PO</masterLabel>
+            <translation><!-- Changed PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist</masterLabel>
+            <translation><!-- Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DDR</masterLabel>
+            <translation><!-- DDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I2G</masterLabel>
+            <translation><!-- I2G --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICA</masterLabel>
+            <translation><!-- ICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KPW (Labor Bid)</masterLabel>
+            <translation><!-- KPW (Labor Bid) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTE</masterLabel>
+            <translation><!-- LTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTE Proof</masterLabel>
+            <translation><!-- LTE Proof --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTR</masterLabel>
+            <translation><!-- LTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MP/CB Approval</masterLabel>
+            <translation><!-- MP/CB Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MP/CB Request</masterLabel>
+            <translation><!-- MP/CB Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Measure</masterLabel>
+            <translation><!-- Measure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permit</masterLabel>
+            <translation><!-- Permit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permit Waiver</masterLabel>
+            <translation><!-- Permit Waiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Ren</masterLabel>
+            <translation><!-- Pre-Ren --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced PO</masterLabel>
+            <translation><!-- Reduced PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Report</masterLabel>
+            <translation><!-- Service Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State RRP Form - Alabama</masterLabel>
+            <translation><!-- State RRP Form - Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State RRP Form - Mississippi</masterLabel>
+            <translation><!-- State RRP Form - Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State RRP Form - Rhode Island</masterLabel>
+            <translation><!-- State RRP Form - Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State RRP Form - Wash DC</masterLabel>
+            <translation><!-- State RRP Form - Wash DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wind Storm</masterLabel>
+            <translation><!-- Wind Storm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WO:Integration Client Type --></label>
+        <name>WO_Integration_Client_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO - Order Number --></label>
+        <name>WO_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO - PO Number --></label>
+        <name>WO_PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO - Store No --></label>
+        <name>WO_Store_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO - svcLineNumber --></label>
+        <name>WO_svcLineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>Work_Order__c</name>
+        <relationshipLabel><!-- Attachment/Files --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Attachment/File Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Values --></label>
+            <section>Integration Values</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please select user name that is currently reviewing this file --></errorMessage>
+        <name>Populate_the_Reviewed_by_Field</name>
+    </validationRules>
+</CustomObjectTranslation>

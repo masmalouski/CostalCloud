@@ -1,0 +1,7 @@
+<apex:page standardController="WorkOrder" docType="html-5.0" title="Webmerge Certificate: {!WorkOrder.CustomerLastName__c}">
+    <webm:WebmergeWizard record="{!WorkOrder}" mappingid="a1d8G000000Gx3mQAC" nameField="CustomerLastName__c" />
+   
+    
+    
+    
+</apex:page>

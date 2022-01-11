@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>William Ludwig Partner User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>William Ludwig Partner User</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>West_Division_Southwest_Region_FM</parentRole>
+</Role>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>Jennison Home Improvements Partner User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Jennison Home Improvements Partner User</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>East_Divison_South_Atlantic_FM</parentRole>
+</Role>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Soffit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Soffits</value>
+    </caseValues>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- Soffits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- H Off Floor Fraction --></label>
+        <name>H_Off_Floor_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- H Off Floor --></label>
+        <name>H_Off_Floor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length L or R? --></label>
+        <name>Length_L_or_R__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Soff Length Fraction --></label>
+        <name>Soff_Length_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Depth Fraction --></label>
+        <name>Soffit_Depth_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Depth --></label>
+        <name>Soffit_Depth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Height Fraction --></label>
+        <name>Soffit_Height_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Height --></label>
+        <name>Soffit_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Length --></label>
+        <name>Soffit_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Measurement Photo --></label>
+        <name>Soffit_Measurement_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Notes --></label>
+        <name>Soffit_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Photo --></label>
+        <name>Soffit_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soffit Status --></label>
+        <name>Soffit_Status__c</name>
+        <picklistValues>
+            <masterLabel>Customer is Removing</masterLabel>
+            <translation><!-- Customer is Removing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installer is Removing</masterLabel>
+            <translation><!-- Installer is Removing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soffits are Staying</masterLabel>
+            <translation><!-- Soffits are Staying --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wall --></label>
+        <name>Wall__c</name>
+        <relationshipLabel><!-- Soffits --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

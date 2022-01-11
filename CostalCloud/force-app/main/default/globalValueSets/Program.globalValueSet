@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Closets</fullName>
+        <default>false</default>
+        <label>Closets</label>
+    </customValue>
+    <customValue>
+        <fullName>Doors</fullName>
+        <default>false</default>
+        <label>Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>HDIS</fullName>
+        <default>false</default>
+        <label>HDIS</label>
+    </customValue>
+    <customValue>
+        <fullName>Kitchens</fullName>
+        <default>false</default>
+        <label>Kitchens</label>
+    </customValue>
+    <customValue>
+        <fullName>Large Projects</fullName>
+        <default>false</default>
+        <label>Large Projects</label>
+    </customValue>
+    <customValue>
+        <fullName>Mouldings</fullName>
+        <default>false</default>
+        <label>Mouldings</label>
+    </customValue>
+    <customValue>
+        <fullName>Murphy Doors</fullName>
+        <default>false</default>
+        <label>Murphy Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Windows</fullName>
+        <default>false</default>
+        <label>Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Window Treatments</fullName>
+        <default>false</default>
+        <label>Window Treatments</label>
+    </customValue>
+    <customValue>
+        <fullName>Moulding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Moulding</label>
+    </customValue>
+    <customValue>
+        <fullName>Change Order</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Change Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Door</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Door</label>
+    </customValue>
+    <customValue>
+        <fullName>Admin Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Admin Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>TCS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TCS</label>
+    </customValue>
+    <masterLabel>Program</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

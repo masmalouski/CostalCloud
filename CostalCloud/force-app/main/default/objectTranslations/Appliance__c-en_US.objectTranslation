@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Appliance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Appliances</value>
+    </caseValues>
+    <fields>
+        <label><!-- Appliance Measurement Image --></label>
+        <name>Appliance_Measurement_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Appliance Notes --></label>
+        <name>Appliance_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Appliance Photo --></label>
+        <name>Appliance_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depth Fraction --></label>
+        <name>Depth_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depth --></label>
+        <name>Depth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- Appliances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Height Fraction --></label>
+        <name>Height_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heigth --></label>
+        <name>Heigth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Measure L or R --></label>
+        <name>Measure_L_or_R__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Model # / Desc Fraction --></label>
+        <name>Model_Desc_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model # / Desc --></label>
+        <name>Model_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Clothes dryer</masterLabel>
+            <translation><!-- Clothes dryer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cook Top</masterLabel>
+            <translation><!-- Cook Top --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dishwasher</masterLabel>
+            <translation><!-- Dishwasher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drying Cabinet</masterLabel>
+            <translation><!-- Drying Cabinet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electric Heater</masterLabel>
+            <translation><!-- Electric Heater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fan</masterLabel>
+            <translation><!-- Fan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freezer - Chest</masterLabel>
+            <translation><!-- Freezer - Chest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freezer - Upright</masterLabel>
+            <translation><!-- Freezer - Upright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garbage Disposal</masterLabel>
+            <translation><!-- Garbage Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Icemaker</masterLabel>
+            <translation><!-- Icemaker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Wall Oven</masterLabel>
+            <translation><!-- In-Wall Oven --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microwave</masterLabel>
+            <translation><!-- Microwave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proofer</masterLabel>
+            <translation><!-- Proofer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refrigerator</masterLabel>
+            <translation><!-- Refrigerator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stove/Range</masterLabel>
+            <translation><!-- Stove/Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Television set</masterLabel>
+            <translation><!-- Television set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vent Hood</masterLabel>
+            <translation><!-- Vent Hood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washer/Dryer Combo</masterLabel>
+            <translation><!-- Washer/Dryer Combo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washing machine</masterLabel>
+            <translation><!-- Washing machine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Treatment</masterLabel>
+            <translation><!-- Water Treatment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wall --></label>
+        <name>Wall__c</name>
+        <relationshipLabel><!-- Appliances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Wall to Center Fraction --></label>
+        <name>Wall_to_Center_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wall to Center --></label>
+        <name>Wall_to_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width Fraction --></label>
+        <name>Width_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width --></label>
+        <name>Width__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

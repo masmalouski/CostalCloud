@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Work Type Form Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Work Type Form Templates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Form Template --></label>
+        <name>Form_Template__c</name>
+        <relationshipLabel><!-- Work Type Form Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Type --></label>
+        <name>Work_Type__c</name>
+        <relationshipLabel><!-- Work Type Form Templates --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Work Type Form Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

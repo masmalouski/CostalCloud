@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Wall</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Walls</value>
+    </caseValues>
+    <fields>
+        <label><!-- Door --></label>
+        <name>Door__c</name>
+        <relationshipLabel><!-- Door --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- Walls --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Height: Fraction --></label>
+        <name>Height_Fraction__c</name>
+        <picklistValues>
+            <masterLabel>1/2</masterLabel>
+            <translation><!-- 1/2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1/4</masterLabel>
+            <translation><!-- 1/4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1/8</masterLabel>
+            <translation><!-- 1/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3/4</masterLabel>
+            <translation><!-- 3/4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3/8</masterLabel>
+            <translation><!-- 3/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5/8</masterLabel>
+            <translation><!-- 5/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7/8</masterLabel>
+            <translation><!-- 7/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Whole Inches Only --></help>
+        <label><!-- Height: Inches --></label>
+        <name>Height_Inches__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interior Wall Coverings --></label>
+        <name>Interior_Wall_Coverings__c</name>
+    </fields>
+    <fields>
+        <help><!-- hold photo id --></help>
+        <label><!-- Overview Photo --></label>
+        <name>Overview_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wall Construction --></label>
+        <name>Wall_Construction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wall Notes --></label>
+        <name>Wall_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wall Recap --></label>
+        <name>Wall_Recap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wall # --></label>
+        <name>Wall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width: Fraction --></label>
+        <name>Width_Fraction__c</name>
+        <picklistValues>
+            <masterLabel>1/2</masterLabel>
+            <translation><!-- 1/2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1/4</masterLabel>
+            <translation><!-- 1/4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1/8</masterLabel>
+            <translation><!-- 1/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3/4</masterLabel>
+            <translation><!-- 3/4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3/8</masterLabel>
+            <translation><!-- 3/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5/8</masterLabel>
+            <translation><!-- 5/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7/8</masterLabel>
+            <translation><!-- 7/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Whole Inches Only --></help>
+        <label><!-- Width: Inches --></label>
+        <name>Width_Inches__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Line Item --></label>
+        <name>Work_Order_Line_Item__c</name>
+        <relationshipLabel><!-- Walls --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Wall Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

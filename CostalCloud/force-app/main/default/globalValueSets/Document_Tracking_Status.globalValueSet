@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Required</fullName>
+        <default>true</default>
+        <label>Not Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Document Required</fullName>
+        <default>false</default>
+        <label>Document Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Review</fullName>
+        <default>false</default>
+        <label>Pending Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+    </customValue>
+    <masterLabel>Document Tracking Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

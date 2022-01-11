@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Installers Available</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Installers Available</value>
+    </caseValues>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <picklistValues>
+            <masterLabel>HDS</masterLabel>
+            <translation><!-- HDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Murphy Doors</masterLabel>
+            <translation><!-- Murphy Doors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS</masterLabel>
+            <translation><!-- TCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THD</masterLabel>
+            <translation><!-- THD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Installer Account --></label>
+        <name>Installer_Account__c</name>
+        <relationshipLabel><!-- Assigned Stores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Installer Status --></label>
+        <name>Installer_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installers Available ID (18) --></label>
+        <name>Installers_Available_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- xJob Type --></label>
+        <name>Job_Type__c</name>
+        <picklistValues>
+            <masterLabel>Chargeback</masterLabel>
+            <translation><!-- Chargeback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install</masterLabel>
+            <translation><!-- Install --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Measure</masterLabel>
+            <translation><!-- Measure --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Percent --></label>
+        <name>Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Backup</masterLabel>
+            <translation><!-- Backup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License Expired</masterLabel>
+            <translation><!-- License Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Store Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- Only existing Clients can be selected. --></errorMessage>
+        </lookupFilter>
+        <name>Store_Account__c</name>
+        <relationshipLabel><!-- Installers Available --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Store Name --></label>
+        <name>Store_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store # --></label>
+        <name>Store__c</name>
+    </fields>
+    <fields>
+        <label><!-- SvcTypeCode --></label>
+        <name>SvcTypeCode__c</name>
+        <picklistValues>
+            <masterLabel>I</masterLabel>
+            <translation><!-- I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>Unique_Key__c</name>
+    </fields>
+    <layouts>
+        <layout>Installers Avaialble Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot select a percentage greater than 100% --></errorMessage>
+        <name>Type_cannot_be_greater_than_100</name>
+    </validationRules>
+</CustomObjectTranslation>

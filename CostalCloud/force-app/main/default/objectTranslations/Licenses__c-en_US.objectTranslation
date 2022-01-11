@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compliance Document</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compliance Documents</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Compliance Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Certification/Policy Number --></label>
+        <name>Certification_Policy_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certified Document ID (18) --></label>
+        <name>Certified_Document_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certified Firm --></label>
+        <name>Certified_Firm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certified Renovator --></label>
+        <name>Certified_Renovator__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation><!-- Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classification__c</name>
+        <picklistValues>
+            <masterLabel>Builder</masterLabel>
+            <translation><!-- Builder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation><!-- Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Contractor</masterLabel>
+            <translation><!-- General Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Improvement</masterLabel>
+            <translation><!-- Home Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Builder</masterLabel>
+            <translation><!-- Residential Builder --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- May need to delete this field, not applicable on this object? --></help>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance Document ID (18) --></label>
+        <name>Compliance_Document_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Compliance Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- County --></label>
+        <name>County__c</name>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation><!-- Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Course Date --></label>
+        <name>Course_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Manager --></label>
+        <name>Field_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jurisdiction --></label>
+        <name>Jurisdiction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matching Key --></label>
+        <name>Matching_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+    </fields>
+    <fields>
+        <help><!-- If left blank will &quot;inherit&quot; the RFI Market assigned to the Installer --></help>
+        <label><!-- RFI Reporting Market --></label>
+        <name>RFI_Reporting_Market__c</name>
+        <relationshipLabel><!-- Compliance Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Resource --></label>
+        <name>Service_Resource__c</name>
+        <relationshipLabel><!-- Compliance Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>Skill__c</name>
+        <relationshipLabel><!-- Compliance Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired Revoke Access</masterLabel>
+            <translation><!-- Expired Revoke Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Store # --></label>
+        <name>Store__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Auto Liability Insurance</masterLabel>
+            <translation><!-- Auto Liability Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business License</masterLabel>
+            <translation><!-- Business License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Firm</masterLabel>
+            <translation><!-- Certified Firm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Renovator</masterLabel>
+            <translation><!-- Certified Renovator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Business License</masterLabel>
+            <translation><!-- City Business License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Contractor License</masterLabel>
+            <translation><!-- City Contractor License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Badge</masterLabel>
+            <translation><!-- Client Badge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>County Business License</masterLabel>
+            <translation><!-- County Business License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>County Contractor License</masterLabel>
+            <translation><!-- County Contractor License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical License</masterLabel>
+            <translation><!-- Electrical License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Liability Insurance</masterLabel>
+            <translation><!-- General Liability Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage Agreement</masterLabel>
+            <translation><!-- Percentage Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing License</masterLabel>
+            <translation><!-- Plumbing License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFI EPA RRP Acknowledgment</masterLabel>
+            <translation><!-- RFI EPA RRP Acknowledgment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Agreement</masterLabel>
+            <translation><!-- Services Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skills Assessment</masterLabel>
+            <translation><!-- Skills Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Contractor License</masterLabel>
+            <translation><!-- State Contractor License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workmans Comp Documentation</masterLabel>
+            <translation><!-- Workmans Comp Documentation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- svcTypeCode --></label>
+        <name>svcTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- tempContactText --></label>
+        <name>tempContactText__c</name>
+    </fields>
+    <layouts>
+        <layout>License Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- License Info --></label>
+            <section>License Info</section>
+        </sections>
+        <sections>
+            <label><!-- RFI Region/Market Info --></label>
+            <section>RFI Region/Market Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>License Layout (Installer Account)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- License Info --></label>
+            <section>License Info</section>
+        </sections>
+        <sections>
+            <label><!-- RFI Region/Market Info --></label>
+            <section>RFI Region/Market Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>License Layout (Store Required)</layout>
+        <sections>
+            <label><!-- Certification Requirements --></label>
+            <section>Certification Requirements</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Installer License --></label>
+        <name>Installer_License</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Store Required License --></label>
+        <name>Store_Required_License</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Course date is required when selecting Type of Certified Renovator --></errorMessage>
+        <name>Course_Date_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

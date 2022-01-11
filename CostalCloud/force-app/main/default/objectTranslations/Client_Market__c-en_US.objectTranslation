@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Client Market</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Client Markets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Client Division Number --></label>
+        <name>Client_Division_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Division --></label>
+        <name>Client_Division__c</name>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation><!-- East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern</masterLabel>
+            <translation><!-- Northern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern</masterLabel>
+            <translation><!-- Southern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client Market ID(18) --></label>
+        <name>Client_Market_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Region Number --></label>
+        <name>Client_Region_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Region --></label>
+        <name>Client_Region__c</name>
+        <picklistValues>
+            <masterLabel>Central0011</masterLabel>
+            <translation><!-- Central0011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midwest0044</masterLabel>
+            <translation><!-- Midwest0044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY Metro</masterLabel>
+            <translation><!-- NY Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeast0022</masterLabel>
+            <translation><!-- Northeast0022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio Valley</masterLabel>
+            <translation><!-- Ohio Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast0033</masterLabel>
+            <translation><!-- Southeast0033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest</masterLabel>
+            <translation><!-- Southwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West0055</masterLabel>
+            <translation><!-- West0055 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Custom Labor --></label>
+        <name>Custom_Labor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jasons Code --></label>
+        <name>Jasons_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Market Number --></label>
+        <name>Market_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Book --></label>
+        <name>Price_Book__c</name>
+        <relationshipLabel><!-- Client Markets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RFI Reporting Market --></label>
+        <name>RFI_Reporting_Market__c</name>
+        <relationshipLabel><!-- Client Markets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unique ID --></label>
+        <name>Unique_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Client Market Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

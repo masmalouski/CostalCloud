@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>InforDataDump</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>InforDataDump</value>
+    </caseValues>
+    <fields>
+        <label><!-- ACCOUNTID --></label>
+        <name>ACCOUNTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACCOUNTPRODUCTID --></label>
+        <name>ACCOUNTPRODUCTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADDEDTOEIS --></label>
+        <name>ADDEDTOEIS__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADDEDTOTCS --></label>
+        <name>ADDEDTOTCS__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADDKNOWLEDGE --></label>
+        <name>ADDKNOWLEDGE__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADDL_LABOR --></label>
+        <name>ADDL_LABOR__c</name>
+    </fields>
+    <fields>
+        <label><!-- ALERTID --></label>
+        <name>ALERTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ALERT --></label>
+        <name>ALERT__c</name>
+    </fields>
+    <fields>
+        <label><!-- ALTERNATEKEYPREFIX --></label>
+        <name>ALTERNATEKEYPREFIX__c</name>
+    </fields>
+    <fields>
+        <label><!-- ALTERNATEKEYSUFFIX --></label>
+        <name>ALTERNATEKEYSUFFIX__c</name>
+    </fields>
+    <fields>
+        <label><!-- AMOUNT --></label>
+        <name>AMOUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- AREA --></label>
+        <name>AREA__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASSIGNEDDATE --></label>
+        <name>ASSIGNEDDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASSIGNEDTOID --></label>
+        <name>ASSIGNEDTOID__c</name>
+    </fields>
+    <fields>
+        <label><!-- BASIC_LABOR_AMT --></label>
+        <name>BASIC_LABOR_AMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDSJOBID --></label>
+        <name>BLINDSJOBID__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDSPARENTJOBID --></label>
+        <name>BLINDSPARENTJOBID__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDS_APPOINTMENT1_END --></label>
+        <name>BLINDS_APPOINTMENT1_END__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDS_APPOINTMENT1_START --></label>
+        <name>BLINDS_APPOINTMENT1_START__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDS_APPOINTMENT2_END --></label>
+        <name>BLINDS_APPOINTMENT2_END__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDS_APPOINTMENT2_START --></label>
+        <name>BLINDS_APPOINTMENT2_START__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDS_APPOINTMENT3_END --></label>
+        <name>BLINDS_APPOINTMENT3_END__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDS_APPOINTMENT3_START --></label>
+        <name>BLINDS_APPOINTMENT3_START__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLINDS_APPOINTMENT_ID --></label>
+        <name>BLINDS_APPOINTMENT_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CANCELEDSTATUS --></label>
+        <name>CANCELEDSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- CANCELEDSUBSTATUS --></label>
+        <name>CANCELEDSUBSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- CANCELLED_DATE --></label>
+        <name>CANCELLED_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- CATEGORY --></label>
+        <name>CATEGORY__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA_AUTO_ATTACHED --></label>
+        <name>CA_AUTO_ATTACHED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA_RECEIVED --></label>
+        <name>CA_RECEIVED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA_SENT --></label>
+        <name>CA_SENT__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHANGED_PO --></label>
+        <name>CHANGED_PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHANGED --></label>
+        <name>CHANGED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHANGEORDERNEEDED --></label>
+        <name>CHANGEORDERNEEDED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHANGE_ORDER_ATTACHED --></label>
+        <name>CHANGE_ORDER_ATTACHED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHANGE_ORDER_DOC_ADDED --></label>
+        <name>CHANGE_ORDER_DOC_ADDED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHARGEBACKCREATED --></label>
+        <name>CHARGEBACKCREATED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHARGEBACK --></label>
+        <name>CHARGEBACK__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHO_CONTACTID --></label>
+        <name>CHO_CONTACTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CLOSEDINSPN --></label>
+        <name>CLOSEDINSPN__c</name>
+    </fields>
+    <fields>
+        <label><!-- CLOSEDONFIRST --></label>
+        <name>CLOSEDONFIRST__c</name>
+    </fields>
+    <fields>
+        <label><!-- CLOSED --></label>
+        <name>CLOSED__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMPLETEDBYID --></label>
+        <name>COMPLETEDBYID__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMPLETEDDATE --></label>
+        <name>COMPLETEDDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMPLETION_LINK --></label>
+        <name>COMPLETION_LINK__c</name>
+    </fields>
+    <fields>
+        <label><!-- CONTACTID --></label>
+        <name>CONTACTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CONTAINEDHOMEJOB --></label>
+        <name>CONTAINEDHOMEJOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CONTRACTID --></label>
+        <name>CONTRACTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATEDATE --></label>
+        <name>CREATEDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATESOURCE --></label>
+        <name>CREATESOURCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATEUSER --></label>
+        <name>CREATEUSER__c</name>
+    </fields>
+    <fields>
+        <label><!-- CUSTOMERID --></label>
+        <name>CUSTOMERID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CUSTOMER_BALANCE --></label>
+        <name>CUSTOMER_BALANCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- CUSTOMER_NOT_REQUIRED --></label>
+        <name>CUSTOMER_NOT_REQUIRED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CUSTOM_LABOR_AMT --></label>
+        <name>CUSTOM_LABOR_AMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- CUSTOM_LABOR_PCT --></label>
+        <name>CUSTOM_LABOR_PCT__c</name>
+    </fields>
+    <fields>
+        <label><!-- DATA_CLIENT --></label>
+        <name>DATA_CLIENT__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAYS_SCHEDULED_OUT --></label>
+        <name>DAYS_SCHEDULED_OUT__c</name>
+    </fields>
+    <fields>
+        <label><!-- DDRSTATUS --></label>
+        <name>DDRSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- DELIVERY_NEEDED --></label>
+        <name>DELIVERY_NEEDED__c</name>
+    </fields>
+    <fields>
+        <label><!-- DRCAM --></label>
+        <name>DRCAM__c</name>
+    </fields>
+    <fields>
+        <label><!-- DTS --></label>
+        <name>DTS__c</name>
+    </fields>
+    <fields>
+        <label><!-- DURATION --></label>
+        <name>DURATION__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXPORT_DATE --></label>
+        <name>EXPORT_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXTERNALID --></label>
+        <name>EXTERNALID__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXTERNALSCHEDULEDDATEALERT --></label>
+        <name>EXTERNALSCHEDULEDDATEALERT__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXTERNALSCHEDULEDDATE --></label>
+        <name>EXTERNALSCHEDULEDDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXTERNAL_MASTER_WOID --></label>
+        <name>EXTERNAL_MASTER_WOID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FIELDMANAGERID --></label>
+        <name>FIELDMANAGERID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FIRST --></label>
+        <name>FIRST__c</name>
+    </fields>
+    <fields>
+        <label><!-- HDMS_MEASURED --></label>
+        <name>HDMS_MEASURED__c</name>
+    </fields>
+    <fields>
+        <label><!-- HDMS_MEASURE_ATTACHED --></label>
+        <name>HDMS_MEASURE_ATTACHED__c</name>
+    </fields>
+    <fields>
+        <label><!-- HDMS_MEASURE_DATE --></label>
+        <name>HDMS_MEASURE_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- HDMS_MEASURE_ERROR --></label>
+        <name>HDMS_MEASURE_ERROR__c</name>
+    </fields>
+    <fields>
+        <label><!-- HDMS_MEASURE_NUMBER --></label>
+        <name>HDMS_MEASURE_NUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- HELDSTATUS --></label>
+        <name>HELDSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- HELDSUBSTATUS --></label>
+        <name>HELDSUBSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMPORTSOURCE --></label>
+        <name>IMPORTSOURCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCIDENTUSED --></label>
+        <name>INCIDENTUSED__c</name>
+    </fields>
+    <fields>
+        <label><!-- INSTALLATION_LABOR_AMT --></label>
+        <name>INSTALLATION_LABOR_AMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- INSTALLATION_LABOR --></label>
+        <name>INSTALLATION_LABOR__c</name>
+    </fields>
+    <fields>
+        <label><!-- INSTALLERYHB --></label>
+        <name>INSTALLERYHB__c</name>
+    </fields>
+    <fields>
+        <label><!-- INSTALLER_AMOUNT --></label>
+        <name>INSTALLER_AMOUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- INSTALL --></label>
+        <name>INSTALL__c</name>
+    </fields>
+    <fields>
+        <label><!-- INTEGRATIONERROR --></label>
+        <name>INTEGRATIONERROR__c</name>
+    </fields>
+    <fields>
+        <label><!-- INTERNALYHB --></label>
+        <name>INTERNALYHB__c</name>
+    </fields>
+    <fields>
+        <label><!-- INVALID --></label>
+        <name>INVALID__c</name>
+    </fields>
+    <fields>
+        <label><!-- IN_STORAGE --></label>
+        <name>IN_STORAGE__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISREADY --></label>
+        <name>ISREADY__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISSUE --></label>
+        <name>ISSUE__c</name>
+    </fields>
+    <fields>
+        <label><!-- IS_GO_BACK --></label>
+        <name>IS_GO_BACK__c</name>
+    </fields>
+    <fields>
+        <label><!-- JOBSITE_ADDRESSID --></label>
+        <name>JOBSITE_ADDRESSID__c</name>
+    </fields>
+    <fields>
+        <label><!-- JOBSKU --></label>
+        <name>JOBSKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- JOBTYPEID --></label>
+        <name>JOBTYPEID__c</name>
+    </fields>
+    <fields>
+        <label><!-- KEYRECDDATE --></label>
+        <name>KEYRECDDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- KEYRECD --></label>
+        <name>KEYRECD__c</name>
+    </fields>
+    <fields>
+        <label><!-- KEYRECNUMBER --></label>
+        <name>KEYRECNUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- LEADPAINTFOUNDTYPE --></label>
+        <name>LEADPAINTFOUNDTYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- LEADPAINTFOUND --></label>
+        <name>LEADPAINTFOUND__c</name>
+    </fields>
+    <fields>
+        <label><!-- LEADPAINTPACKETDATE --></label>
+        <name>LEADPAINTPACKETDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- LEADPAINTRECEIPT --></label>
+        <name>LEADPAINTRECEIPT__c</name>
+    </fields>
+    <fields>
+        <label><!-- LEADPAINTTESTCOMPLETED --></label>
+        <name>LEADPAINTTESTCOMPLETED__c</name>
+    </fields>
+    <fields>
+        <label><!-- LEADPAINTTESTFORMATTACHED --></label>
+        <name>LEADPAINTTESTFORMATTACHED__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOST_JOB --></label>
+        <name>LOST_JOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- LSWPCOVEREDONRELATEDPO --></label>
+        <name>LSWPCOVEREDONRELATEDPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- LTE_ATTACHED --></label>
+        <name>LTE_ATTACHED__c</name>
+    </fields>
+    <fields>
+        <label><!-- MANUAL_AMOUNT --></label>
+        <name>MANUAL_AMOUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- MANUAL_PAYMENT_TYPE --></label>
+        <name>MANUAL_PAYMENT_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- MARKETING_FEE --></label>
+        <name>MARKETING_FEE__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAS_EXPORTDATE --></label>
+        <name>MAS_EXPORTDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- MATERIALS_AMOUNT --></label>
+        <name>MATERIALS_AMOUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- MERCHANDISE_AMT --></label>
+        <name>MERCHANDISE_AMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- MODIFYDATE --></label>
+        <name>MODIFYDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- MODIFYUSER --></label>
+        <name>MODIFYUSER__c</name>
+    </fields>
+    <fields>
+        <label><!-- NEEDEDBYDATE --></label>
+        <name>NEEDEDBYDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- NEEDED_DATE --></label>
+        <name>NEEDED_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- NOBIDMEASURE --></label>
+        <name>NOBIDMEASURE__c</name>
+    </fields>
+    <fields>
+        <label><!-- NOTES --></label>
+        <name>NOTES__c</name>
+    </fields>
+    <fields>
+        <label><!-- NOTIFYMESSAGE_LINK --></label>
+        <name>NOTIFYMESSAGE_LINK__c</name>
+    </fields>
+    <fields>
+        <label><!-- NO_RTS_REQUIRED --></label>
+        <name>NO_RTS_REQUIRED__c</name>
+    </fields>
+    <fields>
+        <label><!-- OLDSTATUS --></label>
+        <name>OLDSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- OLDSUBSTATUS --></label>
+        <name>OLDSUBSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPTION_LABOR_AMT --></label>
+        <name>OPTION_LABOR_AMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- ORDER_NUM --></label>
+        <name>ORDER_NUM__c</name>
+    </fields>
+    <fields>
+        <label><!-- OTHER_MERCHANDISE_AMT --></label>
+        <name>OTHER_MERCHANDISE_AMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- OTHER_SERVICES_AMT --></label>
+        <name>OTHER_SERVICES_AMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- PERMITNUMBER --></label>
+        <name>PERMITNUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- PERMIT_REQUIRED --></label>
+        <name>PERMIT_REQUIRED__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRIORITY --></label>
+        <name>PRIORITY__c</name>
+    </fields>
+    <fields>
+        <label><!-- PUBLICACCESSCODE --></label>
+        <name>PUBLICACCESSCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- PURCHASEORDERID --></label>
+        <name>PURCHASEORDERID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PU_READY --></label>
+        <name>PU_READY__c</name>
+    </fields>
+    <fields>
+        <label><!-- RATE_OVERRIDE --></label>
+        <name>RATE_OVERRIDE__c</name>
+    </fields>
+    <fields>
+        <label><!-- RATE --></label>
+        <name>RATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- READY_TO_EXPORT --></label>
+        <name>READY_TO_EXPORT__c</name>
+    </fields>
+    <fields>
+        <label><!-- RECEIVEDBYID --></label>
+        <name>RECEIVEDBYID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RECEIVEDDATE --></label>
+        <name>RECEIVEDDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- REDUCE_PO_ATTACHED --></label>
+        <name>REDUCE_PO_ATTACHED__c</name>
+    </fields>
+    <fields>
+        <label><!-- REDUCE_PO_NEEDED --></label>
+        <name>REDUCE_PO_NEEDED__c</name>
+    </fields>
+    <fields>
+        <label><!-- REF_NUM --></label>
+        <name>REF_NUM__c</name>
+    </fields>
+    <fields>
+        <label><!-- RESENT_CA --></label>
+        <name>RESENT_CA__c</name>
+    </fields>
+    <fields>
+        <label><!-- RETAIL_AMOUNT --></label>
+        <name>RETAIL_AMOUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFI_CB_AMOUNT --></label>
+        <name>RFI_CB_AMOUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- RRPINSTALLSENTTOCUSTOMER --></label>
+        <name>RRPINSTALLSENTTOCUSTOMER__c</name>
+    </fields>
+    <fields>
+        <label><!-- RRPSENTTOCUSTOMER --></label>
+        <name>RRPSENTTOCUSTOMER__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCHEDULEDBY --></label>
+        <name>SCHEDULEDBY__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCHEDULEDDATEUTCOFFSET --></label>
+        <name>SCHEDULEDDATEUTCOFFSET__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCHEDULEDDATE --></label>
+        <name>SCHEDULEDDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCHEDULEDINSPN --></label>
+        <name>SCHEDULEDINSPN__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCHEDULEDON --></label>
+        <name>SCHEDULEDON__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCHEDULED_BY_NAME --></label>
+        <name>SCHEDULED_BY_NAME__c</name>
+    </fields>
+    <fields>
+        <label><!-- SECCODEID --></label>
+        <name>SECCODEID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEND_CA_ERROR --></label>
+        <name>SEND_CA_ERROR__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPECIALORDERSTATUS --></label>
+        <name>SPECIALORDERSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPECIALORDERSUBSTATUS --></label>
+        <name>SPECIALORDERSUBSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPECIAL_INSTRUCTIONS --></label>
+        <name>SPECIAL_INSTRUCTIONS__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPECIAL_ORDER_DATE --></label>
+        <name>SPECIAL_ORDER_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPECIAL_ORDER_RECEIVED --></label>
+        <name>SPECIAL_ORDER_RECEIVED__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPECIAL_ORDER --></label>
+        <name>SPECIAL_ORDER__c</name>
+    </fields>
+    <fields>
+        <label><!-- STANDARDPROBLEMID --></label>
+        <name>STANDARDPROBLEMID__c</name>
+    </fields>
+    <fields>
+        <label><!-- STANDARDSOLUTIONID --></label>
+        <name>STANDARDSOLUTIONID__c</name>
+    </fields>
+    <fields>
+        <label><!-- STATUSCODE --></label>
+        <name>STATUSCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- STATUSDATE --></label>
+        <name>STATUSDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- STATUSREASON --></label>
+        <name>STATUSREASON__c</name>
+    </fields>
+    <fields>
+        <label><!-- STORE_ACCOUNTID --></label>
+        <name>STORE_ACCOUNTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- STORE_CANCELED --></label>
+        <name>STORE_CANCELED__c</name>
+    </fields>
+    <fields>
+        <label><!-- STORE_KEYRECD_DATE --></label>
+        <name>STORE_KEYRECD_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- STORE_KEYRECD --></label>
+        <name>STORE_KEYRECD__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUBJECT --></label>
+        <name>SUBJECT__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUBMITSEARCH --></label>
+        <name>SUBMITSEARCH__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUBSTATUS --></label>
+        <name>SUBSTATUS__c</name>
+    </fields>
+    <fields>
+        <label><!-- ScheduledTime --></label>
+        <name>ScheduledTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ﻿TICKETID --></label>
+        <name>TICKETID__c</name>
+    </fields>
+    <fields>
+        <label><!-- TICKETNUMBER --></label>
+        <name>TICKETNUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- TRIP_CHARGE --></label>
+        <name>TRIP_CHARGE__c</name>
+    </fields>
+    <fields>
+        <label><!-- TRIP --></label>
+        <name>TRIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- URGENCYCODE --></label>
+        <name>URGENCYCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- URGENCYID --></label>
+        <name>URGENCYID__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD10 --></label>
+        <name>USERFIELD10__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD1 --></label>
+        <name>USERFIELD1__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD2 --></label>
+        <name>USERFIELD2__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD3 --></label>
+        <name>USERFIELD3__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD4 --></label>
+        <name>USERFIELD4__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD5 --></label>
+        <name>USERFIELD5__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD6 --></label>
+        <name>USERFIELD6__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD7 --></label>
+        <name>USERFIELD7__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD8 --></label>
+        <name>USERFIELD8__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERFIELD9 --></label>
+        <name>USERFIELD9__c</name>
+    </fields>
+    <fields>
+        <label><!-- VIACODE --></label>
+        <name>VIACODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_COMMENT_CATEGORY --></label>
+        <name>VOC_COMMENT_CATEGORY__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_GENERAL_COMMENTS --></label>
+        <name>VOC_GENERAL_COMMENTS__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_INSTALLER_OTHER_COMMENTS --></label>
+        <name>VOC_INSTALLER_OTHER_COMMENTS__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_INSTALL_ARRIVED_ON_TIME --></label>
+        <name>VOC_INSTALL_ARRIVED_ON_TIME__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_INSTALL_AVAILABLE --></label>
+        <name>VOC_INSTALL_AVAILABLE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_INSTALL_COMPLETE_ON_TIME --></label>
+        <name>VOC_INSTALL_COMPLETE_ON_TIME__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_INSTALL_CORRECT --></label>
+        <name>VOC_INSTALL_CORRECT__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_INSTALL_JOBSITE_CLEAN_UP --></label>
+        <name>VOC_INSTALL_JOBSITE_CLEAN_UP__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_IVOC --></label>
+        <name>VOC_IVOC__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_MEASURE_VOC --></label>
+        <name>VOC_MEASURE_VOC__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_OSAT --></label>
+        <name>VOC_OSAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_OVERTURNED --></label>
+        <name>VOC_OVERTURNED__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_RESPONSEDATE --></label>
+        <name>VOC_RESPONSEDATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_RFI_NOTES --></label>
+        <name>VOC_RFI_NOTES__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_SCORE_DATE_RECEIVED --></label>
+        <name>VOC_SCORE_DATE_RECEIVED__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_SCORE --></label>
+        <name>VOC_SCORE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOC_STORE_KNOWLEDGE --></label>
+        <name>VOC_STORE_KNOWLEDGE__c</name>
+    </fields>
+    <fields>
+        <label><!-- WEB_LINK --></label>
+        <name>WEB_LINK__c</name>
+    </fields>
+    <fields>
+        <label><!-- WEIGHTCODE --></label>
+        <name>WEIGHTCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- YEARHOMEBUILTDISCREPANCY --></label>
+        <name>YEARHOMEBUILTDISCREPANCY__c</name>
+    </fields>
+    <fields>
+        <label><!-- YEARHOMEBUILTLOOKUP --></label>
+        <name>YEARHOMEBUILTLOOKUP__c</name>
+    </fields>
+    <fields>
+        <label><!-- YEARHOMEBUILT --></label>
+        <name>YEARHOMEBUILT__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZILLOWUPDATED --></label>
+        <name>ZILLOWUPDATED__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

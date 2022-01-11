@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invoice/Payment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invoices/Payments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Installer Account --></label>
+        <name>Installer_Account__c</name>
+        <relationshipLabel><!-- Invoices/Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IntactIntegrationKey --></label>
+        <name>IntactIntegrationKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice/Payment ID(18) --></label>
+        <name>Invoice_Payment_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Amount --></label>
+        <name>Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Date --></label>
+        <name>Payment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>Work_Order__c</name>
+        <relationshipLabel><!-- Invoices/Payments --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Invoice/Payment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

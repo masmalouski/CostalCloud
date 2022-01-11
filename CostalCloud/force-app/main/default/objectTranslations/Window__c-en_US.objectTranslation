@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Window</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Windows</value>
+    </caseValues>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- Windows --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Wall --></label>
+        <name>Wall__c</name>
+        <relationshipLabel><!-- Windows --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Win Height Fraction --></label>
+        <name>Win_Height_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Height --></label>
+        <name>Win_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Left Fraction --></label>
+        <name>Win_Left_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Left --></label>
+        <name>Win_Left__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Off Floor Fraction --></label>
+        <name>Win_Off_Floor_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Off Floor --></label>
+        <name>Win_Off_Floor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Right Fraction --></label>
+        <name>Win_Right_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Right --></label>
+        <name>Win_Right__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Width Fraction --></label>
+        <name>Win_Width_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Win Width --></label>
+        <name>Win_Width__c</name>
+    </fields>
+    <fields>
+        <label><!-- Window Measurement Image --></label>
+        <name>Window_Measurement_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Window Notes --></label>
+        <name>Window_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Window Photo --></label>
+        <name>Window_Photo__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

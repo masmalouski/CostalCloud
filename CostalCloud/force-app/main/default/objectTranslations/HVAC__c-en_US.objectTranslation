@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HVAC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>HVAC</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ceiling Height Fraction --></label>
+        <name>Ceiling_Height_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ceiling Height --></label>
+        <name>Ceiling_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ceiling to Register Fraction --></label>
+        <name>Ceiling_to_Register_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ceiling to Register --></label>
+        <name>Ceiling_to_Register__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- HVAC --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- HVAC Measurement Image --></label>
+        <name>HVAC_Measurement_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- HVAC Notes --></label>
+        <name>HVAC_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- HVAC Photo --></label>
+        <name>HVAC_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg H From Floor Fraction --></label>
+        <name>Reg_H_From_Floor_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg H From Floor --></label>
+        <name>Reg_H_From_Floor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg to L Wall Fraction --></label>
+        <name>Reg_to_L_Wall_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg to L Wall --></label>
+        <name>Reg_to_L_Wall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg to R Wall Fraction --></label>
+        <name>Reg_to_R_Wall_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg to R Wall --></label>
+        <name>Reg_to_R_Wall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Register Height Fraction --></label>
+        <name>Register_Height_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Register Height --></label>
+        <name>Register_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Register W Fraction --></label>
+        <name>Register_W_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Register W --></label>
+        <name>Register_W__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wall --></label>
+        <name>Wall__c</name>
+        <relationshipLabel><!-- HVAC --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

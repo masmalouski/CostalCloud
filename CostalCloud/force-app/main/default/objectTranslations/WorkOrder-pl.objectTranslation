@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Installs  - BDC</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Details --></label>
+            <section>Installation Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installs  - New Biz</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Details --></label>
+            <section>Installation Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installs - Doors</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Details --></label>
+            <section>Installation Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installs - Kitchens</layout>
+        <sections>
+            <label><!-- Amount --></label>
+            <section>Amount</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite info --></label>
+            <section>Customer and Jobsite info</section>
+        </sections>
+        <sections>
+            <label><!-- Design Connect --></label>
+            <section>Design Connect</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Details --></label>
+            <section>Installation Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP --></label>
+            <section>RRP</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installs - Kitchens (Check-In)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Design Connect --></label>
+            <section>Design Connect</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Details --></label>
+            <section>Installation Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installs - TCS</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Details --></label>
+            <section>Installation Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installs - Window Treatments</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Details --></label>
+            <section>Installation Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installs - Windows</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Details --></label>
+            <section>Installation Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Measures - BDC</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Details --></label>
+            <section>Measurement Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Measures - Doors</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Details --></label>
+            <section>Measurement Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Measures - Kitchens (Analysis)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Design Connect --></label>
+            <section>Design Connect</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Details --></label>
+            <section>Measurement Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Measures - Kitchens (Verification)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Design Connect --></label>
+            <section>Design Connect</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Details --></label>
+            <section>Measurement Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Measures - New Biz</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Details --></label>
+            <section>Measurement Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Measures - TCS</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Details --></label>
+            <section>Measurement Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Measures - Window Treatments</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Details --></label>
+            <section>Measurement Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Measures - Windows</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Jobsite Info --></label>
+            <section>Customer and Jobsite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Details --></label>
+            <section>Measurement Details</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Details --></label>
+            <section>RRP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Accounting)</layout>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site info --></label>
+            <section>Customer and Job Site info</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Change Order)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Change Order Information --></label>
+            <section>Change Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Client/Store Info --></label>
+            <section>Client/Store Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installer information --></label>
+            <section>Installer information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (ChildWO)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Store &amp; Markets --></label>
+            <section>Store &amp; Markets</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Data Entry\Operations)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Blinds data --></label>
+            <section>Blinds data</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site info --></label>
+            <section>Customer and Job Site info</section>
+        </sections>
+        <sections>
+            <label><!-- Data Entry --></label>
+            <section>Data Entry</section>
+        </sections>
+        <sections>
+            <label><!-- Document Tracking Fields --></label>
+            <section>Document Tracking Fields</section>
+        </sections>
+        <sections>
+            <label><!-- INT-THD-PO Detail JSON --></label>
+            <section>INT-THD-PO Detail JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Int-THD-PO EWR JSON --></label>
+            <section>Int-THD-PO EWR JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Job Site Details --></label>
+            <section>Job Site Details</section>
+        </sections>
+        <sections>
+            <label><!-- Permit --></label>
+            <section>Permit</section>
+        </sections>
+        <sections>
+            <label><!-- RRP --></label>
+            <section>RRP</section>
+        </sections>
+        <sections>
+            <label><!-- Special Order Information --></label>
+            <section>Special Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Install Core for Installer)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site info --></label>
+            <section>Customer and Job Site info</section>
+        </sections>
+        <sections>
+            <label><!-- Job Site Details --></label>
+            <section>Job Site Details</section>
+        </sections>
+        <sections>
+            <label><!-- Permit --></label>
+            <section>Permit</section>
+        </sections>
+        <sections>
+            <label><!-- RRP --></label>
+            <section>RRP</section>
+        </sections>
+        <sections>
+            <label><!-- Special Order Information --></label>
+            <section>Special Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Install Core for RFI)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Blinds data --></label>
+            <section>Blinds data</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site info --></label>
+            <section>Customer and Job Site info</section>
+        </sections>
+        <sections>
+            <label><!-- Data Entry --></label>
+            <section>Data Entry</section>
+        </sections>
+        <sections>
+            <label><!-- INT-THD-PO Detail JSON --></label>
+            <section>INT-THD-PO Detail JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Int-THD-PO EWR JSON --></label>
+            <section>Int-THD-PO EWR JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Job Site Details --></label>
+            <section>Job Site Details</section>
+        </sections>
+        <sections>
+            <label><!-- Permit --></label>
+            <section>Permit</section>
+        </sections>
+        <sections>
+            <label><!-- RRP --></label>
+            <section>RRP</section>
+        </sections>
+        <sections>
+            <label><!-- Special Order Information --></label>
+            <section>Special Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Install Kitchen for RFI)</layout>
+        <sections>
+            <label><!-- Amount --></label>
+            <section>Amount</section>
+        </sections>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site info --></label>
+            <section>Customer and Job Site info</section>
+        </sections>
+        <sections>
+            <label><!-- Data Entry --></label>
+            <section>Data Entry</section>
+        </sections>
+        <sections>
+            <label><!-- INT-THD-PO Detail JSON --></label>
+            <section>INT-THD-PO Detail JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Int-THD-PO EWR JSON --></label>
+            <section>Int-THD-PO EWR JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Job Site Details --></label>
+            <section>Job Site Details</section>
+        </sections>
+        <sections>
+            <label><!-- Permit --></label>
+            <section>Permit</section>
+        </sections>
+        <sections>
+            <label><!-- RRP --></label>
+            <section>RRP</section>
+        </sections>
+        <sections>
+            <label><!-- Special Order Information --></label>
+            <section>Special Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Install for Admin)</layout>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site info --></label>
+            <section>Customer and Job Site info</section>
+        </sections>
+        <sections>
+            <label><!-- Data Entry --></label>
+            <section>Data Entry</section>
+        </sections>
+        <sections>
+            <label><!-- Document Tracking Fields --></label>
+            <section>Document Tracking Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Fields - other --></label>
+            <section>Integration Fields - other</section>
+        </sections>
+        <sections>
+            <label><!-- Kitchen Pre --></label>
+            <section>Kitchen Pre</section>
+        </sections>
+        <sections>
+            <label><!-- Other Amount Calculations --></label>
+            <section>Other Amount Calculations</section>
+        </sections>
+        <sections>
+            <label><!-- PO Detail JSON --></label>
+            <section>PO Detail JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Post-Install Info --></label>
+            <section>Post-Install Info</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Install Information --></label>
+            <section>Pre-Install Information</section>
+        </sections>
+        <sections>
+            <label><!-- Product Pick-Up Store Check-In --></label>
+            <section>Product Pick-Up Store Check-In</section>
+        </sections>
+        <sections>
+            <label><!-- RFI Reporting Market --></label>
+            <section>RFI Reporting Market</section>
+        </sections>
+        <sections>
+            <label><!-- RRP --></label>
+            <section>RRP</section>
+        </sections>
+        <sections>
+            <label><!-- RRP JSON --></label>
+            <section>RRP JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Special Order Information --></label>
+            <section>Special Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+        <sections>
+            <label><!-- System Admin Fields --></label>
+            <section>System Admin Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Update PO Status --></label>
+            <section>Update PO Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Kitchen Electrical Install)</layout>
+        <sections>
+            <label><!-- Client/Store Info --></label>
+            <section>Client/Store Info</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Kitchen Plumbing Install)</layout>
+        <sections>
+            <label><!-- Client/Store Info --></label>
+            <section>Client/Store Info</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Measure Core for Data Entry\Operations)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Blinds Information --></label>
+            <section>Blinds Information</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site Info --></label>
+            <section>Customer and Job Site Info</section>
+        </sections>
+        <sections>
+            <label><!-- INT-THD-PO Detail JSON --></label>
+            <section>INT-THD-PO Detail JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Int-THD-PO EWR JSON --></label>
+            <section>Int-THD-PO EWR JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Information --></label>
+            <section>Measurement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Measure Core for Installer)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site Info --></label>
+            <section>Customer and Job Site Info</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Information --></label>
+            <section>Measurement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Measure Core for RFI)</layout>
+        <sections>
+            <label><!-- Amount Details --></label>
+            <section>Amount Details</section>
+        </sections>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Blinds Information --></label>
+            <section>Blinds Information</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site Info --></label>
+            <section>Customer and Job Site Info</section>
+        </sections>
+        <sections>
+            <label><!-- INT-THD-PO Detail JSON --></label>
+            <section>INT-THD-PO Detail JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Int-THD-PO EWR JSON --></label>
+            <section>Int-THD-PO EWR JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Information --></label>
+            <section>Measurement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Measure Kitchen for Installer)</layout>
+        <sections>
+            <label><!-- Customer and Job Site info --></label>
+            <section>Customer and Job Site info</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Information --></label>
+            <section>RRP Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Measure Kitchen for RFI)</layout>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site info --></label>
+            <section>Customer and Job Site info</section>
+        </sections>
+        <sections>
+            <label><!-- INT-THD-PO Detail JSON --></label>
+            <section>INT-THD-PO Detail JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Company --></label>
+            <section>Installation Company</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Information --></label>
+            <section>Measurement Information</section>
+        </sections>
+        <sections>
+            <label><!-- RRP Information --></label>
+            <section>RRP Information</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout (Measure for Admin)</layout>
+        <sections>
+            <label><!-- Amount Fields --></label>
+            <section>Amount Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Customer and Job Site Info --></label>
+            <section>Customer and Job Site Info</section>
+        </sections>
+        <sections>
+            <label><!-- Installer --></label>
+            <section>Installer</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Fields - other --></label>
+            <section>Integration Fields - other</section>
+        </sections>
+        <sections>
+            <label><!-- Integration JSON --></label>
+            <section>Integration JSON</section>
+        </sections>
+        <sections>
+            <label><!-- Measurement Information --></label>
+            <section>Measurement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Person Account Info --></label>
+            <section>Person Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Store Info --></label>
+            <section>Store Info</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Attachment/File --></label>
+        <name>Add_Attachment_File</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Measure Record Doors --></label>
+        <name>Add_Measure_Record_Doors</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Product Suggested --></label>
+        <name>Add_Product_Suggested</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cancel PO --></label>
+        <name>Cancel_PO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Accounting WO --></label>
+        <name>Create_Accounting_WO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Child WO --></label>
+        <name>Create_Child_WO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Electrical WO --></label>
+        <name>Create_Electrical_WO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Plumbing WO --></label>
+        <name>Create_Plumbing_WO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Product Check-in WO --></label>
+        <name>Create_Product_Check_in_WO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Site Verification/Bid WO --></label>
+        <name>Create_Site_Verification_Bid_WO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create TCS WO --></label>
+        <name>Create_TCS_WO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Data Entry --></label>
+        <name>Data_Entry</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Document Tracking --></label>
+        <name>Document_Tracking</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Missing or Uninstallable Products --></label>
+        <name>Missing_or_Uninstallable_Products</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- RRP Test Kit --></label>
+        <name>RRP_Test_Kit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Request Attached Permit Review --></label>
+        <name>Request_Attached_Permit_Review</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Request Job Type Change --></label>
+        <name>Request_Job_Type_Change</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Request RRP Exception --></label>
+        <name>Request_RRP_Exception</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Request Reduced PO --></label>
+        <name>Request_Reduced_PO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Unschedule PO --></label>
+        <name>Unschedule_PO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Appointment Status --></label>
+        <name>Update_Appointment_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Installer Action --></label>
+        <name>Update_Installer_Action</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Work Order --></label>
+        <name>Update_Work_Order</name>
+    </quickActions>
+</CustomObjectTranslation>

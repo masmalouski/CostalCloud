@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SF Integration Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SF Integration Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Database Name --></label>
+        <name>Database_Name__c</name>
+        <picklistValues>
+            <masterLabel>THD</masterLabel>
+            <translation><!-- THD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Direction --></label>
+        <name>Direction__c</name>
+        <picklistValues>
+            <masterLabel>THD --&gt; SF</masterLabel>
+            <translation><!-- THD - - &gt; SF --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Errors --></label>
+        <name>Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Type --></label>
+        <name>Integration_Type__c</name>
+        <picklistValues>
+            <masterLabel>Work Orders</masterLabel>
+            <translation><!-- Work Orders --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Work Order --></label>
+        <name>Related_Work_Order__c</name>
+        <relationshipLabel><!-- SF Integration Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Store No --></label>
+        <name>Store_No__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

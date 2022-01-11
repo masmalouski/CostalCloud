@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DELETEInstaller Percentage</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DELETEnstaller Percentages</value>
+    </caseValues>
+    <fields>
+        <label><!-- ACCOUNTID --></label>
+        <name>ACCOUNTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACCOUNT --></label>
+        <name>ACCOUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installer Percentage ID (18) --></label>
+        <name>Installer_Percentage_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- JOBCODE --></label>
+        <name>JOBCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- JOBTYPEID --></label>
+        <name>JOBTYPEID__c</name>
+    </fields>
+    <fields>
+        <label><!-- JOBTYPE Description --></label>
+        <name>JOBTYPE_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- JOB_TYPE --></label>
+        <name>JOB_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRIMARY INSTALLER --></label>
+        <name>PRIMARY_INSTALLER__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage --></label>
+        <name>Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- ﻿Reporting Market --></label>
+        <name>Reporting_Market__c</name>
+    </fields>
+    <fields>
+        <label><!-- STORE NUMBER --></label>
+        <name>STORE_NUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- svcCodeType --></label>
+        <name>svcCodeType__c</name>
+        <picklistValues>
+            <masterLabel>I</masterLabel>
+            <translation><!-- I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

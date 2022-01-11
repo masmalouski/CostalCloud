@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PO Notes</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PO Notes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Client/Store --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- PO Notes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Acknowledged Read Date --></label>
+        <name>Acknowledged_Read_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acknowledged/Read --></label>
+        <name>Acknowledged_Read__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acknowledgement Message --></label>
+        <name>Acknowledgement_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field determines when note is created if it should be auto pushed to client system through API --></help>
+        <label><!-- Auto Push --></label>
+        <name>Auto_Push__c</name>
+    </fields>
+    <fields>
+        <help><!-- Updated by flow based on status/sub-status changes --></help>
+        <label><!-- Automated Note Type --></label>
+        <name>Automated_Note_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer Not Ready, will call RFI when ready to scheduled</masterLabel>
+            <translation><!-- Customer Not Ready, will call RFI when ready to scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left Message</masterLabel>
+            <translation><!-- Left Message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needing Customer Contact FollowUp</masterLabel>
+            <translation><!-- Needing Customer Contact FollowUp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New PO created Manually</masterLabel>
+            <translation><!-- New PO created Manually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New PO downloaded from Integration</masterLabel>
+            <translation><!-- New PO downloaded from Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Assigned to Wrong Installer</masterLabel>
+            <translation><!-- PO Assigned to Wrong Installer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Document Review</masterLabel>
+            <translation><!-- Pending Document Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Damaged/Defective</masterLabel>
+            <translation><!-- Product Damaged/Defective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Delayed</masterLabel>
+            <translation><!-- Product Delayed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Incorrect</masterLabel>
+            <translation><!-- Product Incorrect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Not Available</masterLabel>
+            <translation><!-- Product Not Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Received</masterLabel>
+            <translation><!-- Product Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questions//concerns on PO</masterLabel>
+            <translation><!-- Questions//concerns on PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Date sent to Home Depot</masterLabel>
+            <translation><!-- Schedule Date sent to Home Depot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store assistance needed</masterLabel>
+            <translation><!-- Store assistance needed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bin Code --></label>
+        <name>Bin_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Type --></label>
+        <name>Client_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy to Mobile App? --></label>
+        <name>Copy_to_Mobile_App__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Closed --></label>
+        <name>Date_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Created --></label>
+        <name>Date_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Retry --></label>
+        <name>Do_Not_Retry__c</name>
+    </fields>
+    <fields>
+        <label><!-- FollowUp Date --></label>
+        <name>FollowUp_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Key (PONotes) --></label>
+        <name>Integration_Key_PONotes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time field is auto updated when note is sent to client via API --></help>
+        <label><!-- Note Pushed Date --></label>
+        <name>Note_Pushed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked auto pushed cannot be send THD and visibility limited to RFI employees and Installer Company --></help>
+        <label><!-- Private Note? --></label>
+        <name>Private_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions --></label>
+        <name>Special_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Store No --></label>
+        <name>Store_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- THD - Send Retry Count --></label>
+        <name>THD_Send_Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- THD - Send Retry Next DateTime --></label>
+        <name>THD_Send_Retry_Next_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO:Integration Client Type --></label>
+        <name>WO_Integration_Client_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>Work_Order__c</name>
+        <relationshipLabel><!-- PO Notes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- closedByGroupType --></label>
+        <name>closedByGroupType__c</name>
+    </fields>
+    <fields>
+        <label><!-- closedBy --></label>
+        <name>closedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- createdByGroupType --></label>
+        <name>createdByGroupType__c</name>
+    </fields>
+    <fields>
+        <label><!-- createdBy --></label>
+        <name>createdBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- noteFor --></label>
+        <name>noteFor__c</name>
+    </fields>
+    <fields>
+        <label><!-- noteNumber --></label>
+        <name>noteNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- noteType --></label>
+        <name>noteType__c</name>
+    </fields>
+    <fields>
+        <label><!-- svcTypeCode --></label>
+        <name>svcTypeCode__c</name>
+    </fields>
+    <layouts>
+        <layout>PO Notes Layout (Admin)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description/Details --></label>
+            <section>Description/Details</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Values --></label>
+            <section>Integration Values</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PO Notes Layout (Client)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description/Details --></label>
+            <section>Description/Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PO Notes Layout (Client/Private)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PO Notes Layout (Installer)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description/Details --></label>
+            <section>Description/Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PO Notes Layout (RFI)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description/Details --></label>
+            <section>Description/Details</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Values --></label>
+            <section>Integration Values</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Auto Generated Note --></label>
+        <name>Auto_Generated_Note</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Client Note --></label>
+        <name>Client_Note</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Installer Manual Note --></label>
+        <name>Installer_Manual_Note</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Private Note --></label>
+        <name>Private_Note</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RFI Note --></label>
+        <name>RFI_Note</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Payment Record</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Payment Records</value>
+    </caseValues>
+    <fields>
+        <label><!-- Installer Amount --></label>
+        <name>Installer_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice/Payment --></label>
+        <name>Invoice_Payment__c</name>
+        <relationshipLabel><!-- Payment Records --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>Work_Order__c</name>
+        <relationshipLabel><!-- Payment Records --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

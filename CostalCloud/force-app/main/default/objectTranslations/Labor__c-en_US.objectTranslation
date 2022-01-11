@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Labor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Labor</value>
+    </caseValues>
+    <fields>
+        <label><!-- API Type Name --></label>
+        <name>API_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Reduced Total --></label>
+        <name>Amount_Reduced_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Reduced (each) --></label>
+        <name>Amount_Reduced_each__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount to Split (each) --></label>
+        <name>Amount_to_Split_each__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calc Basis Type --></label>
+        <name>Calc_Basis_Type__c</name>
+        <picklistValues>
+            <masterLabel>Additional Miles</masterLabel>
+            <translation><!-- Additional Miles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Service</masterLabel>
+            <translation><!-- Additional Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avera Product</masterLabel>
+            <translation><!-- Avera Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Fee</masterLabel>
+            <translation><!-- Delivery Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installer Site Visit</masterLabel>
+            <translation><!-- Installer Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Measure</masterLabel>
+            <translation><!-- Measure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking/ Toll</masterLabel>
+            <translation><!-- Parking/ Toll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RRP Fee</masterLabel>
+            <translation><!-- RRP Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Order</masterLabel>
+            <translation><!-- Service Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS Closets Install</masterLabel>
+            <translation><!-- TCS Closets Install --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS Closets Product</masterLabel>
+            <translation><!-- TCS Closets Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip Charge</masterLabel>
+            <translation><!-- Trip Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>elfa Product</masterLabel>
+            <translation><!-- elfa Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Amount --></label>
+        <name>Cost_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Item Number --></label>
+        <name>Custom_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo/Haul Away --></label>
+        <name>Demo_Haul_Away__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Amount --></label>
+        <name>Discounted_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Arrival Date --></label>
+        <name>Expected_Arrival_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Cost --></label>
+        <name>Extended_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- Labor --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Integration Key (Custom Product) --></label>
+        <name>Integration_Key_Custom_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job SKU --></label>
+        <name>Job_SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor ID (18) --></label>
+        <name>Labor_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage --></label>
+        <name>Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Moulding --></label>
+        <name>Moulding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes_Split__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Type --></label>
+        <name>Offer_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer --></label>
+        <name>Offer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optional Item Number --></label>
+        <name>Optional_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Invoiced --></label>
+        <name>Order_Invoiced__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populates on create, cannot be modified! --></help>
+        <label><!-- Original Amount --></label>
+        <name>Original_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Panels # --></label>
+        <name>Panels__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permit --></label>
+        <name>Permit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity to Reduce --></label>
+        <name>Quantity_to_Reduce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity to Split --></label>
+        <name>Quantity_to_Split__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFI Grand Total Amount --></label>
+        <name>RFI_Grand_Total_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Number --></label>
+        <name>Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regular Cabs # --></label>
+        <name>Regular_Cabs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Amount --></label>
+        <name>Retail_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- SKU Description --></label>
+        <name>SKU_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- SKU Number --></label>
+        <name>SKU_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>Short_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short SKU Description --></label>
+        <name>Short_SKU_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store No --></label>
+        <name>Store_No__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manual override, when checked the TCS amount can be adjusted. --></help>
+        <label><!-- Amount Override --></label>
+        <name>TCS_Amount_Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFI  Amount --></label>
+        <name>TCS_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- TCS Order Verified --></label>
+        <name>TCS_Order_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tall Cabs # --></label>
+        <name>Tall_Cabs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field only used for temp updates when mass updating --></help>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time to Complete (Minutes) --></label>
+        <name>Time_to_Complete_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost (Unit x Quantity) --></label>
+        <name>Total_Cost_Unit_x_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Additional Labor</masterLabel>
+            <translation><!-- Additional Labor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Mileage</masterLabel>
+            <translation><!-- Additional Mileage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Installs</masterLabel>
+            <translation><!-- Custom Installs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation><!-- Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional Installs</masterLabel>
+            <translation><!-- Optional Installs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permits</masterLabel>
+            <translation><!-- Permits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced Labor</masterLabel>
+            <translation><!-- Reduced Labor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip Charge</masterLabel>
+            <translation><!-- Trip Charge --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit Cost --></label>
+        <name>Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>Unit_of_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO:Integration Client Type --></label>
+        <name>WO_Integration_Client_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO RFI Amount --></label>
+        <name>WO_RFI_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Was all labor for install completed? --></label>
+        <name>Was_all_labor_for_install_completed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order ID(18) --></label>
+        <name>Work_Order_ID_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>Work_Order__c</name>
+        <relationshipLabel><!-- Labor --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- deliveryLocationIndicator --></label>
+        <name>deliveryLocaationIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- duoiCode --></label>
+        <name>duoiCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- followupAction --></label>
+        <name>followupAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- isActionableForSP --></label>
+        <name>isActionableForSP__c</name>
+    </fields>
+    <fields>
+        <label><!-- mVendorName --></label>
+        <name>mVendorName__c</name>
+    </fields>
+    <fields>
+        <label><!-- merchandiseDeliveryIndicator --></label>
+        <name>merchandiseDeliveryIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- mvendorNumber --></label>
+        <name>mvendorNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- mvendorPartNumber --></label>
+        <name>mvendorPartNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- quoteLeadTime --></label>
+        <name>quoteLeadTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- specialOrderLineNumber --></label>
+        <name>specialOrderLineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- suoiDesc --></label>
+        <name>suoiDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- svcTypeCode --></label>
+        <name>svcTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- willCallTypeIndicator --></label>
+        <name>willCallTypeIndicator__c</name>
+    </fields>
+    <layouts>
+        <layout>Labor Layout (Kitchen Site Verification)</layout>
+        <sections>
+            <label><!-- Additional Information for this Location --></label>
+            <section>Additional Information for this Location</section>
+        </sections>
+        <sections>
+            <label><!-- Common Fields --></label>
+            <section>Common Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Labor Layout (Manual)</layout>
+        <sections>
+            <label><!-- Common Fields --></label>
+            <section>Common Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Labor Layout (Window Treatments)</layout>
+        <sections>
+            <label><!-- Common Fields --></label>
+            <section>Common Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Labor Layout (Windows)</layout>
+        <sections>
+            <label><!-- Common Fields --></label>
+            <section>Common Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Labor Layout Integration</layout>
+        <sections>
+            <label><!-- Common Fields --></label>
+            <section>Common Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Labor Layout Integration (TCS)</layout>
+        <sections>
+            <label><!-- Common Fields --></label>
+            <section>Common Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Override Option --></label>
+            <section>Override Option</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- This is the default Labor Record Type, anything created by or from Integration. --></description>
+        <label><!-- Integration --></label>
+        <name>Integration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Integration TCS --></label>
+        <name>Integration_TCS</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Kitchen Site Verification/Bid --></label>
+        <name>Kitchen_Site_Verification_Bid</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Labor Windows --></label>
+        <name>Labor_Windows</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used by all users when a labor line has to be manually entered (not coming from integration) --></description>
+        <label><!-- Manual --></label>
+        <name>Manual</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

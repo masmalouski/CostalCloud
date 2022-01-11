@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plumbing</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plumbing</value>
+    </caseValues>
+    <fields>
+        <label><!-- Center on Wall Fraction --></label>
+        <name>Center_on_Wall_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Center on Wall --></label>
+        <name>Center_on_Wall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Centerline L or R --></label>
+        <name>Centerline_L_or_R__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Floor to Center Fraction --></label>
+        <name>Floor_to_Center_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor to Center --></label>
+        <name>Floor_to_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+        <relationshipLabel><!-- Plumbing --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- H2O or Gas --></label>
+        <name>H2O_or_Gas__c</name>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H2O</masterLabel>
+            <translation><!-- H2O --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- M from R or L --></label>
+        <name>M_from_R_or_L__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overall Height Fraction --></label>
+        <name>Overall_Height_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Height --></label>
+        <name>Overall_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Width Fraction --></label>
+        <name>Overall_Width_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Width --></label>
+        <name>Overall_Width__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plumbing Measurement Image --></label>
+        <name>Plumbing_Measurement_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plumbing Notes --></label>
+        <name>Plumbing_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plumbing Photo --></label>
+        <name>Plumbing_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sink Centerline Fraction --></label>
+        <name>Sink_Centerline_Fraction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sink Centerline --></label>
+        <name>Sink_Centerline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thru Wall or Floor --></label>
+        <name>Thru_Wall_or_Floor__c</name>
+        <picklistValues>
+            <masterLabel>Floor</masterLabel>
+            <translation><!-- Floor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wall</masterLabel>
+            <translation><!-- Wall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wall --></label>
+        <name>Wall__c</name>
+        <relationshipLabel><!-- Plumbing --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<apex:page id="WorkOrder_NewOverride" standardController="WorkOrder" docType="html-5.0" lightningStylesheets="true">
+
+
+<apex:form id="theForm">
+
+        <apex:pageMessages escape="false" id="pageMsg"/>
+
+        <apex:pageBlock >
+        
+        <h1>
+      Please create child work order from existing work order
+  </h1>
+
+            <apex:pageBlockButtons location="bottom">
+               
+                <apex:commandButton value="Go Back" action="{!cancel}"/>
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection >
+
+            </apex:pageBlockSection>
+
+        </apex:pageBlock>
+
+    </apex:form>
+  
+  
+  
+ 
+</apex:page>
