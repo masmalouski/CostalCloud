@@ -153,105 +153,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>Date_Time_of_Change__c</fullName>
-        <externalId>false</externalId>
-        <label>Date Time of Change</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>Duration_In_Minutes__c</fullName>
-        <externalId>false</externalId>
-        <label>Duration In Minutes</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Duration_days__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF( Next_History_Change__c != NULL
-, Next_History_Change__r.Date_Time_of_Change__c - Date_Time_of_Change__c
-, NOW() - Date_Time_of_Change__c )</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Duration (days)</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Duration_minutes__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF( Next_History_Change__c = NULL
-, ( NOW() - Date_Time_of_Change__c ) * 1440
-, Duration_In_Minutes__c )</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Duration (minutes)</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Next_History_Change__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Next History Change</label>
-        <referenceTo>Work_Order_History__c</referenceTo>
-        <relationshipName>Next_Work_Order_History</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Status_Changed_to__c</fullName>
-        <externalId>false</externalId>
-        <label>Status Changed to</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Sub_Status_Changed_To__c</fullName>
-        <externalId>false</externalId>
-        <label>Sub Status Changed To</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Work_Order__c</fullName>
-        <externalId>false</externalId>
-        <label>Work Order</label>
-        <referenceTo>WorkOrder</referenceTo>
-        <relationshipName>Work_Order_History</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
     <label>Work Order Status Tracking</label>
     <nameField>
         <label>Work Order Status History Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Work Order Status Tracking</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

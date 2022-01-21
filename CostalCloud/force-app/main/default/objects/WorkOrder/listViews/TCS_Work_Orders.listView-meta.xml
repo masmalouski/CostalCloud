@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TCS_Work_Orders</fullName>
+    <columns>Name</columns>
+    <columns>Type__c</columns>
+    <columns>RecordType</columns>
+    <columns>Account</columns>
+    <columns>Client_Store__c</columns>
+    <columns>Installer__c</columns>
+    <columns>Status</columns>
+    <columns>Sub_Status__c</columns>
+    <columns>Job_Category__c</columns>
+    <columns>Program__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>WorkOrder.TCS_Work_Order</value>
+    </filters>
+    <label>TCS Work Orders</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Note_AutoCreated__c</fullName>
+    <description>Via trigger, if this field is populated, it will create PO Note for Work Order and then clear out this field.</description>
+    <externalId>false</externalId>
+    <label>PO Note</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

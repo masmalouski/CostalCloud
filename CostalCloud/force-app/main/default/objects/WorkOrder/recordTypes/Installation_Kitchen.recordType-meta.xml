@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installation_Kitchen</fullName>
+    <active>true</active>
+    <label>Installation Kitchen</label>
+    <picklistValues>
+        <picklist>Any_Design_Concerns__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Are_you_sure_Install_PO_Will_be_Locked__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Are_you_sure_Measure_PO_will_be_locked__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>C_O_ready_to_submit_for_signature__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cancelled_Reason__c</picklist>
+        <values>
+            <fullName>Customer Requested Cancelation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP%2FCB Cancelled by Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Cancelled PO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Change_Order_Request__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_given_warranty_instructions__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DDR_Needed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DDR__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Electrical_Amount_Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Energy_Code__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TBD2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Engineer__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TBD2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exported_Status__c</picklist>
+        <values>
+            <fullName>Chargeback Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chargeback Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chargeback Review Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Issue is Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unapproved Chargeback</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_105_Receipt_of_Lead_Paint_Pamphlet__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_115_Lead_Paint_Renovation__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_118_LSWP_Exception__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_119_Lead_Test_Results__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_123_Alabama_Lead_Renovation__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_124_MS_Lead_Based__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_125_Rhode_Island_Lead_Start_Work__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_128_Lead_Activity_Permit_Application__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_329_ICA__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HS_333_National_Measure_Door__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hardware_operational_acknowledgement__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_will_you_meet_RRP_Req__c</picklist>
+        <values>
+            <fullName>No Labor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presumed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Install2GO_Form__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Installer_Action__c</picklist>
+        <values>
+            <fullName>Customer Not Responding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Requested Call Back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Requested Cancelation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency%2FHealth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FM%2FRM Updated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need Address Verification - Invalid Address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need Valid Contact Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Assigned to Wrong Installer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Incorrect%2FUpdate Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Damaged%2FDefective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Incorrect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Not Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questions%2FConcerns on PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Updated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on Design%2FProduct Details</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_a_Jobsite_Visit_being_made_for_PO__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_a_Labor_Bid_being_submitted__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_product_being_picked_up_for_this_PO__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_the_Product_Correct__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_the_Product_Installable__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_there_an_Alarm__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_there_an_alarm_present__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Type_request_change__c</picklist>
+        <values>
+            <fullName>30-Day Tune-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Service%2FLabor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trip Charge</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Product_Check_in_Status__c</picklist>
+        <values>
+            <fullName>All products delivered - schedule install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not needed - appointment not Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product damaged - technician will submit DDR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Still pending products - schedule new check-in</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Labor_Bid__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Safe_Renovation_Checklist__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Test_Exemption_Form__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Test_Results__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PO_Updates__c</picklist>
+        <values>
+            <fullName>Chargeback Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chargeback Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chargeback Review Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Marked as %22Canceled%22 in Client System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Marked as %22Changed%22 in Client System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Marked as %22Key-Rec%27ed%22 in Client System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Marked as %22Not Found%22 in Client System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Not Marked as %22Key-Rec%27ed%22 in Client System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Issue is Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unapproved Chargeback</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Permit_Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Permit_Attached__c</picklist>
+        <values>
+            <fullName>Not Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Permit_Required_calculated__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pre_Renovation_Form__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Correct__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Insta__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Ready__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RFI_CA__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RFI_Measure__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RRP_Exception_Request_Status__c</picklist>
+        <values>
+            <fullName>Data Entry Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Entry Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted to Data Entry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RRP_Exception_Request__c</picklist>
+        <values>
+            <fullName>Exempt - disturbing less than x%25 of paint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Labor - not disturbing any paint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Year Home Built Corrected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RRP_Required_Calculated__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - Year Difference</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_no_Jobsite_Visit__c</picklist>
+        <values>
+            <fullName>Additional Labor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Mileage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Down Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trip Charge</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_no_measure_during_visit__c</picklist>
+        <values>
+            <fullName>No-Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No-bid</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rejection_Reason__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Results__c</picklist>
+        <values>
+            <fullName>Negative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Positive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_PO_Type__c</picklist>
+        <values>
+            <fullName>Additional Labor PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Mileage PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Down Day PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineer PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permit PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trip Charge PO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Report__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exported</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Past Due</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Status__c</picklist>
+        <values>
+            <fullName>Chargeback in Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirm PO Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirm PO Assistance Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Not Ready</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exported to Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need FM%2FRM Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need Store Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid in Full</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Client Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Customer Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Customer Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Document Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Initial Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Installer Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending KeyRec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Payment Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Payment Resolution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Permit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Updated PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processed Installer Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rescheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unscheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TCS_Type__c</picklist>
+        <values>
+            <fullName>Avera Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avera Uninstall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Order - Avera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Order - TCSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCSC Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCSC Uninstall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>elfa Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>elfa Uninstall</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Change_Request_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>30-Day Tune-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Service%2FLabor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Badge Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Badge Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Canceled Not Replaced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Canceled Replaced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Child Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Clothing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Installer to Installer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Loans%2FInstaller Payment Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-RRP Fine %28External%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-RRP Fine %28Internal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Reduced PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Sponsorships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB-Tax Liens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Legal Tender Matter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP-Installer to Installer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP-Market to Installer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Check-In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Damage Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trip Charge</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unable_to_mark_complete__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unscheduled_Reason__c</picklist>
+        <values>
+            <fullName>Customer Requested Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Requested New Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency%2FHealth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Damaged%2FDefective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Incorrect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled In Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weather</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Update_Measure_PO_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unschedule</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verified_all_new_product_correct_size__c</picklist>
+        <values>
+            <fullName>Product is Correct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product is Incorrect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verified_all_product_meets_local_codes__c</picklist>
+        <values>
+            <fullName>Product does not meet code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product meets all codes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verified_product_s_with_Customer__c</picklist>
+        <values>
+            <fullName>Product is Correct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product is Incorrect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verified_that_Design_is_Attached__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>WOLI_Record_Type__c</picklist>
+        <values>
+            <fullName>Blind%2FShade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kitchen Site Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kitchen Site Verification%2FBid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kitchens%2FCloset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moulding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Window</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Window Treatment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Walkthrough_w_Customer_acknowledgement__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Was_all_labor_for_install_completed__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Were_there_any_issues_with_install__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Will_RRP_test_be_done_during_this_visit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Will_a_Measure_be_completed_during_visit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Will_the_Submitted_Design_Work__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>overwrite_Reason_Code__c</picklist>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>xType_change_request__c</picklist>
+        <values>
+            <fullName>General Construction PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair PO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

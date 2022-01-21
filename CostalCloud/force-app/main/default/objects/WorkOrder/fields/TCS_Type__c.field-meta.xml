@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TCS_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>From TCS integration</inlineHelpText>
+    <label>TCS Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Avera Install</fullName>
+                <default>false</default>
+                <label>Avera Install</label>
+            </value>
+            <value>
+                <fullName>Avera Uninstall</fullName>
+                <default>false</default>
+                <label>Avera Uninstall</label>
+            </value>
+            <value>
+                <fullName>elfa Install</fullName>
+                <default>false</default>
+                <label>elfa Install</label>
+            </value>
+            <value>
+                <fullName>elfa Uninstall</fullName>
+                <default>false</default>
+                <label>elfa Uninstall</label>
+            </value>
+            <value>
+                <fullName>ISV</fullName>
+                <default>false</default>
+                <label>ISV</label>
+            </value>
+            <value>
+                <fullName>Measure</fullName>
+                <default>false</default>
+                <label>Measure</label>
+            </value>
+            <value>
+                <fullName>Service Order - Avera</fullName>
+                <default>false</default>
+                <label>Service Order - Avera</label>
+            </value>
+            <value>
+                <fullName>Service Order - TCSC</fullName>
+                <default>false</default>
+                <label>Service Order - TCSC</label>
+            </value>
+            <value>
+                <fullName>TCSC Install</fullName>
+                <default>false</default>
+                <label>TCSC Install</label>
+            </value>
+            <value>
+                <fullName>TCSC Uninstall</fullName>
+                <default>false</default>
+                <label>TCSC Uninstall</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

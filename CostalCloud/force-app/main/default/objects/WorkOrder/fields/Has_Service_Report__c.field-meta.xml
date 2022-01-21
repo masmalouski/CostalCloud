@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Service_Report__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Looks at attachment/files for type = Service Report</inlineHelpText>
+    <label>Has Service Report</label>
+    <summaryFilterItems>
+        <field>Attachment_Files__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Service Report</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Attachment_Files__c.Work_Order__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

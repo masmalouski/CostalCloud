@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installer_Licenses</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Expiration_Date__c</columns>
+    <columns>Certification_Policy_Number__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Licenses__c.Installer_License</value>
+    </filters>
+    <label>Installer Licenses</label>
+</ListView>

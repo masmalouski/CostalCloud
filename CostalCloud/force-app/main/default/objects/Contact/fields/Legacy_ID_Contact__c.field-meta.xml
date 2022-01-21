@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legacy_ID_Contact__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Legacy ID / Key used to connect Salesforce.com to the system to which data initially originated - Used for a system that are no longer going to be used</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Legacy ID / Key used to connect Salesforce.com to the system to which data initially originated</inlineHelpText>
+    <label>Legacy ID (Contact)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

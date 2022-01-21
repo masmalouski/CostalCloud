@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Test_Results_formula__c</fullName>
+    <description>If any related RRP Test Kits resulted &quot;Presumed&quot; =&gt; &quot;Assumed&quot; if state CA/KS, otherwise &quot;Presumed&quot;
+If no related Kits resulted &quot;Presumed&quot; but one resulted &quot;Positive&quot; =&gt; &quot;Positive&quot;
+If no related Kits resulted &quot;Presumed&quot; or &quot;Positive&quot; but one resulted &quot;Negative&quot; =&gt; &quot;Negative&quot;
+
+If no Kits but RRP Exception approval Status is &quot;Data Entry Approved&quot; then check below:
+* RRP Exception Request = &quot;No Labor - not disturbing any paint&quot; =&gt; &quot;No Labor&quot;
+* RRP Exception Request = &quot;Exempt - disturbing less than x% of paint&quot; =&gt; &quot;Exempted&quot;</description>
+    <externalId>false</externalId>
+    <formula>IF( RRP_Test_Presumed__c &gt; 0
+     , IF( State = &quot;CA&quot; || State = &quot;KS&quot;, &quot;Assumed&quot;, &quot;Presumed&quot; ), &quot;&quot; )
+
++ IF( RRP_Test_Presumed__c = 0 &amp;&amp; RRP_Test_Positive__c &gt; 0, &quot;Positive&quot;, &quot;&quot; )
+
++ IF( RRP_Test_Presumed__c = 0 &amp;&amp; RRP_Test_Positive__c = 0 &amp;&amp; RRP_Test_Negative__c &gt; 0, &quot;Negative&quot;, &quot;&quot; )
+
++ IF( RRP_Test_Presumed__c = 0 &amp;&amp; RRP_Test_Positive__c = 0 &amp;&amp; RRP_Test_Negative__c = 0
+      &amp;&amp; ISPICKVAL( RRP_Exception_Request_Status__c, &quot;Data Entry Approved&quot; )
+
+    , CASE( TEXT( RRP_Exception_Request__c ), &quot;No Labor - not disturbing any paint&quot;, &quot;No Labor&quot;
+                                            , &quot;Exempt - disturbing less than x% of paint&quot;, &quot;Exempted&quot;
+                                            , &quot;&quot; )
+    , &quot;&quot; 
+)</formula>
+    <inlineHelpText>If any related RRP Test Kits = &quot;Presumed&quot; =&gt; &quot;Presumed&quot; (&quot;Assumed&quot; if CA/KS)
+If no related Kits = &quot;Presumed&quot; but one = &quot;Positive&quot; =&gt; &quot;Positive&quot;
+If no related Kits = &quot;Presumed&quot; or &quot;Positive&quot; but one = &quot;Negative&quot; =&gt; &quot;Negative&quot;
+
+If no Kits but RRP Exception approval Status is &quot;Data Entry Approved&quot; then check below:
+* RRP Exception Request = &quot;No Labor - not disturbing any paint&quot; =&gt; &quot;No Labor&quot;
+* RRP Exception Request = &quot;Exempt - disturbing less than x% of paint&quot; =&gt; &quot;Exempted&quot;</inlineHelpText>
+    <label>Lead Test Results</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

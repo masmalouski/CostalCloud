@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Territory__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Before activating an Installer Portal Account make sure that they have their own Service Territory setup and that all resources have been linked to the same territory.</inlineHelpText>
+    <label>Service Territory</label>
+    <referenceTo>ServiceTerritory</referenceTo>
+    <relationshipLabel>Installer Account Record</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

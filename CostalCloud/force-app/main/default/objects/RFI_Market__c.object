@@ -154,32 +154,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>Installer_Account__c</fullName>
-        <externalId>false</externalId>
-        <label>Installer Account</label>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>RFI Markets</relationshipLabel>
-        <relationshipName>RFI_Market_Junction</relationshipName>
-        <relationshipOrder>1</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
-        <fullName>RFI_Market__c</fullName>
-        <externalId>false</externalId>
-        <label>RFI Market</label>
-        <referenceTo>RFI_Reporting_Markets__c</referenceTo>
-        <relationshipLabel>Installer Accounts</relationshipLabel>
-        <relationshipName>RFI_Market</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
     <label>RFI Markets</label>
     <nameField>
         <displayFormat>{0000}</displayFormat>
@@ -187,7 +161,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>RFI Markets</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

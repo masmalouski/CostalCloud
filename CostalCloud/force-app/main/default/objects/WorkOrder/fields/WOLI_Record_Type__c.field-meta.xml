@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOLI_Record_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>WOLI Record Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Door</fullName>
+                <default>false</default>
+                <label>Door</label>
+            </value>
+            <value>
+                <fullName>Window</fullName>
+                <default>false</default>
+                <label>Window</label>
+            </value>
+            <value>
+                <fullName>Window Treatment</fullName>
+                <default>false</default>
+                <label>Window Treatment</label>
+            </value>
+            <value>
+                <fullName>Kitchen Site Verification/Bid</fullName>
+                <default>false</default>
+                <label>Kitchen Site Verification/Bid</label>
+            </value>
+            <value>
+                <fullName>Kitchen Site Analysis</fullName>
+                <default>false</default>
+                <label>Kitchen Site Analysis</label>
+            </value>
+            <value>
+                <fullName>Kitchens/Closet</fullName>
+                <default>false</default>
+                <label>Kitchens/Closet</label>
+            </value>
+            <value>
+                <fullName>Moulding</fullName>
+                <default>false</default>
+                <label>Moulding</label>
+            </value>
+            <value>
+                <fullName>Blind/Shade</fullName>
+                <default>false</default>
+                <label>Blind/Shade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

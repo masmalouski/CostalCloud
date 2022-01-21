@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enter_location_of_the_unit__c</fullName>
+    <externalId>false</externalId>
+    <label>Enter Installation Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Front</fullName>
+                <default>false</default>
+                <label>Front</label>
+            </value>
+            <value>
+                <fullName>Back</fullName>
+                <default>false</default>
+                <label>Back</label>
+            </value>
+            <value>
+                <fullName>Side</fullName>
+                <default>false</default>
+                <label>Side</label>
+            </value>
+            <value>
+                <fullName>House to Garage</fullName>
+                <default>false</default>
+                <label>House to Garage</label>
+            </value>
+            <value>
+                <fullName>Patio</fullName>
+                <default>false</default>
+                <label>Patio</label>
+            </value>
+            <value>
+                <fullName>Living Room</fullName>
+                <default>false</default>
+                <label>Living Room</label>
+            </value>
+            <value>
+                <fullName>Dining Room</fullName>
+                <default>false</default>
+                <label>Dining Room</label>
+            </value>
+            <value>
+                <fullName>Kitchen</fullName>
+                <default>false</default>
+                <label>Kitchen</label>
+            </value>
+            <value>
+                <fullName>Master Bedroom</fullName>
+                <default>false</default>
+                <label>Master Bedroom</label>
+            </value>
+            <value>
+                <fullName>Master Bathroom</fullName>
+                <default>false</default>
+                <label>Master Bathroom</label>
+            </value>
+            <value>
+                <fullName>Bedroom 1</fullName>
+                <default>false</default>
+                <label>Bedroom 1</label>
+            </value>
+            <value>
+                <fullName>Bedroom 2</fullName>
+                <default>false</default>
+                <label>Bedroom 2</label>
+            </value>
+            <value>
+                <fullName>Bedroom 3</fullName>
+                <default>false</default>
+                <label>Bedroom 3</label>
+            </value>
+            <value>
+                <fullName>Bedroom 4</fullName>
+                <default>false</default>
+                <label>Bedroom 4</label>
+            </value>
+            <value>
+                <fullName>Bath 1</fullName>
+                <default>false</default>
+                <label>Bath 1</label>
+            </value>
+            <value>
+                <fullName>Bath 2</fullName>
+                <default>false</default>
+                <label>Bath 2</label>
+            </value>
+            <value>
+                <fullName>Bath 3</fullName>
+                <default>false</default>
+                <label>Bath 3</label>
+            </value>
+            <value>
+                <fullName>Bath 4</fullName>
+                <default>false</default>
+                <label>Bath 4</label>
+            </value>
+            <value>
+                <fullName>Office</fullName>
+                <default>false</default>
+                <label>Office</label>
+            </value>
+            <value>
+                <fullName>Laundry Room</fullName>
+                <default>false</default>
+                <label>Laundry Room</label>
+            </value>
+            <value>
+                <fullName>Den</fullName>
+                <default>false</default>
+                <label>Den</label>
+            </value>
+            <value>
+                <fullName>Library</fullName>
+                <default>false</default>
+                <label>Library</label>
+            </value>
+            <value>
+                <fullName>Foyer/Vestibule</fullName>
+                <default>false</default>
+                <label>Foyer/Vestibule</label>
+            </value>
+            <value>
+                <fullName>Recreation Room</fullName>
+                <default>false</default>
+                <label>Recreation Room</label>
+            </value>
+            <value>
+                <fullName>Bonus Room</fullName>
+                <default>false</default>
+                <label>Bonus Room</label>
+            </value>
+            <value>
+                <fullName>Attic</fullName>
+                <default>false</default>
+                <label>Attic</label>
+            </value>
+            <value>
+                <fullName>Basement</fullName>
+                <default>false</default>
+                <label>Basement</label>
+            </value>
+            <value>
+                <fullName>Sun Room</fullName>
+                <default>false</default>
+                <label>Sun Room</label>
+            </value>
+            <value>
+                <fullName>Garage</fullName>
+                <default>false</default>
+                <label>Garage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

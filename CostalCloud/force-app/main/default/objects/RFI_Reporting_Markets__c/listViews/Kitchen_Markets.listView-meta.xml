@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kitchen_Markets</fullName>
+    <columns>NAME</columns>
+    <columns>Region__c</columns>
+    <columns>Program__c</columns>
+    <columns>Field_Manager_Kitchen__c</columns>
+    <columns>Division_Admin_Kitchen__c</columns>
+    <columns>Division_Director_Kitchen__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program__c</field>
+        <operation>includes</operation>
+        <value>Kitchens</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>RFI_Reporting_Markets__c.Standard</value>
+    </filters>
+    <label>Kitchen Markets</label>
+</ListView>

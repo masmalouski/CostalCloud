@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_of_Other_WO__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Amount assigned to child work orders that do not fall in the main category of &quot;Electric&quot; or &quot;Plumbing&quot;.</inlineHelpText>
+    <label>Amount of Other WO</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

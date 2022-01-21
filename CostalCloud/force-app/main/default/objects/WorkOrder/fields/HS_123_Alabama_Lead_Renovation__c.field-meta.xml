@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_123_Alabama_Lead_Renovation__c</fullName>
+    <externalId>false</externalId>
+    <label>HS-123 Alabama Lead Renovation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Document_Tracking_Status</valueSetName>
+    </valueSet>
+</CustomField>

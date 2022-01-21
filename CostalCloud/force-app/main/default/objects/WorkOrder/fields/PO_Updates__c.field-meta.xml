@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Updates__c</fullName>
+    <externalId>false</externalId>
+    <label>PO Updates</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chargeback Created</fullName>
+                <default>false</default>
+                <label>Chargeback Created</label>
+            </value>
+            <value>
+                <fullName>Chargeback Needed</fullName>
+                <default>false</default>
+                <label>Chargeback Needed</label>
+            </value>
+            <value>
+                <fullName>Chargeback Review Needed</fullName>
+                <default>false</default>
+                <label>Chargeback Review Needed</label>
+            </value>
+            <value>
+                <fullName>Payment Issue is Resolved</fullName>
+                <default>false</default>
+                <label>Payment Issue is Resolved</label>
+            </value>
+            <value>
+                <fullName>PO Marked as &quot;Canceled&quot; in Client System</fullName>
+                <default>false</default>
+                <label>PO Marked as &quot;Canceled&quot; in Client System</label>
+            </value>
+            <value>
+                <fullName>PO Marked as &quot;Changed&quot; in Client System</fullName>
+                <default>false</default>
+                <label>PO Marked as &quot;Changed&quot; in Client System</label>
+            </value>
+            <value>
+                <fullName>PO Marked as &quot;Key-Rec&apos;ed&quot; in Client System</fullName>
+                <default>false</default>
+                <label>PO Marked as &quot;Key-Rec&apos;ed&quot; in Client System</label>
+            </value>
+            <value>
+                <fullName>PO Marked as &quot;Not Found&quot; in Client System</fullName>
+                <default>false</default>
+                <label>PO Marked as &quot;Not Found&quot; in Client System</label>
+            </value>
+            <value>
+                <fullName>PO Not Marked as &quot;Key-Rec&apos;ed&quot; in Client System</fullName>
+                <default>false</default>
+                <label>PO Not Marked as &quot;Key-Rec&apos;ed&quot; in Client System</label>
+            </value>
+            <value>
+                <fullName>Unapproved Chargeback</fullName>
+                <default>false</default>
+                <label>Unapproved Chargeback</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Changed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Changed</label>
+            </value>
+            <value>
+                <fullName>Key-Rec&apos;ed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Key-Rec&apos;ed</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>Chargeback Created</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>Chargeback Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>Chargeback Review Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>Payment Issue is Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>PO Marked as &quot;Canceled&quot; in Client System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>PO Marked as &quot;Changed&quot; in Client System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>PO Marked as &quot;Key-Rec&apos;ed&quot; in Client System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>PO Marked as &quot;Not Found&quot; in Client System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>PO Not Marked as &quot;Key-Rec&apos;ed&quot; in Client System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>Unapproved Chargeback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exported</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

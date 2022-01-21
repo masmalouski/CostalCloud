@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_measurement_are_you_providing__c</fullName>
+    <externalId>false</externalId>
+    <label>What measurement are you providing?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Existing Unit Size</fullName>
+                <default>false</default>
+                <label>Existing Unit Size</label>
+            </value>
+            <value>
+                <fullName>Recommended Unit Size</fullName>
+                <default>false</default>
+                <label>Recommended Unit Size</label>
+            </value>
+            <value>
+                <fullName>Rough Opening</fullName>
+                <default>false</default>
+                <label>Rough Opening</label>
+            </value>
+            <value>
+                <fullName>Sheetrock Opening</fullName>
+                <default>false</default>
+                <label>Sheetrock Opening</label>
+            </value>
+            <value>
+                <fullName>Cased Opening</fullName>
+                <default>false</default>
+                <label>Cased Opening</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

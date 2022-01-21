@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>WO_Integration_Client_Type__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Integration_Key_Custom_Product__c</columns>
+    <columns>Store_No__c</columns>
+    <columns>PO_Number__c</columns>
+    <columns>Reference_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

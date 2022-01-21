@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attachment_Files_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Type__c , &quot;Pre-Ren&quot;) , &quot;THD - Pre-Ren - 105&quot;,
+IF(ISPICKVAL(Type__c , &quot;Checklist&quot;) , &quot;THD - Checklist - 115&quot;,
+IF(ISPICKVAL(Type__c , &apos;LTE&apos;) , &quot;THD - LTE - 118&quot;,
+IF(ISPICKVAL(Type__c , &apos;LTR&apos;) , &quot;THD - LTR - 119&quot;,
+IF(ISPICKVAL(Type__c , &apos;ICA&apos;) , &quot;THD - ICA - 329&quot;,
+IF(ISPICKVAL(Type__c , &apos;Measure&apos;) , &quot;THD - Measure - 333&quot;,
+IF(ISPICKVAL(Type__c , &apos;LTE Proof&apos;) , &quot;THD - LTE Proof&quot;,
+IF(ISPICKVAL(Type__c , &apos;State RRP Form - Rhode Island&apos;) , &quot;THD - Rhode Island - 125&quot;,
+IF(ISPICKVAL(Type__c , &apos;State RRP Form - Alabama&apos;) , &quot;THD - Alabama - 123&quot;,
+IF(ISPICKVAL(Type__c , &apos;State RRP Form - Wash DC&apos;) , &quot;THD - Wash DC - 128&quot;,
+IF(ISPICKVAL(Type__c , &apos;State RRP Form - Mississippi&apos;) , &quot;THD - Mississippi - 124&quot;,
+IF(ISPICKVAL(Type__c , &apos;Change Order&apos;) , &quot;THD - Change Order - 110&quot;,
+IF(ISPICKVAL(Type__c , &apos;Permit&apos;) , &quot;THD - Permit&quot;,
+IF(ISPICKVAL(Type__c , &apos;Permit Waiver&apos;) , &quot;THD - Permit Waiver - 307&quot;,
+IF(ISPICKVAL(Type__c , &apos;Wind Storm&apos;) , &quot;THD - Wind Storm&quot;,
+IF(ISPICKVAL(Type__c , &apos;Changed PO&apos;) , &quot;Changed PO&quot;,
+IF(ISPICKVAL(Type__c , &apos;MP/CB Approval&apos;) , &quot;MP/CB Approval&quot;,
+IF(ISPICKVAL(Type__c , &apos;MP/CB Request&apos;) , &quot;MP/CB Request&quot;,
+IF(ISPICKVAL(Type__c , &apos;DDR&apos;) , &quot;DDR&quot;,
+IF(ISPICKVAL(Type__c , &apos;Design&apos;) , &quot;Design&quot;,
+IF(ISPICKVAL(Type__c , &apos;12G&apos;) , &quot;12G&quot;,
+IF(ISPICKVAL(Type__c , &apos;KPW (Labor Bid)&apos;) , &quot;KPW (Labor Bid)&quot;,
+IF(ISPICKVAL(Type__c , &apos;Reduced PO&apos;) , &quot;Reduced PO&quot;,
+IF(ISPICKVAL(Type__c , &apos;Service Report&apos;) , &quot;Service Report&quot;,
+
+&apos;&apos;))))))))))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Attachment/Files Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

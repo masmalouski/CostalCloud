@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Notes_to_Acknowledge__c</fullName>
+    <externalId>false</externalId>
+    <label>PO Notes to Acknowledge</label>
+    <summaryFilterItems>
+        <field>PO_Notes__c.Acknowledged_Read__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>PO_Notes__c.Work_Order__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

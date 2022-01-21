@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Updated_ETA_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+
+  ISCHANGED( Installer_Action__c ) ,
+
+  ISBLANK( Updated_ETA__c ),
+
+  OR(
+  ISPICKVAL( Installer_Action__c , &quot;Product Not Available&quot;),
+  ISPICKVAL( Installer_Action__c , &quot;Product Delayed&quot;),
+  ISPICKVAL( Installer_Action__c , &quot;Product Damaged/Defective&quot;),
+  ISPICKVAL( Installer_Action__c , &quot;Product Incorrect&quot;)
+  )
+
+)</errorConditionFormula>
+    <errorMessage>Updated ETA required.</errorMessage>
+</ValidationRule>

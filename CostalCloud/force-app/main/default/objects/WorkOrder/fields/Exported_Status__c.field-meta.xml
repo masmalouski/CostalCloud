@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exported_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Exported Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chargeback Needed</fullName>
+                <default>false</default>
+                <label>Chargeback Needed</label>
+            </value>
+            <value>
+                <fullName>Unapproved Chargeback</fullName>
+                <default>false</default>
+                <label>Unapproved Chargeback</label>
+            </value>
+            <value>
+                <fullName>Chargeback Review Needed</fullName>
+                <default>false</default>
+                <label>Chargeback Review Needed</label>
+            </value>
+            <value>
+                <fullName>Chargeback Created</fullName>
+                <default>false</default>
+                <label>Chargeback Created</label>
+            </value>
+            <value>
+                <fullName>Payment Issue is Resolved</fullName>
+                <default>false</default>
+                <label>Payment Issue is Resolved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

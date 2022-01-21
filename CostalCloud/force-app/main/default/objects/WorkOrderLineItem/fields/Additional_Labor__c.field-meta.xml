@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Labor__c</fullName>
+    <externalId>false</externalId>
+    <label>Additional Labor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Basic_Line__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Board Up Charge (Labor Only)</fullName>
+                <default>false</default>
+                <label>Board Up Charge (Labor Only)</label>
+            </value>
+            <value>
+                <fullName>Cut Away From Existing Transom (Jobsite Quote, Enter QTY Needed)</fullName>
+                <default>false</default>
+                <label>Cut Away From Existing Transom (Jobsite Quote, Enter QTY Needed)</label>
+            </value>
+            <value>
+                <fullName>Cut Back Base (Extensive, Multi‐Layered)</fullName>
+                <default>false</default>
+                <label>Cut Back Base (Extensive, Multi‐Layered)</label>
+            </value>
+            <value>
+                <fullName>Cut Back Flooring (Carpet)</fullName>
+                <default>false</default>
+                <label>Cut Back Flooring (Carpet)</label>
+            </value>
+            <value>
+                <fullName>Cut Back Flooring (Wood)</fullName>
+                <default>false</default>
+                <label>Cut Back Flooring (Wood)</label>
+            </value>
+            <value>
+                <fullName>Cut Back Flooring (Tile)</fullName>
+                <default>false</default>
+                <label>Cut Back Flooring (Tile)</label>
+            </value>
+            <value>
+                <fullName>Cut Back Sheetrock/Paneling Return/Plaster Return</fullName>
+                <default>false</default>
+                <label>Cut Back Sheetrock/Paneling Return/Plaster Return</label>
+            </value>
+            <value>
+                <fullName>Cut Back Siding</fullName>
+                <default>false</default>
+                <label>Cut Back Siding</label>
+            </value>
+            <value>
+                <fullName>Door Flashing / Water Deterrent Membrane</fullName>
+                <default>false</default>
+                <label>Door Flashing / Water Deterrent Membrane</label>
+            </value>
+            <value>
+                <fullName>Drip Cap / Head Flashing</fullName>
+                <default>false</default>
+                <label>Drip Cap / Head Flashing</label>
+            </value>
+            <value>
+                <fullName>Electronic / Baldwin Lockset (ea) (Customer Responsible for Programing)</fullName>
+                <default>false</default>
+                <label>Electronic / Baldwin Lockset (ea) (Customer Responsible for Programing)</label>
+            </value>
+            <value>
+                <fullName>Equipment Rental (Jobsite Quote, Enter QTY Needed)</fullName>
+                <default>false</default>
+                <label>Equipment Rental (Jobsite Quote, Enter QTY Needed)</label>
+            </value>
+            <value>
+                <fullName>Fabricate Interior Returns</fullName>
+                <default>false</default>
+                <label>Fabricate Interior Returns</label>
+            </value>
+            <value>
+                <fullName>Fire Rated Door Install</fullName>
+                <default>false</default>
+                <label>Fire Rated Door Install</label>
+            </value>
+            <value>
+                <fullName>Full Aluminum Wrap ‐ Double (In‐Stock Colors)</fullName>
+                <default>false</default>
+                <label>Full Aluminum Wrap ‐ Double (In‐Stock Colors)</label>
+            </value>
+            <value>
+                <fullName>Full Aluminum Wrap ‐ Single (In‐Stock Colors)</fullName>
+                <default>false</default>
+                <label>Full Aluminum Wrap ‐ Single (In‐Stock Colors)</label>
+            </value>
+            <value>
+                <fullName>Full Aluminum Wrap ‐ Unit with Sidelights (In‐Stock Colors)</fullName>
+                <default>false</default>
+                <label>Full Aluminum Wrap ‐ Unit with Sidelights (In‐Stock Colors)</label>
+            </value>
+            <value>
+                <fullName>Full Capping W / AZAK (Brickmold, 1X and Jamb)</fullName>
+                <default>false</default>
+                <label>Full Capping W / AZAK (Brickmold, 1X and Jamb)</label>
+            </value>
+            <value>
+                <fullName>Install Into Block/Masonry Opening</fullName>
+                <default>false</default>
+                <label>Install Into Block/Masonry Opening</label>
+            </value>
+            <value>
+                <fullName>Modify Masonry Opening or True Brick Opening (Jobsite Quote, Enter QTY Needed)</fullName>
+                <default>false</default>
+                <label>Modify Masonry Opening or True Brick Opening (Jobsite Quote, Enter QTY Needed)</label>
+            </value>
+            <value>
+                <fullName>Modify Rough Opening to Accommodate Door Unit, 3&quot; Max (Labor Only)</fullName>
+                <default>false</default>
+                <label>Modify Rough Opening to Accommodate Door Unit, 3&quot; Max (Labor Only)</label>
+            </value>
+            <value>
+                <fullName>Reinstall Standard Doorbell</fullName>
+                <default>false</default>
+                <label>Reinstall Standard Doorbell</label>
+            </value>
+            <value>
+                <fullName>Re‐Use Basic Existing Trim/Casing on Exterior</fullName>
+                <default>false</default>
+                <label>Re‐Use Basic Existing Trim/Casing on Exterior</label>
+            </value>
+            <value>
+                <fullName>Re‐Use Bsaic Existing Trim/Casing on Interior</fullName>
+                <default>false</default>
+                <label>Re‐Use Bsaic Existing Trim/Casing on Interior</label>
+            </value>
+            <value>
+                <fullName>Sill Pan Installation - up to 38&quot;</fullName>
+                <default>false</default>
+                <label>Sill Pan Installation - up to 38&quot;</label>
+            </value>
+            <value>
+                <fullName>Slab Cut (Exterior Only, Unfinished Wood Only)</fullName>
+                <default>false</default>
+                <label>Slab Cut (Exterior Only, Unfinished Wood Only)</label>
+            </value>
+            <value>
+                <fullName>Sub‐Floor Work (Labor Only ‐ Jobsite Quote, Enter QTY Needed)</fullName>
+                <default>false</default>
+                <label>Sub‐Floor Work (Labor Only ‐ Jobsite Quote, Enter QTY Needed)</label>
+            </value>
+            <value>
+                <fullName>Threshold Support (Wood/Concrete/PVC/Cedar)</fullName>
+                <default>false</default>
+                <label>Threshold Support (Wood/Concrete/PVC/Cedar)</label>
+            </value>
+            <value>
+                <fullName>Windstorm Install - Single</fullName>
+                <default>false</default>
+                <label>Windstorm Install - Single</label>
+            </value>
+            <value>
+                <fullName>Move/Replace J‐Chanel (Per Side)</fullName>
+                <default>false</default>
+                <label>Move/Replace J‐Chanel (Per Side)</label>
+            </value>
+            <value>
+                <fullName>Equipment Rental (Jobsite Quote, Enter QTY Needed, 1Per)</fullName>
+                <default>false</default>
+                <label>Equipment Rental (Jobsite Quote, Enter QTY Needed, 1Per)</label>
+            </value>
+            <value>
+                <fullName>Exterior Upstairs Fee (Over 3rd Floor ‐ Jobsite Quote, Enter QTY Needed)</fullName>
+                <default>false</default>
+                <label>Exterior Upstairs Fee (Over 3rd Floor ‐ Jobsite Quote, Enter QTY Needed)</label>
+            </value>
+            <value>
+                <fullName>Full Aluminum Wrap ‐ Patio (In‐Stock Colors)</fullName>
+                <default>false</default>
+                <label>Full Aluminum Wrap ‐ Patio (In‐Stock Colors)</label>
+            </value>
+            <value>
+                <fullName>Full Aluminum Wrap - Patio with Sidelites (In-Stock Colors)</fullName>
+                <default>false</default>
+                <label>Full Aluminum Wrap - Patio with Sidelites (In-Stock Colors)</label>
+            </value>
+            <value>
+                <fullName>Mulling Charge (Addl Fixed Panel, Per Panel)</fullName>
+                <default>false</default>
+                <label>Mulling Charge (Addl Fixed Panel, Per Panel)</label>
+            </value>
+            <value>
+                <fullName>Re‐Use Basic Existing Trim/Casing on Interior</fullName>
+                <default>false</default>
+                <label>Re‐Use Basic Existing Trim/Casing on Interior</label>
+            </value>
+            <value>
+                <fullName>Sill Pan Installation - Between 38&quot; and 75&quot;</fullName>
+                <default>false</default>
+                <label>Sill Pan Installation - Between 38&quot; and 75&quot;</label>
+            </value>
+            <value>
+                <fullName>Sill Pan Installation - Over 75&quot;</fullName>
+                <default>false</default>
+                <label>Sill Pan Installation - Over 75&quot;</label>
+            </value>
+            <value>
+                <fullName>Transition Strip between Door Sill and Flooring (Labor Only)</fullName>
+                <default>false</default>
+                <label>Transition Strip between Door Sill and Flooring (Labor Only)</label>
+            </value>
+            <value>
+                <fullName>Windstorm Install - Double/Patio</fullName>
+                <default>false</default>
+                <label>Windstorm Install - Double/Patio</label>
+            </value>
+            <value>
+                <fullName>Windstorm Install - Oversized Door</fullName>
+                <default>false</default>
+                <label>Windstorm Install - Oversized Door</label>
+            </value>
+            <value>
+                <fullName>Bi-Pass/Bi-Fold over 74&quot; width or over 96&quot; height</fullName>
+                <default>false</default>
+                <label>Bi-Pass/Bi-Fold over 74&quot; width or over 96&quot; height</label>
+            </value>
+            <value>
+                <fullName>Upstairs charge (Over 3rd Floor, Jobsite Quote, Enter QTY Needed)</fullName>
+                <default>false</default>
+                <label>Upstairs charge (Over 3rd Floor, Jobsite Quote, Enter QTY Needed)</label>
+            </value>
+            <value>
+                <fullName>Scribe/Cut Slab to fit Out Of Square Opening</fullName>
+                <default>false</default>
+                <label>Scribe/Cut Slab to fit Out Of Square Opening</label>
+            </value>
+            <value>
+                <fullName>Bore Slab for Lockset, Per Slab</fullName>
+                <default>false</default>
+                <label>Bore Slab for Lockset, Per Slab</label>
+            </value>
+            <value>
+                <fullName>Prep Slab for Hinges, Per Slab</fullName>
+                <default>false</default>
+                <label>Prep Slab for Hinges, Per Slab</label>
+            </value>
+            <value>
+                <fullName>Additional Hardware (Excluding Lockset/Hinges)</fullName>
+                <default>false</default>
+                <label>Additional Hardware (Excluding Lockset/Hinges)</label>
+            </value>
+            <value>
+                <fullName>Replace Steel Frame with Wood Jamb</fullName>
+                <default>false</default>
+                <label>Replace Steel Frame with Wood Jamb</label>
+            </value>
+            <value>
+                <fullName>Cut back Plaster/Sheetrock Returns</fullName>
+                <default>false</default>
+                <label>Cut back Plaster/Sheetrock Returns</label>
+            </value>
+            <value>
+                <fullName>Threshold Extension (Labor Only)</fullName>
+                <default>false</default>
+                <label>Threshold Extension (Labor Only)</label>
+            </value>
+            <value>
+                <fullName>Threshold Extension plus sill support (Labor Only)</fullName>
+                <default>false</default>
+                <label>Threshold Extension plus sill support (Labor Only)</label>
+            </value>
+            <value>
+                <fullName>Modify Opening to Accommodate Door Unit, 1&quot; Max (Labor Only)</fullName>
+                <default>false</default>
+                <label>Modify Opening to Accommodate Door Unit, 1&quot; Max (Labor Only)</label>
+            </value>
+            <value>
+                <fullName>Modify Opening to Accommodate Door Unit, Over 1&quot; up to 4&quot; Max (Labor Only)</fullName>
+                <default>false</default>
+                <label>Modify Opening to Accommodate Door Unit, Over 1&quot; up to 4&quot; Max (Labor Only)</label>
+            </value>
+            <value>
+                <fullName>Drill into concrete for double storm door installs</fullName>
+                <default>false</default>
+                <label>Drill into concrete for double storm door installs</label>
+            </value>
+            <value>
+                <fullName>Install T-astragal kit for double storm door</fullName>
+                <default>false</default>
+                <label>Install T-astragal kit for double storm door</label>
+            </value>
+            <value>
+                <fullName>Remove old security door with one way screws</fullName>
+                <default>false</default>
+                <label>Remove old security door with one way screws</label>
+            </value>
+            <value>
+                <fullName>Install New Brickmold</fullName>
+                <default>false</default>
+                <label>Install New Brickmold</label>
+            </value>
+            <value>
+                <fullName>Door closer (when closer sold separately, Labor Only)</fullName>
+                <default>false</default>
+                <label>Door closer (when closer sold separately, Labor Only)</label>
+            </value>
+            <value>
+                <fullName>TiteSeal Kit Labor Only</fullName>
+                <default>false</default>
+                <label>TiteSeal Kit Labor Only</label>
+            </value>
+            <value>
+                <fullName>Cut back return - Up to 102 U.I.</fullName>
+                <default>false</default>
+                <label>Cut back return - Up to 102 U.I.</label>
+            </value>
+            <value>
+                <fullName>Cut back return - Between 102 U.I and 132 U.I.</fullName>
+                <default>false</default>
+                <label>Cut back return - Between 102 U.I and 132 U.I.</label>
+            </value>
+            <value>
+                <fullName>Impact Fee - Up to 102 U.I.</fullName>
+                <default>false</default>
+                <label>Impact Fee - Up to 102 U.I.</label>
+            </value>
+            <value>
+                <fullName>Impact Fee - Between 102 U.I and 132 U.I.</fullName>
+                <default>false</default>
+                <label>Impact Fee - Between 102 U.I and 132 U.I.</label>
+            </value>
+            <value>
+                <fullName>Install Exterior Header Trim - Up to 102 U.I.</fullName>
+                <default>false</default>
+                <label>Install Exterior Header Trim - Up to 102 U.I.</label>
+            </value>
+            <value>
+                <fullName>Install Exterior Header Trim - Between 102 U.I and 132 U.I.</fullName>
+                <default>false</default>
+                <label>Install Exterior Header Trim - Between 102 U.I and 132 U.I.</label>
+            </value>
+            <value>
+                <fullName>Quarter Roung Interior - Up to 102 U.I.</fullName>
+                <default>false</default>
+                <label>Quarter Roung Interior - Up to 102 U.I.</label>
+            </value>
+            <value>
+                <fullName>Quarter Roung Interior - Between 102 U.I and 132 U.I.</fullName>
+                <default>false</default>
+                <label>Quarter Roung Interior - Between 102 U.I and 132 U.I.</label>
+            </value>
+            <value>
+                <fullName>Retrim Exterior - Up to 102 U.I.</fullName>
+                <default>false</default>
+                <label>Retrim Exterior - Up to 102 U.I.</label>
+            </value>
+            <value>
+                <fullName>Retrim Exterior - Between 102 U.I and 132 U.I.</fullName>
+                <default>false</default>
+                <label>Retrim Exterior - Between 102 U.I and 132 U.I.</label>
+            </value>
+            <value>
+                <fullName>Upstairs Fee (Non-Impact) - Up to 102 U.I.</fullName>
+                <default>false</default>
+                <label>Upstairs Fee (Non-Impact) - Up to 102 U.I.</label>
+            </value>
+            <value>
+                <fullName>Upstairs Fee (Non-Impact) - Between 102 U.I and 132 U.I.</fullName>
+                <default>false</default>
+                <label>Upstairs Fee (Non-Impact) - Between 102 U.I and 132 U.I.</label>
+            </value>
+            <value>
+                <fullName>Windstorm Install - Over 132 U.I.</fullName>
+                <default>false</default>
+                <label>Windstorm Install - Over 132 U.I.</label>
+            </value>
+            <value>
+                <fullName>Windstorm Install - Between 102 U.I and 132 U.I.</fullName>
+                <default>false</default>
+                <label>Windstorm Install - Between 102 U.I and 132 U.I.</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>14</controllingFieldValue>
+            <controllingFieldValue>15</controllingFieldValue>
+            <controllingFieldValue>16</controllingFieldValue>
+            <controllingFieldValue>17</controllingFieldValue>
+            <controllingFieldValue>18</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Upstairs charge (Over 3rd Floor, Jobsite Quote, Enter QTY Needed)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Threshold Extension (Labor Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Threshold Extension plus sill support (Labor Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Modify Opening to Accommodate Door Unit, 1&quot; Max (Labor Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Modify Opening to Accommodate Door Unit, Over 1&quot; up to 4&quot; Max (Labor Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Drill into concrete for double storm door installs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Install T-astragal kit for double storm door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Remove old security door with one way screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Install New Brickmold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Door closer (when closer sold separately, Labor Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <controllingFieldValue>13</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>TiteSeal Kit Labor Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Cut back return - Up to 102 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Cut back return - Between 102 U.I and 132 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Impact Fee - Up to 102 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Impact Fee - Between 102 U.I and 132 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Install Exterior Header Trim - Up to 102 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Install Exterior Header Trim - Between 102 U.I and 132 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Quarter Roung Interior - Up to 102 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Quarter Roung Interior - Between 102 U.I and 132 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Retrim Exterior - Up to 102 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Retrim Exterior - Between 102 U.I and 132 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Upstairs Fee (Non-Impact) - Up to 102 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Upstairs Fee (Non-Impact) - Between 102 U.I and 132 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Windstorm Install - Over 132 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Windstorm Install - Between 102 U.I and 132 U.I.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>14</controllingFieldValue>
+            <controllingFieldValue>15</controllingFieldValue>
+            <controllingFieldValue>16</controllingFieldValue>
+            <controllingFieldValue>17</controllingFieldValue>
+            <controllingFieldValue>18</controllingFieldValue>
+            <valueName>Scribe/Cut Slab to fit Out Of Square Opening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>14</controllingFieldValue>
+            <controllingFieldValue>15</controllingFieldValue>
+            <controllingFieldValue>16</controllingFieldValue>
+            <controllingFieldValue>17</controllingFieldValue>
+            <controllingFieldValue>18</controllingFieldValue>
+            <valueName>Bore Slab for Lockset, Per Slab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>14</controllingFieldValue>
+            <controllingFieldValue>15</controllingFieldValue>
+            <controllingFieldValue>16</controllingFieldValue>
+            <controllingFieldValue>17</controllingFieldValue>
+            <controllingFieldValue>18</controllingFieldValue>
+            <valueName>Prep Slab for Hinges, Per Slab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>14</controllingFieldValue>
+            <controllingFieldValue>15</controllingFieldValue>
+            <controllingFieldValue>16</controllingFieldValue>
+            <controllingFieldValue>17</controllingFieldValue>
+            <controllingFieldValue>18</controllingFieldValue>
+            <valueName>Additional Hardware (Excluding Lockset/Hinges)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>14</controllingFieldValue>
+            <controllingFieldValue>15</controllingFieldValue>
+            <controllingFieldValue>16</controllingFieldValue>
+            <controllingFieldValue>17</controllingFieldValue>
+            <controllingFieldValue>18</controllingFieldValue>
+            <valueName>Replace Steel Frame with Wood Jamb</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>14</controllingFieldValue>
+            <controllingFieldValue>15</controllingFieldValue>
+            <controllingFieldValue>16</controllingFieldValue>
+            <controllingFieldValue>17</controllingFieldValue>
+            <controllingFieldValue>18</controllingFieldValue>
+            <valueName>Cut back Plaster/Sheetrock Returns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Board Up Charge (Labor Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Cut Away From Existing Transom (Jobsite Quote, Enter QTY Needed)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Cut Back Base (Extensive, Multi‐Layered)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Cut Back Flooring (Carpet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Cut Back Flooring (Wood)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Cut Back Flooring (Tile)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Cut Back Sheetrock/Paneling Return/Plaster Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Cut Back Siding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Door Flashing / Water Deterrent Membrane</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Drip Cap / Head Flashing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Electronic / Baldwin Lockset (ea) (Customer Responsible for Programing)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Equipment Rental (Jobsite Quote, Enter QTY Needed)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Fabricate Interior Returns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Fire Rated Door Install</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Full Aluminum Wrap ‐ Double (In‐Stock Colors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Full Aluminum Wrap ‐ Single (In‐Stock Colors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Full Aluminum Wrap ‐ Unit with Sidelights (In‐Stock Colors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Full Capping W / AZAK (Brickmold, 1X and Jamb)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Install Into Block/Masonry Opening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Modify Masonry Opening or True Brick Opening (Jobsite Quote, Enter QTY Needed)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Modify Rough Opening to Accommodate Door Unit, 3&quot; Max (Labor Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Reinstall Standard Doorbell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Re‐Use Basic Existing Trim/Casing on Exterior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Re‐Use Bsaic Existing Trim/Casing on Interior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Sill Pan Installation - up to 38&quot;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Slab Cut (Exterior Only, Unfinished Wood Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Sub‐Floor Work (Labor Only ‐ Jobsite Quote, Enter QTY Needed)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Threshold Support (Wood/Concrete/PVC/Cedar)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>8</controllingFieldValue>
+            <valueName>Windstorm Install - Single</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Move/Replace J‐Chanel (Per Side)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Equipment Rental (Jobsite Quote, Enter QTY Needed, 1Per)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Exterior Upstairs Fee (Over 3rd Floor ‐ Jobsite Quote, Enter QTY Needed)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Full Aluminum Wrap ‐ Patio (In‐Stock Colors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Full Aluminum Wrap - Patio with Sidelites (In-Stock Colors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Mulling Charge (Addl Fixed Panel, Per Panel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Re‐Use Basic Existing Trim/Casing on Interior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Sill Pan Installation - Between 38&quot; and 75&quot;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Sill Pan Installation - Over 75&quot;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Transition Strip between Door Sill and Flooring (Labor Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Windstorm Install - Double/Patio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <controllingFieldValue>5</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>9</controllingFieldValue>
+            <valueName>Windstorm Install - Oversized Door</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

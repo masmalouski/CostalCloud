@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_type_are_you_measuring_for__c</fullName>
+    <externalId>false</externalId>
+    <label>What type are you measuring for?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>What_type_of_measure_is_this__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prehung Unit</fullName>
+                <default>false</default>
+                <label>Prehung Unit</label>
+            </value>
+            <value>
+                <fullName>Sliding</fullName>
+                <default>false</default>
+                <label>Sliding</label>
+            </value>
+            <value>
+                <fullName>Slab Only</fullName>
+                <default>false</default>
+                <label>Slab Only</label>
+            </value>
+            <value>
+                <fullName>Iron Door</fullName>
+                <default>false</default>
+                <label>Iron Door</label>
+            </value>
+            <value>
+                <fullName>Folding Door</fullName>
+                <default>false</default>
+                <label>Folding Door</label>
+            </value>
+            <value>
+                <fullName>Barn Door</fullName>
+                <default>false</default>
+                <label>Barn Door</label>
+            </value>
+            <value>
+                <fullName>Bi-Fold Door</fullName>
+                <default>false</default>
+                <label>Bi-Fold Door</label>
+            </value>
+            <value>
+                <fullName>Bi-Pass Door</fullName>
+                <default>false</default>
+                <label>Bi-Pass Door</label>
+            </value>
+            <value>
+                <fullName>Pocket Door</fullName>
+                <default>false</default>
+                <label>Pocket Door</label>
+            </value>
+            <value>
+                <fullName>Murphy Door</fullName>
+                <default>false</default>
+                <label>Murphy Door</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Exterior</controllingFieldValue>
+            <controllingFieldValue>Interior</controllingFieldValue>
+            <valueName>Prehung Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exterior</controllingFieldValue>
+            <valueName>Sliding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exterior</controllingFieldValue>
+            <controllingFieldValue>Interior</controllingFieldValue>
+            <valueName>Slab Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exterior</controllingFieldValue>
+            <valueName>Iron Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exterior</controllingFieldValue>
+            <valueName>Folding Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interior</controllingFieldValue>
+            <valueName>Barn Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interior</controllingFieldValue>
+            <valueName>Bi-Fold Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interior</controllingFieldValue>
+            <valueName>Bi-Pass Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interior</controllingFieldValue>
+            <valueName>Pocket Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interior</controllingFieldValue>
+            <valueName>Murphy Door</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

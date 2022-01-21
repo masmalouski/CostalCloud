@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Work_Orders_Blinds_BDC</fullName>
+    <columns>Name</columns>
+    <columns>Type__c</columns>
+    <columns>Blinds_Job_ID__c</columns>
+    <columns>Account</columns>
+    <columns>Client_Store__c</columns>
+    <columns>Installer__c</columns>
+    <columns>Status</columns>
+    <columns>Sub_Status__c</columns>
+    <columns>Job_Category__c</columns>
+    <columns>Program__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>Integration_Key_WorkOrder__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Integration_Key_WorkOrder__c</field>
+        <operation>startsWith</operation>
+        <value>BDC</value>
+    </filters>
+    <label>All Work Orders - Blinds - BDC</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Automated_Note_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Updated by flow based on status/sub-status changes</inlineHelpText>
+    <label>Automated Note Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Not Ready, will call RFI when ready to scheduled</fullName>
+                <default>false</default>
+                <label>Customer Not Ready, will call RFI when ready to scheduled</label>
+            </value>
+            <value>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+                <label>Left Message</label>
+            </value>
+            <value>
+                <fullName>Needing Customer Contact FollowUp</fullName>
+                <default>false</default>
+                <label>Needing Customer Contact FollowUp</label>
+            </value>
+            <value>
+                <fullName>New PO created Manually</fullName>
+                <default>false</default>
+                <label>New PO created Manually</label>
+            </value>
+            <value>
+                <fullName>New PO downloaded from Integration</fullName>
+                <default>false</default>
+                <label>New PO downloaded from Integration</label>
+            </value>
+            <value>
+                <fullName>Pending Document Review</fullName>
+                <default>false</default>
+                <label>Pending Document Review</label>
+            </value>
+            <value>
+                <fullName>PO Assigned to Wrong Installer</fullName>
+                <default>false</default>
+                <label>PO Assigned to Wrong Installer</label>
+            </value>
+            <value>
+                <fullName>Product Damaged/Defective</fullName>
+                <default>false</default>
+                <label>Product Damaged/Defective</label>
+            </value>
+            <value>
+                <fullName>Product Delayed</fullName>
+                <default>false</default>
+                <label>Product Delayed</label>
+            </value>
+            <value>
+                <fullName>Product Incorrect</fullName>
+                <default>false</default>
+                <label>Product Incorrect</label>
+            </value>
+            <value>
+                <fullName>Product Not Available</fullName>
+                <default>false</default>
+                <label>Product Not Available</label>
+            </value>
+            <value>
+                <fullName>Product Received</fullName>
+                <default>false</default>
+                <label>Product Received</label>
+            </value>
+            <value>
+                <fullName>Questions//concerns on PO</fullName>
+                <default>false</default>
+                <label>Questions//concerns on PO</label>
+            </value>
+            <value>
+                <fullName>Schedule Date sent to Home Depot</fullName>
+                <default>false</default>
+                <label>Schedule Date sent to Home Depot</label>
+            </value>
+            <value>
+                <fullName>Store assistance needed</fullName>
+                <default>false</default>
+                <label>Store assistance needed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

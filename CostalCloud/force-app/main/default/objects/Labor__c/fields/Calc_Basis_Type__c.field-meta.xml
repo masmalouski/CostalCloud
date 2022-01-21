@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calc_Basis_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Calc Basis Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Additional Miles</fullName>
+                <default>false</default>
+                <label>Additional Miles</label>
+            </value>
+            <value>
+                <fullName>Additional Service</fullName>
+                <default>false</default>
+                <label>Additional Service</label>
+            </value>
+            <value>
+                <fullName>Delivery Fee</fullName>
+                <default>false</default>
+                <label>Delivery Fee</label>
+            </value>
+            <value>
+                <fullName>Parking/ Toll</fullName>
+                <default>false</default>
+                <label>Parking/ Toll</label>
+            </value>
+            <value>
+                <fullName>RRP Fee</fullName>
+                <default>false</default>
+                <label>RRP Fee</label>
+            </value>
+            <value>
+                <fullName>Trip Charge</fullName>
+                <default>false</default>
+                <label>Trip Charge</label>
+            </value>
+            <value>
+                <fullName>Avera Product</fullName>
+                <default>false</default>
+                <label>Avera Product</label>
+            </value>
+            <value>
+                <fullName>elfa Product</fullName>
+                <default>false</default>
+                <label>elfa Product</label>
+            </value>
+            <value>
+                <fullName>TCS Closets Product</fullName>
+                <default>false</default>
+                <label>TCS Closets Product</label>
+            </value>
+            <value>
+                <fullName>Installer Site Visit</fullName>
+                <default>false</default>
+                <label>Installer Site Visit</label>
+            </value>
+            <value>
+                <fullName>Measure</fullName>
+                <default>false</default>
+                <label>Measure</label>
+            </value>
+            <value>
+                <fullName>Service Order</fullName>
+                <default>false</default>
+                <label>Service Order</label>
+            </value>
+            <value>
+                <fullName>TCS Closets Install</fullName>
+                <default>false</default>
+                <label>TCS Closets Install</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Additional Labor</fullName>
+                <default>false</default>
+                <label>Additional Labor</label>
+            </value>
+            <value>
+                <fullName>Additional Mileage</fullName>
+                <default>false</default>
+                <label>Additional Mileage</label>
+            </value>
+            <value>
+                <fullName>Basic</fullName>
+                <default>false</default>
+                <label>Basic</label>
+            </value>
+            <value>
+                <fullName>Custom Installs</fullName>
+                <default>false</default>
+                <label>Custom Installs</label>
+            </value>
+            <value>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+                <label>Engineer</label>
+            </value>
+            <value>
+                <fullName>Optional Installs</fullName>
+                <default>false</default>
+                <label>Optional Installs</label>
+            </value>
+            <value>
+                <fullName>Permits</fullName>
+                <default>false</default>
+                <label>Permits</label>
+            </value>
+            <value>
+                <fullName>Reduced Labor</fullName>
+                <default>false</default>
+                <label>Reduced Labor</label>
+            </value>
+            <value>
+                <fullName>Trip Charge</fullName>
+                <default>false</default>
+                <label>Trip Charge</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Optional_Labor_Total_Cost__c</fullName>
+    <description>Verified field values 6/30/2021</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Pulls from Labor line Extended Cost Field</inlineHelpText>
+    <label>Optional Labor Total Cost</label>
+    <summarizedField>Labor__c.Extended_Cost__c</summarizedField>
+    <summaryFilterItems>
+        <field>Labor__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Optional Installs</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Labor__c.Work_Order__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

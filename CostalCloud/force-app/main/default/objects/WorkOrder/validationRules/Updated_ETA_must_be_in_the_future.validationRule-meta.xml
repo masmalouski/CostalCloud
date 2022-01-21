@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Updated_ETA_must_be_in_the_future</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+ISCHANGED(Updated_ETA__c), 
+Updated_ETA__c &lt; TODAY()
+)</errorConditionFormula>
+    <errorMessage>The expected ETA for products must be in the future, cannot be in the past.</errorMessage>
+</ValidationRule>

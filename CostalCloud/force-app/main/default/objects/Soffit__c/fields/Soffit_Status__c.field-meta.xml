@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Soffit_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Soffit Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Soffits are Staying</fullName>
+                <default>false</default>
+                <label>Soffits are Staying</label>
+            </value>
+            <value>
+                <fullName>Customer is Removing</fullName>
+                <default>false</default>
+                <label>Customer is Removing</label>
+            </value>
+            <value>
+                <fullName>Installer is Removing</fullName>
+                <default>false</default>
+                <label>Installer is Removing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

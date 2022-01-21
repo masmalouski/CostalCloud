@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFI_Note</fullName>
+    <active>true</active>
+    <label>RFI Note</label>
+    <picklistValues>
+        <picklist>Automated_Note_Type__c</picklist>
+        <values>
+            <fullName>Customer Not Ready%2C will call RFI when ready to scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needing Customer Contact FollowUp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New PO created Manually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New PO downloaded from Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Assigned to Wrong Installer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Document Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Damaged%2FDefective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Incorrect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Not Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questions%2F%2Fconcerns on PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule Date sent to Home Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store assistance needed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

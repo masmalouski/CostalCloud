@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unscheduled_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Unscheduled Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Delayed</fullName>
+                <default>false</default>
+                <label>Product Delayed</label>
+            </value>
+            <value>
+                <fullName>Product Damaged/Defective</fullName>
+                <default>false</default>
+                <label>Product Damaged/Defective</label>
+            </value>
+            <value>
+                <fullName>Product Incorrect</fullName>
+                <default>false</default>
+                <label>Product Incorrect</label>
+            </value>
+            <value>
+                <fullName>Customer Requested New Date</fullName>
+                <default>false</default>
+                <label>Customer Requested New Date</label>
+            </value>
+            <value>
+                <fullName>Out of Stock</fullName>
+                <default>false</default>
+                <label>Out of Stock</label>
+            </value>
+            <value>
+                <fullName>Weather</fullName>
+                <default>false</default>
+                <label>Weather</label>
+            </value>
+            <value>
+                <fullName>Emergency/Health</fullName>
+                <default>false</default>
+                <label>Emergency/Health</label>
+            </value>
+            <value>
+                <fullName>Customer Requested Cancellation</fullName>
+                <default>false</default>
+                <label>Customer Requested Cancellation</label>
+            </value>
+            <value>
+                <fullName>Scheduled In Error</fullName>
+                <default>false</default>
+                <label>Scheduled In Error</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

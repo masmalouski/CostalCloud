@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repair_PO_Requires_Parent_PO</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Job_Type_request_change__c , &quot;Repair PO&quot;),
+ ISBLANK( ParentWorkOrderId ))</errorConditionFormula>
+    <errorDisplayField>ParentWorkOrderId</errorDisplayField>
+    <errorMessage>When selecting a change from Install to Repair a Parent PO (original install PO) must be selected.</errorMessage>
+</ValidationRule>

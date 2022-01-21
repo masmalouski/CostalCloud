@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Markets_TCS</fullName>
+    <columns>NAME</columns>
+    <columns>Client_Division__c</columns>
+    <columns>Client_Region__c</columns>
+    <columns>Unique_ID__c</columns>
+    <columns>RFI_Reporting_Market__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>startsWith</operation>
+        <value>TCS</value>
+    </filters>
+    <label>Client Markets TCS</label>
+</ListView>

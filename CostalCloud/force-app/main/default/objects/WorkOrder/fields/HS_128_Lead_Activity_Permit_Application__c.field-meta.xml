@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_128_Lead_Activity_Permit_Application__c</fullName>
+    <externalId>false</externalId>
+    <label>HS-128 Lead Activity Permit Application</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Document_Tracking_Status</valueSetName>
+    </valueSet>
+</CustomField>

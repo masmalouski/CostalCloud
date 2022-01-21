@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installer_Payment_Override__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+   OR (
+     ISPICKVAL(Type__c, &quot;CB-Cancelled Not Replaced&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Canceled Replaced&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-External&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Reduced PO&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Installer to Installer&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Badge Charge&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Clothing&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Child Support&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Loans/Installer Payment Plans&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Tax Liens&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-Badge Violation&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-RRP Fine (External)&quot;)
+     , ISPICKVAL(Type__c, &quot;CB-RRP Fine (Internal)&quot;)
+     , ISPICKVAL(Type__c, &quot;MP-Market to Installer&quot;)
+     , ISPICKVAL(Type__c, &quot;MP-Installer to Installer&quot;)
+     , ISPICKVAL(Type__c, &quot;Sponsorships&quot;)
+  )
+  , 1
+  , IF (
+      OR (
+       ISPICKVAL( Type__c, &quot;Overpayment&quot;)
+       , ISPICKVAL( Type__c, &quot;Cancelled Payment&quot;)
+       , ISPICKVAL( Type__c, &quot;Duplicate Payment&quot;)
+       , ISPICKVAL( Type__c, &quot;Legal Tender Matter&quot;)
+       , ISPICKVAL( Type__c, &quot;Property Damage Claim&quot;)
+       , ISPICKVAL( Type__c, &quot;Customer Care&quot;)
+       , ISPICKVAL( Type__c, &quot;Escalated Customer&quot;)
+       , ISPICKVAL( Type__c, &quot;Write-Off&quot;)
+      ) 
+      , 0
+      , NULL
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Determines what the Installer % override should be, if any</inlineHelpText>
+    <label>Installer Payment Override</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

@@ -153,137 +153,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Database_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>Database Name</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>THD</fullName>
-                    <default>false</default>
-                    <label>THD</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Direction__c</fullName>
-        <externalId>false</externalId>
-        <label>Direction</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>THD --&gt; SF</fullName>
-                    <default>false</default>
-                    <label>THD --&gt; SF</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Errors__c</fullName>
-        <externalId>false</externalId>
-        <label>Errors</label>
-        <length>131000</length>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>10</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Integration_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Integration Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Work Orders</fullName>
-                    <default>false</default>
-                    <label>Work Orders</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>PO_Number__c</fullName>
-        <externalId>false</externalId>
-        <label>PO Number</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Related_Work_Order__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <description>This field is to link up the Error Message to a particular Salesforce Work Order if appropriate.
-Used for when data is being sent to THD (The Home Depot) and data is not sent from Salesforce. This will log it down in the system</description>
-        <externalId>false</externalId>
-        <label>Related Work Order</label>
-        <referenceTo>WorkOrder</referenceTo>
-        <relationshipLabel>SF Integration Logs</relationshipLabel>
-        <relationshipName>SF_Integration_Logs</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Store_No__c</fullName>
-        <externalId>false</externalId>
-        <label>Store No</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <label>SF Integration Log</label>
-    <listViews>
-        <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>CREATED_DATE</columns>
-        <columns>Database_Name__c</columns>
-        <columns>Direction__c</columns>
-        <columns>Integration_Type__c</columns>
-        <columns>Errors__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>AllToday</fullName>
-        <columns>NAME</columns>
-        <columns>CREATED_DATE</columns>
-        <columns>Database_Name__c</columns>
-        <columns>Direction__c</columns>
-        <columns>Integration_Type__c</columns>
-        <columns>Errors__c</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>LAST_UPDATE</field>
-            <operation>equals</operation>
-            <value>TODAY</value>
-        </filters>
-        <label>All - Today</label>
-    </listViews>
     <nameField>
         <label>SF Integration Log Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>SF Integration Logs</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

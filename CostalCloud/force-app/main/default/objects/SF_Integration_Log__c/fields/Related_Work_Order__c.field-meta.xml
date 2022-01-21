@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Work_Order__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is to link up the Error Message to a particular Salesforce Work Order if appropriate.
+Used for when data is being sent to THD (The Home Depot) and data is not sent from Salesforce. This will log it down in the system</description>
+    <externalId>false</externalId>
+    <label>Related Work Order</label>
+    <referenceTo>WorkOrder</referenceTo>
+    <relationshipLabel>SF Integration Logs</relationshipLabel>
+    <relationshipName>SF_Integration_Logs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

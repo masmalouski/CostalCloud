@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Retry__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If the Work Order has been sent to THD after 5 tries, do not resend to Home Depot, this needs to be reviewed</description>
+    <externalId>false</externalId>
+    <label>Do Not Retry</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

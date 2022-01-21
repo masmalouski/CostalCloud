@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Program__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Category</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>HDIS</controllingFieldValue>
+            <valueName>Cabinet Refacing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HDIS</controllingFieldValue>
+            <valueName>Closet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mouldings</controllingFieldValue>
+            <valueName>Moulding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Barn Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <controllingFieldValue>Windows</controllingFieldValue>
+            <valueName>Engineer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Exterior Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <controllingFieldValue>Murphy Doors</controllingFieldValue>
+            <valueName>Interior Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Iron Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Online Barn Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Online Security Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Patio Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <controllingFieldValue>Large Projects</controllingFieldValue>
+            <controllingFieldValue>Windows</controllingFieldValue>
+            <valueName>Permit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Retractable &amp; Patio Screen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Security Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Doors</controllingFieldValue>
+            <valueName>Storm Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>30-Day Tune-Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>Box Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>Concierge - Box Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>Concierge - Full Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>Flooring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>Full Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>Paint/Wall Covering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchens</controllingFieldValue>
+            <valueName>Plumbing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Large Projects</controllingFieldValue>
+            <valueName>General Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows</controllingFieldValue>
+            <valueName>Window</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Window Treatments</controllingFieldValue>
+            <valueName>BDC Temp - Do Not Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Window Treatments</controllingFieldValue>
+            <valueName>BDC Window Treatment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Window Treatments</controllingFieldValue>
+            <valueName>Shutters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Window Treatments</controllingFieldValue>
+            <valueName>Window Treatment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closets</controllingFieldValue>
+            <valueName>Avera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closets</controllingFieldValue>
+            <valueName>B2B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closets</controllingFieldValue>
+            <valueName>Elfa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closets</controllingFieldValue>
+            <valueName>Laren</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

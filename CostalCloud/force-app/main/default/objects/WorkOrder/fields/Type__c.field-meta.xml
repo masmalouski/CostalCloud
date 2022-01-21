@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Measure</fullName>
+                <default>false</default>
+                <label>Measure</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Site Verification</fullName>
+                <default>false</default>
+                <label>Site Verification</label>
+            </value>
+            <value>
+                <fullName>Product Check-In</fullName>
+                <default>false</default>
+                <label>Product Check-In</label>
+            </value>
+            <value>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+                <label>Inspection</label>
+            </value>
+            <value>
+                <fullName>Repair</fullName>
+                <default>false</default>
+                <label>Repair</label>
+            </value>
+            <value>
+                <fullName>Trip Charge</fullName>
+                <default>false</default>
+                <label>Trip Charge</label>
+            </value>
+            <value>
+                <fullName>Additional Service/Labor</fullName>
+                <default>false</default>
+                <label>Additional Service/Labor</label>
+            </value>
+            <value>
+                <fullName>Service Order</fullName>
+                <default>false</default>
+                <label>Service Order</label>
+            </value>
+            <value>
+                <fullName>30-Day Tune-Up</fullName>
+                <default>false</default>
+                <label>30-Day Tune-Up</label>
+            </value>
+            <value>
+                <fullName>Escalated Customer</fullName>
+                <default>false</default>
+                <label>Escalated Customer</label>
+            </value>
+            <value>
+                <fullName>CB-Canceled Not Replaced</fullName>
+                <default>false</default>
+                <label>CB-Canceled Not Replaced</label>
+            </value>
+            <value>
+                <fullName>CB-Canceled Replaced</fullName>
+                <default>false</default>
+                <label>CB-Canceled Replaced</label>
+            </value>
+            <value>
+                <fullName>CB-External</fullName>
+                <default>false</default>
+                <label>CB-External</label>
+            </value>
+            <value>
+                <fullName>CB-Reduced PO</fullName>
+                <default>false</default>
+                <label>CB-Reduced PO</label>
+            </value>
+            <value>
+                <fullName>CB-Installer to Installer</fullName>
+                <default>false</default>
+                <label>CB-Installer to Installer</label>
+            </value>
+            <value>
+                <fullName>CB-Badge Charge</fullName>
+                <default>false</default>
+                <label>CB-Badge Charge</label>
+            </value>
+            <value>
+                <fullName>CB-Clothing</fullName>
+                <default>false</default>
+                <label>CB-Clothing</label>
+            </value>
+            <value>
+                <fullName>CB-Child Support</fullName>
+                <default>false</default>
+                <label>CB-Child Support</label>
+            </value>
+            <value>
+                <fullName>CB-Loans/Installer Payment Plans</fullName>
+                <default>false</default>
+                <label>CB-Loans/Installer Payment Plans</label>
+            </value>
+            <value>
+                <fullName>CB-Tax Liens</fullName>
+                <default>false</default>
+                <label>CB-Tax Liens</label>
+            </value>
+            <value>
+                <fullName>CB-Badge Violation</fullName>
+                <default>false</default>
+                <label>CB-Badge Violation</label>
+            </value>
+            <value>
+                <fullName>CB-RRP Fine (External)</fullName>
+                <default>false</default>
+                <label>CB-RRP Fine (External)</label>
+            </value>
+            <value>
+                <fullName>CB-RRP Fine (Internal)</fullName>
+                <default>false</default>
+                <label>CB-RRP Fine (Internal)</label>
+            </value>
+            <value>
+                <fullName>CB-Sponsorships</fullName>
+                <default>false</default>
+                <label>CB-Sponsorships</label>
+            </value>
+            <value>
+                <fullName>MP-Market to Installer</fullName>
+                <default>false</default>
+                <label>MP-Market to Installer</label>
+            </value>
+            <value>
+                <fullName>MP-Installer to Installer</fullName>
+                <default>false</default>
+                <label>MP-Installer to Installer</label>
+            </value>
+            <value>
+                <fullName>MP-Sponsorships</fullName>
+                <default>false</default>
+                <label>MP-Sponsorships</label>
+            </value>
+            <value>
+                <fullName>Legal Tender Matter</fullName>
+                <default>false</default>
+                <label>Legal Tender Matter</label>
+            </value>
+            <value>
+                <fullName>Property Damage Claim</fullName>
+                <default>false</default>
+                <label>Property Damage Claim</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

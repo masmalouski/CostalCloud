@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_Zone__c</fullName>
+    <description>Estimated Time Zone based on the Mailing State field (as some States are split)</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( MailingState ), &quot;None&quot;, 
+IF(CONTAINS(&quot;PR,VI&quot;, MailingState ), &quot;0-Atlantic&quot;, 
+IF(CONTAINS(&quot;CT:DC:DE:FL:GA:MA:MD:ME:MI:NC:NH:NJ:NY:OH:PA:RI:SC:VA:VT:WV&quot;, MailingState ), &quot;1-Eastern&quot;, 
+IF(CONTAINS(&quot;AL:AR:IA:IL:IN:KS:KY:LA:MN:MO:MS:ND:NE:OK:SD:TN:TX:WI&quot;, MailingState ), &quot;2-Central&quot;, 
+IF(CONTAINS(&quot;AZ:CO:ID:NM:MT:UT:WY:&quot;, MailingState ), &quot;3-Mountain&quot;, 
+IF(CONTAINS(&quot;AK:CA:NV:OR:WA&quot;, MailingState ), &quot;4-Pacific&quot;, 
+IF(CONTAINS(&quot;HI&quot;, MailingState ), &quot;5-Hawaiian&quot;, &quot;Other&quot;)))))))</formula>
+    <inlineHelpText>Estimated Time Zone based on the Mailing State field (as some States are split)</inlineHelpText>
+    <label>Time Zone</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

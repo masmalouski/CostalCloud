@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Short_Name__c</fullName>
+    <description>Account Name (standard field) should always be the formal, legal name of the Account.  However, this can sometimes be long and not useful for email templates and reporting.  If this field is to be used, it MUST be a REQUIRED field on all Account Page Layouts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Short version of the formal, legal name of the Account</inlineHelpText>
+    <label>Account Short Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

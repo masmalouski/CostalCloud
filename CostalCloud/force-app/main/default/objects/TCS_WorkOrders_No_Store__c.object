@@ -153,67 +153,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Integration_Key__c</fullName>
-        <caseSensitive>false</caseSensitive>
-        <externalId>true</externalId>
-        <label>Integration Key</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>true</unique>
-    </fields>
-    <fields>
-        <fullName>PO_Number__c</fullName>
-        <externalId>false</externalId>
-        <label>PO Number</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SF_Target_Map_Data__c</fullName>
-        <externalId>false</externalId>
-        <label>SF Target Map Data</label>
-        <length>131072</length>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>15</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Store_No__c</fullName>
-        <externalId>false</externalId>
-        <label>Store No</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>TCS_Data__c</fullName>
-        <externalId>false</externalId>
-        <label>TCS Data</label>
-        <length>131072</length>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>15</visibleLines>
-    </fields>
     <label>TCS WorkOrders No Store</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
     <nameField>
         <label>TCS WorkOrders with No Stores Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>TCS WorkOrders No Stores</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

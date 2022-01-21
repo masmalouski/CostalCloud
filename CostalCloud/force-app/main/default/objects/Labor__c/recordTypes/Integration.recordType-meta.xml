@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration</fullName>
+    <active>true</active>
+    <description>This is the default Labor Record Type, anything created by or from Integration.</description>
+    <label>Integration</label>
+    <picklistValues>
+        <picklist>Calc_Basis_Type__c</picklist>
+        <values>
+            <fullName>Additional Miles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avera Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installer Site Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parking%2F Toll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RRP Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCS Closets Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trip Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>elfa Product</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Installs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optional Installs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Was_all_labor_for_install_completed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

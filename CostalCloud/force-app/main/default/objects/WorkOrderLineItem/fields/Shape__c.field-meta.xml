@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shape__c</fullName>
+    <externalId>false</externalId>
+    <label>Shape</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Transom__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Elliptical</fullName>
+                <default>false</default>
+                <label>Elliptical</label>
+            </value>
+            <value>
+                <fullName>Eyebrow</fullName>
+                <default>false</default>
+                <label>Eyebrow</label>
+            </value>
+            <value>
+                <fullName>Half Round</fullName>
+                <default>false</default>
+                <label>Half Round</label>
+            </value>
+            <value>
+                <fullName>Rectangle</fullName>
+                <default>false</default>
+                <label>Rectangle</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Elliptical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Eyebrow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Half Round</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Rectangle</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

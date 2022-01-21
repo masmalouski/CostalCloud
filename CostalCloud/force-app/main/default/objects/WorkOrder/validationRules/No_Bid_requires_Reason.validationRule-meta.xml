@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Bid_requires_Reason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Reason_for_no_measure_during_visit__c  ,&quot;No-bid&quot;), 
+ISBLANK(  Reason_for_no_bid__c  ) 
+)</errorConditionFormula>
+    <errorDisplayField>Reason_for_no_bid__c</errorDisplayField>
+    <errorMessage>Reason is required when no bid is selected</errorMessage>
+</ValidationRule>

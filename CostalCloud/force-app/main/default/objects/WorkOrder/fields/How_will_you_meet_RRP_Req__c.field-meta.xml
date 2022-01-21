@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_will_you_meet_RRP_Req__c</fullName>
+    <externalId>false</externalId>
+    <label>How will you meet RRP Req?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+            <value>
+                <fullName>Presumed</fullName>
+                <default>false</default>
+                <label>Presumed</label>
+            </value>
+            <value>
+                <fullName>No Labor</fullName>
+                <default>false</default>
+                <label>No Labor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

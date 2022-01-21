@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Approval_Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin Approval Required</fullName>
+                <default>false</default>
+                <label>Admin Approval Required</label>
+            </value>
+            <value>
+                <fullName>Blank Form</fullName>
+                <default>false</default>
+                <label>Blank Form</label>
+            </value>
+            <value>
+                <fullName>Incomplete RRP Document</fullName>
+                <default>false</default>
+                <label>Incomplete RRP Document</label>
+            </value>
+            <value>
+                <fullName>Missing/Illegible Customer Signature/Date</fullName>
+                <default>false</default>
+                <label>Missing/Illegible Customer Signature/Date</label>
+            </value>
+            <value>
+                <fullName>Missing/Incorrect Cover Page Data</fullName>
+                <default>false</default>
+                <label>Missing/Incorrect Cover Page Data</label>
+            </value>
+            <value>
+                <fullName>Missing/Invalid explanation for pamphlet delivery</fullName>
+                <default>false</default>
+                <label>Missing/Invalid explanation for pamphlet delivery</label>
+            </value>
+            <value>
+                <fullName>Missing/Invalid RRP Photos</fullName>
+                <default>false</default>
+                <label>Missing/Invalid RRP Photos</label>
+            </value>
+            <value>
+                <fullName>Missing/Invalid RRP Proof</fullName>
+                <default>false</default>
+                <label>Missing/Invalid RRP Proof</label>
+            </value>
+            <value>
+                <fullName>Missing Appliance Specs</fullName>
+                <default>false</default>
+                <label>Missing Appliance Specs</label>
+            </value>
+            <value>
+                <fullName>Missing Elevations</fullName>
+                <default>false</default>
+                <label>Missing Elevations</label>
+            </value>
+            <value>
+                <fullName>Missing Floor Plan Overview</fullName>
+                <default>false</default>
+                <label>Missing Floor Plan Overview</label>
+            </value>
+            <value>
+                <fullName>Missing Hardware/Door Type Information</fullName>
+                <default>false</default>
+                <label>Missing Hardware/Door Type Information</label>
+            </value>
+            <value>
+                <fullName>Missing Item List</fullName>
+                <default>false</default>
+                <label>Missing Item List</label>
+            </value>
+            <value>
+                <fullName>Missing Molding Details</fullName>
+                <default>false</default>
+                <label>Missing Molding Details</label>
+            </value>
+            <value>
+                <fullName>Missing Sold Labor Details</fullName>
+                <default>false</default>
+                <label>Missing Sold Labor Details</label>
+            </value>
+            <value>
+                <fullName>Missing Year-Built Date</fullName>
+                <default>false</default>
+                <label>Missing Year-Built Date</label>
+            </value>
+            <value>
+                <fullName>Pending Completion of Child Work Order</fullName>
+                <default>false</default>
+                <label>Pending Completion of Child Work Order</label>
+            </value>
+            <value>
+                <fullName>Pending Reduced/Change PO</fullName>
+                <default>false</default>
+                <label>Pending Reduced/Change PO</label>
+            </value>
+            <value>
+                <fullName>PO Not Scheduled</fullName>
+                <default>false</default>
+                <label>PO Not Scheduled</label>
+            </value>
+            <value>
+                <fullName>RM Approval Required</fullName>
+                <default>false</default>
+                <label>RM Approval Required</label>
+            </value>
+            <value>
+                <fullName>Year Home Built Discrepancies</fullName>
+                <default>false</default>
+                <label>Year Home Built Discrepancies</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Admin Approval Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Blank Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Incomplete RRP Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing/Illegible Customer Signature/Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing/Incorrect Cover Page Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing/Invalid explanation for pamphlet delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing/Invalid RRP Photos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing/Invalid RRP Proof</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing Appliance Specs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing Elevations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing Floor Plan Overview</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing Hardware/Door Type Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing Item List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing Molding Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing Sold Labor Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Missing Year-Built Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Pending Completion of Child Work Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Pending Reduced/Change PO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>PO Not Scheduled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>RM Approval Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Year Home Built Discrepancies</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

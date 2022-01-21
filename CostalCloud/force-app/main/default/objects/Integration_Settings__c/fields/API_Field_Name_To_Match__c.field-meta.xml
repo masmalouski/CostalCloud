@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>API_Field_Name_To_Match__c</fullName>
+    <defaultValue>&quot;Integration_Key_User__c&quot;</defaultValue>
+    <description>The API Field Name of the Field on the User that will be used to match to the integrated Object. Note that the field must have the EXACT SAME name on the User and the integrated Object (i.e. Integration_Key_User__c )</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The API Field Name of the Field on the User that will be used to match to the integrated Object. Note that the field must have the EXACT SAME name on the User and the integrated Object (i.e. Integration_Key_User__c )</inlineHelpText>
+    <label>API Field Name To Match</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

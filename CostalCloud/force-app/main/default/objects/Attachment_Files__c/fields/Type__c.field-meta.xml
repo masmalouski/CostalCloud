@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Changed PO</fullName>
+                <default>false</default>
+                <label>Changed PO</label>
+            </value>
+            <value>
+                <fullName>Change Order</fullName>
+                <default>false</default>
+                <label>Change Order</label>
+            </value>
+            <value>
+                <fullName>MP/CB Approval</fullName>
+                <default>false</default>
+                <label>MP/CB Approval</label>
+            </value>
+            <value>
+                <fullName>MP/CB Request</fullName>
+                <default>false</default>
+                <label>MP/CB Request</label>
+            </value>
+            <value>
+                <fullName>Checklist</fullName>
+                <default>false</default>
+                <label>Checklist</label>
+            </value>
+            <value>
+                <fullName>DDR</fullName>
+                <default>false</default>
+                <label>DDR</label>
+            </value>
+            <value>
+                <fullName>Design</fullName>
+                <default>false</default>
+                <label>Design</label>
+            </value>
+            <value>
+                <fullName>I2G</fullName>
+                <default>false</default>
+                <label>I2G</label>
+            </value>
+            <value>
+                <fullName>ICA</fullName>
+                <default>false</default>
+                <label>ICA</label>
+            </value>
+            <value>
+                <fullName>KPW (Labor Bid)</fullName>
+                <default>false</default>
+                <label>KPW (Labor Bid)</label>
+            </value>
+            <value>
+                <fullName>LTE</fullName>
+                <default>false</default>
+                <label>LTE</label>
+            </value>
+            <value>
+                <fullName>LTE Proof</fullName>
+                <default>false</default>
+                <label>LTE Proof</label>
+            </value>
+            <value>
+                <fullName>LTR</fullName>
+                <default>false</default>
+                <label>LTR</label>
+            </value>
+            <value>
+                <fullName>Measure</fullName>
+                <default>false</default>
+                <label>Measure</label>
+            </value>
+            <value>
+                <fullName>Permit</fullName>
+                <default>false</default>
+                <label>Permit</label>
+            </value>
+            <value>
+                <fullName>Permit Waiver</fullName>
+                <default>false</default>
+                <label>Permit Waiver</label>
+            </value>
+            <value>
+                <fullName>Pre-Ren</fullName>
+                <default>false</default>
+                <label>Pre-Ren</label>
+            </value>
+            <value>
+                <fullName>Reduced PO</fullName>
+                <default>false</default>
+                <label>Reduced PO</label>
+            </value>
+            <value>
+                <fullName>Service Report</fullName>
+                <default>false</default>
+                <label>Service Report</label>
+            </value>
+            <value>
+                <fullName>State RRP Form - Alabama</fullName>
+                <default>false</default>
+                <label>State RRP Form - Alabama</label>
+            </value>
+            <value>
+                <fullName>State RRP Form - Mississippi</fullName>
+                <default>false</default>
+                <label>State RRP Form - Mississippi</label>
+            </value>
+            <value>
+                <fullName>State RRP Form - Rhode Island</fullName>
+                <default>false</default>
+                <label>State RRP Form - Rhode Island</label>
+            </value>
+            <value>
+                <fullName>State RRP Form - Wash DC</fullName>
+                <default>false</default>
+                <label>State RRP Form - Wash DC</label>
+            </value>
+            <value>
+                <fullName>Wind Storm</fullName>
+                <default>false</default>
+                <label>Wind Storm</label>
+            </value>
+            <value>
+                <fullName>Photo</fullName>
+                <default>false</default>
+                <label>Photo</label>
+            </value>
+            <value>
+                <fullName>State RRP Form - MS</fullName>
+                <default>false</default>
+                <label>State RRP Form - MS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

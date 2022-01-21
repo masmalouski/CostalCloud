@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_no_Jobsite_Visit__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for no Jobsite Visit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Down Day</fullName>
+                <default>false</default>
+                <label>Down Day</label>
+            </value>
+            <value>
+                <fullName>Trip Charge</fullName>
+                <default>false</default>
+                <label>Trip Charge</label>
+            </value>
+            <value>
+                <fullName>Additional Labor</fullName>
+                <default>false</default>
+                <label>Additional Labor</label>
+            </value>
+            <value>
+                <fullName>Additional Mileage</fullName>
+                <default>false</default>
+                <label>Additional Mileage</label>
+            </value>
+            <value>
+                <fullName>Permit</fullName>
+                <default>false</default>
+                <label>Permit</label>
+            </value>
+            <value>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+                <label>Engineer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Order_Installer_Updates_by_FM</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Id = &quot;x00e4x000002EaIo&quot;,
+NOT(ISBLANK(TEXT( Installer_Action__c ))),
+TEXT(Installer_Action__c)&lt;&gt;&quot;FM/RM Updated&quot;,
+TEXT(Installer_Action__c)&lt;&gt;&quot;Store Updated&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Installer_Action__c</errorDisplayField>
+    <errorMessage>The Field Manager can only select 2 values from this list:
+FM/RM Updated OR
+Store Updated</errorMessage>
+</ValidationRule>

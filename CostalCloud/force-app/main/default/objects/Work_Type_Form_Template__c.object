@@ -153,46 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Form_Template__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Form Template</label>
-        <referenceTo>disco__Form_Template__c</referenceTo>
-        <relationshipLabel>Work Type Form Templates</relationshipLabel>
-        <relationshipName>Work_Type_Form_Templates</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Work_Type__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Work Type</label>
-        <referenceTo>WorkType</referenceTo>
-        <relationshipLabel>Work Type Form Templates</relationshipLabel>
-        <relationshipName>Work_Type_Form_Templates</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
     <label>Work Type Form Template</label>
-    <listViews>
-        <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>Form_Template__c</columns>
-        <columns>Work_Type__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
     <nameField>
         <displayFormat>WTFT-{00000}</displayFormat>
         <label>Work Type Form Template Name</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Work Type Form Templates</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

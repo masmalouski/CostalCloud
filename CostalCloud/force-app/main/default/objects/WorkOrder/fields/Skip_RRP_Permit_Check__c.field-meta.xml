@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skip_RRP_Permit_Check__c</fullName>
+    <description>Skip RRP/Permit check for these record types</description>
+    <externalId>false</externalId>
+    <formula>OR( RecordType.Name = &quot;Change Order&quot;
+, RecordType.Name = &quot;Internal&quot;
+, RecordType.Name = &quot;Installation Product Check-In&quot;
+, RecordType.Name = &quot;TCS Work Order&quot; )</formula>
+    <inlineHelpText>Skip RRP/Permit check for these record types</inlineHelpText>
+    <label>Skip RRP/Permit Check</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

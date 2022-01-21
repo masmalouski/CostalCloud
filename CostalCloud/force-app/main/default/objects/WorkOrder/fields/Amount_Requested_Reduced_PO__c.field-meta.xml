@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_Requested_Reduced_PO__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Labor lines where installer requested reduced PO</inlineHelpText>
+    <label>Amount Requested Reduced PO</label>
+    <summarizedField>Labor__c.Amount_Reduced_Total__c</summarizedField>
+    <summaryForeignKey>Labor__c.Work_Order__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

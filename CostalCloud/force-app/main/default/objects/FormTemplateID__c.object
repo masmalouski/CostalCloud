@@ -3,26 +3,6 @@
     <customSettingsType>Hierarchy</customSettingsType>
     <description>Youreka Form Template ID. Used in the flow Youreka Form Submitted -&gt; Update WOLI fields</description>
     <enableFeeds>false</enableFeeds>
-    <fields>
-        <fullName>Id__c</fullName>
-        <externalId>false</externalId>
-        <label>Id</label>
-        <length>50</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Name__c</fullName>
-        <externalId>false</externalId>
-        <label>Name</label>
-        <length>50</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <label>FormTemplateID</label>
     <visibility>Public</visibility>
 </CustomObject>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Labor_Total_Cost__c</fullName>
+    <description>Verified values 6/30/2021</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll-up totals from line items</inlineHelpText>
+    <label>Custom Labor Total Cost</label>
+    <summarizedField>Labor__c.Total_Cost_Unit_x_Quantity__c</summarizedField>
+    <summaryFilterItems>
+        <field>Labor__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Custom Installs</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Labor__c.Work_Order__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

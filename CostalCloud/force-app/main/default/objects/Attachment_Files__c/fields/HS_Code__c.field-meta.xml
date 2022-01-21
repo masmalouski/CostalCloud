@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Code__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Type__c , &quot;Pre-Ren&quot;) , &quot;105&quot;,
+IF(ISPICKVAL(Type__c , &quot;Checklist&quot;) , &quot;115&quot;,
+IF(ISPICKVAL(Type__c , &apos;LTE&apos;) , &quot;118&quot;,
+IF(ISPICKVAL(Type__c , &apos;LTR&apos;) , &quot;119&quot;,
+IF(ISPICKVAL(Type__c , &apos;ICA&apos;) , &quot;329&quot;,
+IF(ISPICKVAL(Type__c , &apos;Measure&apos;) , &quot;333&quot;,
+IF(ISPICKVAL(Type__c , &apos;LTE Proof&apos;) , &quot;814&quot;,
+IF(ISPICKVAL(Type__c , &apos;State RRP Form - Rhode Island&apos;) , &quot;125&quot;,
+IF(ISPICKVAL(Type__c , &apos;State RRP Form - Alabama&apos;) , &quot;123&quot;,
+IF(ISPICKVAL(Type__c , &apos;State RRP Form - Wash DC&apos;) , &quot;128&quot;,
+IF(ISPICKVAL(Type__c , &apos;State RRP Form - Mississippi&apos;) , &quot;124&quot;,
+IF(ISPICKVAL(Type__c , &apos;Change Order&apos;) , &quot;110&quot;,
+IF(ISPICKVAL(Type__c , &apos;Permit Waiver&apos;) , &quot;307&quot;,
+IF(ISPICKVAL(Type__c , &apos;KIW&apos;) , &quot;HDI1753&quot;,
+
+&apos;&apos;))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>HS Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

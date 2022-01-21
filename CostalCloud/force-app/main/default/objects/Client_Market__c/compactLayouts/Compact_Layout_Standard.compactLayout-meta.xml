@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compact_Layout_Standard</fullName>
+    <fields>Name</fields>
+    <fields>Market_Number__c</fields>
+    <fields>Client_Region__c</fields>
+    <fields>Client_Region_Number__c</fields>
+    <fields>RFI_Reporting_Market__c</fields>
+    <label>Compact Layout (Standard)</label>
+</CompactLayout>

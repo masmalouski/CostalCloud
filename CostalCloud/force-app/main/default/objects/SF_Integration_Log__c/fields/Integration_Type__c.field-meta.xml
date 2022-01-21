@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Integration Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Work Orders</fullName>
+                <default>false</default>
+                <label>Work Orders</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

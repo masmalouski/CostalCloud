@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Region__c</fullName>
+    <externalId>false</externalId>
+    <label>Client Region</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Client_Division__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Southwest</fullName>
+                <default>false</default>
+                <label>Southwest</label>
+            </value>
+            <value>
+                <fullName>NY Metro</fullName>
+                <default>false</default>
+                <label>NY Metro</label>
+            </value>
+            <value>
+                <fullName>Ohio Valley</fullName>
+                <default>false</default>
+                <label>Ohio Valley</label>
+            </value>
+            <value>
+                <fullName>Central0011</fullName>
+                <default>false</default>
+                <label>Central0011</label>
+            </value>
+            <value>
+                <fullName>Northeast0022</fullName>
+                <default>false</default>
+                <label>Northeast0022</label>
+            </value>
+            <value>
+                <fullName>Southeast0033</fullName>
+                <default>false</default>
+                <label>Southeast0033</label>
+            </value>
+            <value>
+                <fullName>Midwest0044</fullName>
+                <default>false</default>
+                <label>Midwest0044</label>
+            </value>
+            <value>
+                <fullName>West0055</fullName>
+                <default>false</default>
+                <label>West0055</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Northern</controllingFieldValue>
+            <valueName>Southwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Northern</controllingFieldValue>
+            <valueName>NY Metro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Northern</controllingFieldValue>
+            <valueName>Ohio Valley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Northern</controllingFieldValue>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Central0011</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Northern</controllingFieldValue>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Northeast0022</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Northern</controllingFieldValue>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Southeast0033</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Northern</controllingFieldValue>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Midwest0044</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Northern</controllingFieldValue>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>West0055</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

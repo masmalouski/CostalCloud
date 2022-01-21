@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Auto Liability Insurance</fullName>
+                <default>false</default>
+                <label>Auto Liability Insurance</label>
+            </value>
+            <value>
+                <fullName>Business License</fullName>
+                <default>false</default>
+                <label>Business License</label>
+            </value>
+            <value>
+                <fullName>Certified Firm</fullName>
+                <default>false</default>
+                <label>Certified Firm</label>
+            </value>
+            <value>
+                <fullName>Certified Renovator</fullName>
+                <default>false</default>
+                <label>Certified Renovator</label>
+            </value>
+            <value>
+                <fullName>City Business License</fullName>
+                <default>false</default>
+                <label>City Business License</label>
+            </value>
+            <value>
+                <fullName>City Contractor License</fullName>
+                <default>false</default>
+                <label>City Contractor License</label>
+            </value>
+            <value>
+                <fullName>Client Badge</fullName>
+                <default>false</default>
+                <label>Client Badge</label>
+            </value>
+            <value>
+                <fullName>County Business License</fullName>
+                <default>false</default>
+                <label>County Business License</label>
+            </value>
+            <value>
+                <fullName>County Contractor License</fullName>
+                <default>false</default>
+                <label>County Contractor License</label>
+            </value>
+            <value>
+                <fullName>Electrical License</fullName>
+                <default>false</default>
+                <label>Electrical License</label>
+            </value>
+            <value>
+                <fullName>General Liability Insurance</fullName>
+                <default>false</default>
+                <label>General Liability Insurance</label>
+            </value>
+            <value>
+                <fullName>Percentage Agreement</fullName>
+                <default>false</default>
+                <label>Percentage Agreement</label>
+            </value>
+            <value>
+                <fullName>Plumbing License</fullName>
+                <default>false</default>
+                <label>Plumbing License</label>
+            </value>
+            <value>
+                <fullName>RFI EPA RRP Acknowledgment</fullName>
+                <default>false</default>
+                <label>RFI EPA RRP Acknowledgment</label>
+            </value>
+            <value>
+                <fullName>Services Agreement</fullName>
+                <default>false</default>
+                <label>Services Agreement</label>
+            </value>
+            <value>
+                <fullName>Skills Assessment</fullName>
+                <default>false</default>
+                <label>Skills Assessment</label>
+            </value>
+            <value>
+                <fullName>State Contractor License</fullName>
+                <default>false</default>
+                <label>State Contractor License</label>
+            </value>
+            <value>
+                <fullName>Workmans Comp Documentation</fullName>
+                <default>false</default>
+                <label>Workmans Comp Documentation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

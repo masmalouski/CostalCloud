@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_RRP__c</fullName>
+    <externalId>false</externalId>
+    <formula>TRUE</formula>
+    <inlineHelpText>Determines if RRP subflow should be invoked in FSL Mobile App.</inlineHelpText>
+    <label>xDo RRP</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

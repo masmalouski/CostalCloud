@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_positive_value_for_Ins_Adjustmen</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+OR(
+ISPICKVAL( Type__c , &quot;MP-Market to Installer&quot;),
+ISPICKVAL( Type__c , &quot;MP-Installer to Installer&quot;),
+ISPICKVAL( Type__c , &quot;MP-Sponsorships&quot;)
+
+)
+,
+Installer_Adjustment_Amount__c    &lt;   0
+
+ 
+
+)</errorConditionFormula>
+    <errorDisplayField>Installer_Adjustment_Amount__c</errorDisplayField>
+    <errorMessage>This type does not allow negative values</errorMessage>
+</ValidationRule>

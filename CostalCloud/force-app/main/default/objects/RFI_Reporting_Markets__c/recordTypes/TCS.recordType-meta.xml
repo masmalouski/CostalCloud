@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TCS</fullName>
+    <active>true</active>
+    <label>TCS</label>
+    <picklistValues>
+        <picklist>Division__c</picklist>
+        <values>
+            <fullName>TCS</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Program__c</picklist>
+        <values>
+            <fullName>TCS</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>TCS - Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCS - Northern California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCS - Pacific Northwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCS - Southern Desert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCS Corporate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

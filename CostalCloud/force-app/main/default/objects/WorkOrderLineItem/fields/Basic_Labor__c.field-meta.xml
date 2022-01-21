@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Basic_Labor__c</fullName>
+    <externalId>false</externalId>
+    <label>Basic Labor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PRE-HUNG DOOR UP TO 38X98</fullName>
+                <default>false</default>
+                <label>PRE-HUNG DOOR UP TO 38X98</label>
+            </value>
+            <value>
+                <fullName>SINGLE SLAB DOOR UP TO 45X98</fullName>
+                <default>false</default>
+                <label>SINGLE SLAB DOOR UP TO 45X98</label>
+            </value>
+            <value>
+                <fullName>EXT DOOR 39X98 TO 75X98</fullName>
+                <default>false</default>
+                <label>EXT DOOR 39X98 TO 75X98</label>
+            </value>
+            <value>
+                <fullName>PATIO DOOR 39X98 TO 75X98</fullName>
+                <default>false</default>
+                <label>PATIO DOOR 39X98 TO 75X98</label>
+            </value>
+            <value>
+                <fullName>PATIO DOOR 76X98 TO 98X98</fullName>
+                <default>false</default>
+                <label>PATIO DOOR 76X98 TO 98X98</label>
+            </value>
+            <value>
+                <fullName>FOLDING PATIO DOOR 76X98-98X98</fullName>
+                <default>false</default>
+                <label>FOLDING PATIO DOOR 76X98-98X98</label>
+            </value>
+            <value>
+                <fullName>FOLDING PATIO DOOR UP TO 75X98</fullName>
+                <default>false</default>
+                <label>FOLDING PATIO DOOR UP TO 75X98</label>
+            </value>
+            <value>
+                <fullName>PRE-HUNG DOOR UP TO 72X96</fullName>
+                <default>false</default>
+                <label>PRE-HUNG DOOR UP TO 72X96</label>
+            </value>
+            <value>
+                <fullName>STORM DOOR UP TO 42X98</fullName>
+                <default>false</default>
+                <label>STORM DOOR UP TO 42X98</label>
+            </value>
+            <value>
+                <fullName>BASIC SECURITY UP TO 42X98</fullName>
+                <default>false</default>
+                <label>BASIC SECURITY UP TO 42X98</label>
+            </value>
+            <value>
+                <fullName>ANDERSEN LUMINAIRE RETRCT SCRN</fullName>
+                <default>false</default>
+                <label>ANDERSEN LUMINAIRE RETRCT SCRN</label>
+            </value>
+            <value>
+                <fullName>UHD SLIDING PATIO SCREEN</fullName>
+                <default>false</default>
+                <label>UHD SLIDING PATIO SCREEN</label>
+            </value>
+            <value>
+                <fullName>DOUBLE SLAB DOOR UP TO 72X96</fullName>
+                <default>false</default>
+                <label>DOUBLE SLAB DOOR UP TO 72X96</label>
+            </value>
+            <value>
+                <fullName>INSTALL SINGLE SLAB/PREHUNG (PER DOOR)</fullName>
+                <default>false</default>
+                <label>INSTALL SINGLE SLAB/PREHUNG (PER DOOR)</label>
+            </value>
+            <value>
+                <fullName>INSTALL DOUBLE SLAB/PREHUNG (PER DOOR)</fullName>
+                <default>false</default>
+                <label>INSTALL DOUBLE SLAB/PREHUNG (PER DOOR)</label>
+            </value>
+            <value>
+                <fullName>BI-PASS/BI-FOLD UP TO 72X96 (PER DOOR)</fullName>
+                <default>false</default>
+                <label>BI-PASS/BI-FOLD UP TO 72X96 (PER DOOR)</label>
+            </value>
+            <value>
+                <fullName>CROWN / CHAIR RAIL / BASEBOARD / CASING PER LINEAR FOOT, PER LAYER UP TO 9&apos; CEILING</fullName>
+                <default>false</default>
+                <label>CROWN / CHAIR RAIL / BASEBOARD / CASING PER LINEAR FOOT, PER LAYER UP TO 9&apos; CEILING</label>
+            </value>
+            <value>
+                <fullName>INSTALLATION OF PANELING UP TO 9&apos; CEILING PER SQFT</fullName>
+                <default>false</default>
+                <label>INSTALLATION OF PANELING UP TO 9&apos; CEILING PER SQFT</label>
+            </value>
+            <value>
+                <fullName>INSTALLATION OF SHIPLAP / WAINSCOTING / CEDAR PLANK, UP TO 9&apos; CEILING PER SQFT</fullName>
+                <default>false</default>
+                <label>INSTALLATION OF SHIPLAP / WAINSCOTING / CEDAR PLANK, UP TO 9&apos; CEILING PER SQFT</label>
+            </value>
+            <value>
+                <fullName>INSTALL SINGLE WINDOW UP TO 102 U.I. GROUND FLOOR</fullName>
+                <default>false</default>
+                <label>INSTALL SINGLE WINDOW UP TO 102 U.I. GROUND FLOOR</label>
+            </value>
+            <value>
+                <fullName>INSTALL SINGLE WINDOW 102 U.I. UP TO 132 U.I. GROUND FLOOR</fullName>
+                <default>false</default>
+                <label>INSTALL SINGLE WINDOW 102 U.I. UP TO 132 U.I. GROUND FLOOR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

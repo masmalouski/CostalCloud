@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Home_Year_Built_req_4_charachters_number</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK(Home_Year_Built__c) )
+  , OR (
+   LEN( Home_Year_Built__c ) &lt; 4
+   , NOT(ISNUMBER(Home_Year_Built__c ))
+   )
+)</errorConditionFormula>
+    <errorDisplayField>Home_Year_Built__c</errorDisplayField>
+    <errorMessage>Only numbers may be entered, enter a minimum of 4 characters i/e 1998 not 98</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Note_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+  ISCHANGED(Installer_Action__c), 
+
+  Do_PO_Note_Validation__c,
+
+  TEXT( Status ) = &quot;Open&quot;,
+
+  ISBLANK(  PO_Note_AutoCreated__c ),
+
+  OR(
+    TEXT( Installer_Action__c ) = &quot;Left Message&quot;,     
+    TEXT( Installer_Action__c ) = &quot;Customer Requested Call Back&quot;,
+    TEXT( Installer_Action__c ) = &quot;Emergency/Health&quot;,
+    TEXT( Installer_Action__c ) = &quot;Need Valid Contact Information&quot;,
+    TEXT( Installer_Action__c ) = &quot;Need Address Verification - Invalid Address&quot;,
+    TEXT( Installer_Action__c ) = &quot;PO Incorrect/Update Required&quot;,
+    TEXT( Installer_Action__c ) = &quot;Customer Not Responding&quot;,
+    TEXT( Installer_Action__c ) = &quot;Customer Requested Cancelation&quot;,
+    TEXT( Installer_Action__c ) = &quot;PO Assigned to Wrong Installer&quot;,
+    TEXT( Installer_Action__c ) = &quot;Questions/Concerns on PO&quot;,
+    TEXT( Installer_Action__c ) = &quot;Product Not Available&quot;,
+    TEXT( Installer_Action__c ) = &quot;Product Delayed&quot;,
+    TEXT( Installer_Action__c ) = &quot;Product Damaged Defective&quot;,
+    TEXT( Installer_Action__c ) = &quot;Product Incorrect&quot;,
+    TEXT( Installer_Action__c ) = &quot;FM/RM Updated&quot;,
+    TEXT( Installer_Action__c ) = &quot;Store Updated&quot;
+   )
+
+)</errorConditionFormula>
+    <errorMessage>PO Note is required.</errorMessage>
+</ValidationRule>

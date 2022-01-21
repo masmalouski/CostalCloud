@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verified_all_product_meets_local_codes__c</fullName>
+    <externalId>false</externalId>
+    <label>Verified all product meets local codes?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product meets all codes</fullName>
+                <default>false</default>
+                <label>Product meets all codes</label>
+            </value>
+            <value>
+                <fullName>Product does not meet code</fullName>
+                <default>false</default>
+                <label>Product does not meet code</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

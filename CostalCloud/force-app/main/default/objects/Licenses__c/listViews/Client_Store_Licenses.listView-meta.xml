@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Store_Licenses</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Type__c</columns>
+    <columns>Certified_Firm__c</columns>
+    <columns>Certified_Renovator__c</columns>
+    <columns>County__c</columns>
+    <columns>City__c</columns>
+    <columns>State__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Licenses__c.Store_Required_License</value>
+    </filters>
+    <label>Client/Store Licenses</label>
+</ListView>

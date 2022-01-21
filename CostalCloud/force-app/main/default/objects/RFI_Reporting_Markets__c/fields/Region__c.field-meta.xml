@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <externalId>false</externalId>
+    <label>Region</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Division__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Desert Mountain</fullName>
+                <default>false</default>
+                <label>Desert Mountain</label>
+            </value>
+            <value>
+                <fullName>Gulf Coast</fullName>
+                <default>false</default>
+                <label>Gulf Coast</label>
+            </value>
+            <value>
+                <fullName>Mid-Atlantic</fullName>
+                <default>false</default>
+                <label>Mid-Atlantic</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>Northern Plains</fullName>
+                <default>false</default>
+                <label>Northern Plains</label>
+            </value>
+            <value>
+                <fullName>Pacific Mountain</fullName>
+                <default>false</default>
+                <label>Pacific Mountain</label>
+            </value>
+            <value>
+                <fullName>South Atlantic</fullName>
+                <default>false</default>
+                <label>South Atlantic</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+            <value>
+                <fullName>Southern California</fullName>
+                <default>false</default>
+                <label>Southern California</label>
+            </value>
+            <value>
+                <fullName>Southwest</fullName>
+                <default>false</default>
+                <label>Southwest</label>
+            </value>
+            <value>
+                <fullName>NIS Midwest</fullName>
+                <default>false</default>
+                <label>NIS Midwest</label>
+            </value>
+            <value>
+                <fullName>TCS - Southern Desert</fullName>
+                <default>false</default>
+                <label>TCS - Southern Desert</label>
+            </value>
+            <value>
+                <fullName>TCS - Northern California</fullName>
+                <default>false</default>
+                <label>TCS - Northern California</label>
+            </value>
+            <value>
+                <fullName>TCS - Pacific Northwest</fullName>
+                <default>false</default>
+                <label>TCS - Pacific Northwest</label>
+            </value>
+            <value>
+                <fullName>TCS - Central</fullName>
+                <default>false</default>
+                <label>TCS - Central</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>TCS Corporate</fullName>
+                <default>false</default>
+                <label>TCS Corporate</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Mid-Atlantic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Northeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Northern Plains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>South Atlantic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>Southeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>NIS Midwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Desert Mountain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Gulf Coast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Pacific Mountain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Southern California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Southwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TCS</controllingFieldValue>
+            <valueName>TCS - Southern Desert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TCS</controllingFieldValue>
+            <valueName>TCS - Northern California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TCS</controllingFieldValue>
+            <valueName>TCS - Pacific Northwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TCS</controllingFieldValue>
+            <valueName>TCS - Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TCS</controllingFieldValue>
+            <valueName>TCS Corporate</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

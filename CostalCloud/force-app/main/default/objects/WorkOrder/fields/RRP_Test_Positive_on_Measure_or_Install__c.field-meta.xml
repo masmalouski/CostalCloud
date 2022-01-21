@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RRP_Test_Positive_on_Measure_or_Install__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RRP_Test_Positive__c  &gt; 0, TRUE, FALSE) || 
+IF ( ParentWorkOrder.RRP_Test_Positive__c  &gt; 0, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>RRP Test Positive on Measure or Install</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

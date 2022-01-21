@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Optional_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Optional Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Demo &amp; Haul Away</fullName>
+                <default>false</default>
+                <label>Demo &amp; Haul Away</label>
+            </value>
+            <value>
+                <fullName>Lead Safe Work Practice</fullName>
+                <default>false</default>
+                <label>Lead Safe Work Practice</label>
+            </value>
+            <value>
+                <fullName>Mileage</fullName>
+                <default>false</default>
+                <label>Mileage</label>
+            </value>
+            <value>
+                <fullName>Moulding</fullName>
+                <default>false</default>
+                <label>Moulding</label>
+            </value>
+            <value>
+                <fullName>Panels</fullName>
+                <default>false</default>
+                <label>Panels</label>
+            </value>
+            <value>
+                <fullName>Permit</fullName>
+                <default>false</default>
+                <label>Permit</label>
+            </value>
+            <value>
+                <fullName>Regular Cabs</fullName>
+                <default>false</default>
+                <label>Regular Cabs</label>
+            </value>
+            <value>
+                <fullName>Tall Cabs</fullName>
+                <default>false</default>
+                <label>Tall Cabs</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Optional</controllingFieldValue>
+            <valueName>Demo &amp; Haul Away</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Optional</controllingFieldValue>
+            <valueName>Mileage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Optional</controllingFieldValue>
+            <valueName>Moulding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Optional</controllingFieldValue>
+            <valueName>Panels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Optional</controllingFieldValue>
+            <valueName>Permit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Optional</controllingFieldValue>
+            <valueName>Regular Cabs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Optional</controllingFieldValue>
+            <valueName>Tall Cabs</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

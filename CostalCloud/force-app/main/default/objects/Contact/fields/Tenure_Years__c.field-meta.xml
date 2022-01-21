@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tenure_Years__c</fullName>
+    <description>Tenure with the Company in Years</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+ISBLANK (Tenure_End_Date__c) , 
+(Today()- Tenure_Start_Date__c)/365, 
+(Tenure_End_Date__c - Tenure_Start_Date__c)/365
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Tenure with the Company in Years</inlineHelpText>
+    <label>Tenure (Years)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kitchen</fullName>
+    <columns>NAME</columns>
+    <columns>Category__c</columns>
+    <columns>Program__c</columns>
+    <columns>Job_SKU__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program__c</field>
+        <operation>equals</operation>
+        <value>Kitchens</value>
+    </filters>
+    <label>Kitchen</label>
+</ListView>

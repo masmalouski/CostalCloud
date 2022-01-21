@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installer_Action__c</fullName>
+    <externalId>false</externalId>
+    <label>Installer Action</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Not Responding</fullName>
+                <default>false</default>
+                <label>Customer Not Responding</label>
+            </value>
+            <value>
+                <fullName>Customer Requested Call Back</fullName>
+                <default>false</default>
+                <label>Customer Requested Call Back</label>
+            </value>
+            <value>
+                <fullName>Customer Requested Cancelation</fullName>
+                <default>false</default>
+                <label>Customer Requested Cancelation</label>
+            </value>
+            <value>
+                <fullName>Emergency/Health</fullName>
+                <default>false</default>
+                <label>Emergency/Health</label>
+            </value>
+            <value>
+                <fullName>FM/RM Updated</fullName>
+                <default>false</default>
+                <label>FM/RM Updated</label>
+            </value>
+            <value>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+                <label>Left Message</label>
+            </value>
+            <value>
+                <fullName>Need Address Verification - Invalid Address</fullName>
+                <default>false</default>
+                <label>Need Address Verification - Invalid Address</label>
+            </value>
+            <value>
+                <fullName>Need Valid Contact Information</fullName>
+                <default>false</default>
+                <label>Need Valid Contact Information</label>
+            </value>
+            <value>
+                <fullName>PO Assigned to Wrong Installer</fullName>
+                <default>false</default>
+                <label>PO Assigned to Wrong Installer</label>
+            </value>
+            <value>
+                <fullName>PO Incorrect/Update Required</fullName>
+                <default>false</default>
+                <label>PO Incorrect/Update Required</label>
+            </value>
+            <value>
+                <fullName>Product Damaged/Defective</fullName>
+                <default>false</default>
+                <label>Product Damaged/Defective</label>
+            </value>
+            <value>
+                <fullName>Product Delayed</fullName>
+                <default>false</default>
+                <label>Product Delayed</label>
+            </value>
+            <value>
+                <fullName>Product Incorrect</fullName>
+                <default>false</default>
+                <label>Product Incorrect</label>
+            </value>
+            <value>
+                <fullName>Product Not Available</fullName>
+                <default>false</default>
+                <label>Product Not Available</label>
+            </value>
+            <value>
+                <fullName>Product Received</fullName>
+                <default>false</default>
+                <label>Product Received</label>
+            </value>
+            <value>
+                <fullName>Questions/Concerns on PO</fullName>
+                <default>false</default>
+                <label>Questions/Concerns on PO</label>
+            </value>
+            <value>
+                <fullName>Store Updated</fullName>
+                <default>false</default>
+                <label>Store Updated</label>
+            </value>
+            <value>
+                <fullName>Waiting on Design/Product Details</fullName>
+                <default>false</default>
+                <label>Waiting on Design/Product Details</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Customer Not Responding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Customer Requested Call Back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Customer Requested Cancelation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Emergency/Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>FM/RM Updated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Left Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Need Address Verification - Invalid Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Need Valid Contact Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>PO Assigned to Wrong Installer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>PO Incorrect/Update Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Product Damaged/Defective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Product Delayed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Product Incorrect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Product Not Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Product Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Questions/Concerns on PO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Store Updated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Waiting on Design/Product Details</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

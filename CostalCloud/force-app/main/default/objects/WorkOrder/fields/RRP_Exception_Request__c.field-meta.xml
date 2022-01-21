@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RRP_Exception_Request__c</fullName>
+    <externalId>false</externalId>
+    <label>RRP Exception Request</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Labor - not disturbing any paint</fullName>
+                <default>false</default>
+                <label>No Labor - not disturbing any paint</label>
+            </value>
+            <value>
+                <fullName>Exempt - disturbing less than x% of paint</fullName>
+                <default>false</default>
+                <label>Exempt - disturbing less than x% of paint</label>
+            </value>
+            <value>
+                <fullName>Year Home Built Corrected</fullName>
+                <default>false</default>
+                <label>Year Home Built Corrected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

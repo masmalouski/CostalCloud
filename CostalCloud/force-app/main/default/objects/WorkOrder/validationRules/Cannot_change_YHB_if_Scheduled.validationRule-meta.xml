@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_change_YHB_if_Scheduled</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+ISCHANGED( Home_Year_Built__c ), 
+  ISPICKVAL(Status, &quot;Scheduled&quot;),
+ LastModifiedById !=&apos;0054x000004RQSJ&apos;
+)</errorConditionFormula>
+    <errorMessage>Cannot change Home Year Built when status is Scheduled</errorMessage>
+</ValidationRule>
